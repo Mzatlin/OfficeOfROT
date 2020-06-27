@@ -6,6 +6,9 @@ public class ClickToMove : MonoBehaviour
 {
     [SerializeField]
     float moveSpeed = 4;
+    [SerializeField]
+    LayerMask floorMask;
+    ICameraRaycast raycast;
     Vector2 mousePosition;
     bool isMoving = false;
     Camera cam;
@@ -13,6 +16,7 @@ public class ClickToMove : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
+        raycast = cam.GetComponent<ICameraRaycast>();
     }
 
     // Update is called once per frame
@@ -22,7 +26,7 @@ public class ClickToMove : MonoBehaviour
         {
             MoveToPosition();
         }
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && raycast.RayHit && (1 << raycast.RayHit.collider.gameObject.layer & floorMask) != 0)
         {
             SetPlayerPosition();
         }
