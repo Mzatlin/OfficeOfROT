@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class WriteMessageOnInteraction : MonoBehaviour
 {
+    [SerializeField]
+    DialogueSO dialogWrite;
+    [SerializeField]
+    DialogueObject dialogue;
     IInteract interaction;
     // Start is called before the first frame update
     void Start()
@@ -26,7 +30,7 @@ public class WriteMessageOnInteraction : MonoBehaviour
 
     void HandleInteraction()
     {
-        Debug.Log("Yay! I've been interacted With!");
+        dialogWrite.SetupDialougeWriter(dialogue);
     }
 
 }

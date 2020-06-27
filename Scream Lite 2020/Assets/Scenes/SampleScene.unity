@@ -769,6 +769,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7cd4106d196e794190ff4f6d22b7592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogWrite: {fileID: 11400000, guid: cef81f93b6baa30429997ac9a560b924, type: 2}
+  dialogue:
+    name: You, the Player
+    sentences:
+    - Hi! I'm a test Object
+    - 'HAHAHAHAHAHA!
+
+'
 --- !u!114 &1188257883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1075,6 +1083,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2100684408}
+  - component: {fileID: 2100684409}
   m_Layer: 0
   m_Name: DialogMessageManager
   m_TagString: Untagged
@@ -1096,3 +1105,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2100684409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100684407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73133b47d18d97140b685b7fa681f6d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 11400000, guid: cef81f93b6baa30429997ac9a560b924, type: 2}
