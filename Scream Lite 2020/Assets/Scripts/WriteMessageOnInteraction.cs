@@ -3,13 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WriteMessageOnInteraction : MonoBehaviour
+public class WriteMessageOnInteraction : MonoBehaviour,IInteractionWrite
 {
     [SerializeField]
-    DialogueSO dialogWrite;
+    DialogueSO dialogueWrite;
     [SerializeField]
     DialogueObject dialogue;
     IInteract interaction;
+    bool isInteracting = false;
+
+    bool IInteractionWrite.isInteracting { get => isInteracting; set => isInteracting = value; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,19 +22,31 @@ public class WriteMessageOnInteraction : MonoBehaviour
         {
             interaction.OnInteract += HandleInteraction;
         }
+
     }
 
- /*   void OnDestroy()
+    private void HandleEnd()
     {
-        if(interaction != null)
+        if (isInteracting)
         {
-            interaction.OnInteract -= HandleInteraction;
+            isInteracting = false;
+            dialogueWrite.OnEnd -= HandleEnd;
         }
-    }*/
+    }
+
+    /*   void OnDestroy()
+       {
+           if(interaction != null)
+           {
+               interaction.OnInteract -= HandleInteraction;
+           }
+       }*/
 
     void HandleInteraction()
     {
-        dialogWrite.SetupDialougeWriter(dialogue);
+        dialogueWrite.SetupDialougeWriter(dialogue);
+        isInteracting = true;
+        dialogueWrite.OnEnd += HandleEnd;
     }
 
 }
