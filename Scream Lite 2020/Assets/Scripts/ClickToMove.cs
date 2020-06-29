@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClickToMove : MonoBehaviour
+public class ClickToMove : MonoBehaviour, IMove
 {
     [SerializeField]
     float moveSpeed = 4;
@@ -12,6 +12,9 @@ public class ClickToMove : MonoBehaviour
     Vector2 mousePosition;
     bool isMoving = false;
     Camera cam;
+
+    bool IMove.isMoving { get => isMoving; set => isMoving = value; }
+
     // Start is called before the first frame update
     void Start()
     {
