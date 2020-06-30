@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5514ffa0c57a884dbd20416e8515077, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 602e59829048504b976733310bd15f57
+    GuidInternal: 
+    m_lastTime: -8586080707039018597
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 184ea0d617377c4caadcb08f805514e8
+    GuidInternal: 
+    m_lastTime: -8586080707040417789
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 34fec7dd71bd4d439bd867acc6554a96
+    GuidInternal: 
+    m_lastTime: -8586080707039708202
+    List: []
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: f269d403f8e6a945996a41f573095a1e
+    GuidInternal: 
+    m_lastTime: -8586080707040167864
+    List: []
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: ebaded965ad8e74198acde5a1bf58726
+    GuidInternal: 
+    m_lastTime: -8586080707039638236
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: bb7baa80b4e5744eb8073e0fcca2f54f
+    GuidInternal: 
+    m_lastTime: -8586080707039498323
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: cfa5167a6b371844bbb0bacc4e86bfd9
+    GuidInternal: 
+    m_lastTime: -8586080707040028014
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 50ee3a4f6320b94a849fe431cfae6b5a
+    GuidInternal: 
+    m_lastTime: -8586080707039568278
+    List: []
+  ExpandedItems:
+  - /Scream Lite 2020_WwiseProject
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
