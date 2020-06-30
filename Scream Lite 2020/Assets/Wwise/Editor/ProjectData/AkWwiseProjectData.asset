@@ -12,14 +12,97 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5514ffa0c57a884dbd20416e8515077, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: ba99bbce8e71f04dbfd7cd574ba9ca1a
+    GuidInternal: 
+    m_lastTime: -8586080693342035919
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 679f47c9d77e934abd145ca997b4bee6
+    GuidInternal: 
+    m_lastTime: -8586080693342105881
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: d83ef3a80a27a64389b00d7c8f9aadac
+    GuidInternal: 
+    m_lastTime: -8586080673254534183
+    List:
+    - name: Main
+      guid: a3d37c1741905845a71ae2d6f47def74
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 0f2fb0af93ae2940bf67e78bd3a2d8ab
+    GuidInternal: 
+    m_lastTime: -8586080673254624128
+    List:
+    - name: Music
+      guid: 6d7d72e05d73694dad36e5fd3ef4c196
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 3
+      Path: Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: ba703357562f4145ba1e665ed12f9bc3
+    GuidInternal: 
+    m_lastTime: -8586080693342105881
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 7aee051938eb6c45aebb0892cc6e0d1d
+    GuidInternal: 
+    m_lastTime: -8586080693342055906
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 2ab07a0bb9ffb746a0f5363a928d4a6d
+    GuidInternal: 
+    m_lastTime: -8586080693342045913
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 74c82090dce63446b6caa40dcd5dfa18
+    GuidInternal: 
+    m_lastTime: -8586080693342045913
+    List: []
+  ExpandedItems:
+  - /Scream Lite 2020_WwiseProject
+  - /Scream Lite 2020_WwiseProject/Events
+  - /Scream Lite 2020_WwiseProject/Events/Default Work Unit
+  - /Scream Lite 2020_WwiseProject/SoundBanks
+  - /Scream Lite 2020_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	159697679	Day 01 draft 01	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Windows\SFX\Day 01 draft 01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Day 01 Music\Day 01 draft 01\Day 01 draft 01		27095104
+
