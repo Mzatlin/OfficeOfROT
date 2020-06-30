@@ -5,23 +5,17 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class DialogWriter : MonoBehaviour
+public class DialogWriter : WriterBase
 {
     [SerializeField]
-    float typeSpeed = .3f;
-    [SerializeField]
     TextMeshProUGUI textName;
-    [SerializeField]
-    TextMeshProUGUI textDialog;
-    [SerializeField]
-    Canvas canvas;
     public Queue<string> dialogueSentences;
     [SerializeField]
-    DialogueSO dialogue;
+    DialogProcessorSO dialogue;
     // Start is called before the first frame update
     void Start()
     {
-        canvas.enabled = false;
+        dialogCanvas.enabled = false;
         dialogueSentences = new Queue<string>();
         dialogue.OnWrite += HandleWrite;
     }
@@ -29,41 +23,43 @@ public class DialogWriter : MonoBehaviour
     void HandleWrite()
     {
         textName.text = dialogue.currentDialogue.name;
-        canvas.enabled = true;
+        dialogCanvas.enabled = true;
         dialogueSentences.Clear();
         foreach (string line in dialogue.currentDialogue.sentences)
         {
             dialogueSentences.Enqueue(line);
         }
-        WriteDialog();
+        WriteDialogue();
     }
 
-    public void WriteDialog()
+    protected override void WriteDialogue()
     {
-        if(dialogueSentences.Count == 0)
+        base.WriteDialogue();
+        if (dialogueSentences.Count == 0)
         {
             EndDialogue();
             return;
         }
-        StopAllCoroutines();
-        textDialog.text = "";
         StartCoroutine(TypeLine(dialogueSentences.Dequeue()));
+        NameSwap(textName.text);
     }
 
-    IEnumerator TypeLine(string line)
+    void NameSwap(string name)
     {
-        foreach(char letter in line)
+        if (name == dialogue.currentDialogue.name)
         {
-            textDialog.text += letter;
-            yield return new WaitForSeconds(typeSpeed * Time.deltaTime);
+            textName.text = dialogue.currentDialogue.name2;
         }
-
+        else
+        {
+            textName.text = dialogue.currentDialogue.name;
+        }
     }
 
     void EndDialogue()
     {
         Debug.Log("Dialog Ended");
-        canvas.enabled = false;
+        dialogCanvas.enabled = false;
         dialogue.EndDialougeWriter();
     }
 }

@@ -6,9 +6,11 @@ using UnityEngine;
 public class WriteMessageOnInteraction : MonoBehaviour,IInteractionWrite
 {
     [SerializeField]
-    DialogueSO dialogueWrite;
+    DialogProcessorSO dialogueWrite;
     [SerializeField]
     DialogueObject dialogue;
+    [SerializeField]
+    DialogSO dialogueSO;
     IInteract interaction;
     bool isInteracting = false;
 

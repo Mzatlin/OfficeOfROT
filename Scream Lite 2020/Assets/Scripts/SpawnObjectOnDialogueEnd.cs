@@ -8,7 +8,7 @@ public class SpawnObjectOnDialogueEnd : MonoBehaviour
     [SerializeField]
     GameObject spawnObject;
     [SerializeField]
-    DialogueSO dialogue;
+    DialogProcessorSO dialogue;
     IInteractionWrite interact;
     // Start is called before the first frame update
     void Start()
