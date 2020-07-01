@@ -7,6 +7,7 @@
 
 public class AkTriggerMouseDown : AkTriggerBase
 {
+	public string Event;
 	private void OnMouseDown()
 	{
 		if (triggerDelegate != null)

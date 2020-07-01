@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{177CD3A3-9041-4558-A71A-E2D6F47DEF74}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Footsteps" ID="{9FC514E7-4D32-4503-96D3-80E3B1600AF1}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorOpen" ID="{1DAD460B-B5A8-4A32-8952-CF0393FDBA08}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music" ID="{E0727D6D-735D-4D69-AD36-E5FD3EF4C196}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

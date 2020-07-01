@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d83ef3a80a27a64389b00d7c8f9aadac
     GuidInternal: 
-    m_lastTime: -8586080673254534183
+    m_lastTime: -8586080644811292726
     List:
     - name: Main
       guid: a3d37c1741905845a71ae2d6f47def74
@@ -56,8 +56,20 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 0f2fb0af93ae2940bf67e78bd3a2d8ab
     GuidInternal: 
-    m_lastTime: -8586080673254624128
+    m_lastTime: -8586080644922748908
     List:
+    - name: DoorOpen
+      guid: 0b46ad1da8b5324a8952cf0393fdba08
+      id: 1404805401
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DoorOpen
+        ObjectType: 3
+      Path: Default Work Unit\DoorOpen
+      maxAttenuation: 0
+      maxDuration: 0.795417
+      minDuration: 0.795417
     - name: Music
       guid: 6d7d72e05d73694dad36e5fd3ef4c196
       id: 3991942870
@@ -102,7 +114,5 @@ MonoBehaviour:
   - /Scream Lite 2020_WwiseProject
   - /Scream Lite 2020_WwiseProject/Events
   - /Scream Lite 2020_WwiseProject/Events/Default Work Unit
-  - /Scream Lite 2020_WwiseProject/SoundBanks
-  - /Scream Lite 2020_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

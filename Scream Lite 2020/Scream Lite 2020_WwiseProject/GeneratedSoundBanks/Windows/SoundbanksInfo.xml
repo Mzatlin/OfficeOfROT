@@ -21,6 +21,42 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\DoorOpen" DurationType="OneShot" DurationMin="0.795417" DurationMax="0.795417">
+					<IncludedMemoryFiles>
+						<File Id="679694485" Language="SFX">
+							<ShortName>Door, Wood, Open, Close, Light SND1963.wav</ShortName>
+							<Path>SFX\Door, Wood, Open, Close, Light SND1963_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="586466379" Language="SFX">
+							<ShortName>Footsteps, Linoleum, Sneaker, Medium SND1083 4.wav</ShortName>
+							<Path>SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 4_0C6CEA60.wem</Path>
+						</File>
+						<File Id="735426441" Language="SFX">
+							<ShortName>Footsteps, Linoleum, Sneaker, Medium SND1083 2.wav</ShortName>
+							<Path>SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 2_BE6F4798.wem</Path>
+						</File>
+						<File Id="868441261" Language="SFX">
+							<ShortName>Footsteps, Linoleum, Sneaker, Medium SND1083 5.wav</ShortName>
+							<Path>SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 5_B91530D3.wem</Path>
+						</File>
+						<File Id="869647331" Language="SFX">
+							<ShortName>Footsteps, Linoleum, Sneaker, Medium SND1083 1.wav</ShortName>
+							<Path>SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 1_10C4C929.wem</Path>
+						</File>
+						<File Id="893621163" Language="SFX">
+							<ShortName>Footsteps, Linoleum, Sneaker, Medium SND1083.wav</ShortName>
+							<Path>SFX\Footsteps, Linoleum, Sneaker, Medium SND1083_61F90C56.wem</Path>
+						</File>
+						<File Id="1012308051" Language="SFX">
+							<ShortName>Footsteps, Linoleum, Sneaker, Medium SND1083 3.wav</ShortName>
+							<Path>SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 3_46743566.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="159697679" Language="SFX">

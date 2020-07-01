@@ -1,6 +1,221 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Door" ID="{8F3F10C4-FE30-49CE-BF86-8605556B8741}" ShortID="478946405">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FDCFB789-019A-47F7-96B8-5A52D10A3E19}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9479F67-7ED7-4A93-BD14-5CA997B4BEE6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Door, Wood, Open, Close, Light SND1963" ID="{6A5016BA-1FE5-43D3-A7A9-47D24E5509AA}">
+							<Language>SFX</Language>
+							<AudioFile>Door, Wood, Open, Close, Light SND1963.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="679694485"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Door, Wood, Open, Close, Light SND1963" ID="{6A5016BA-1FE5-43D3-A7A9-47D24E5509AA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Footsteps" ID="{3C2831B3-3CED-4A85-B6D2-07BE5AA315AB}" ShortID="166324131">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{48D5BFC6-8D77-44BE-9D8B-B37E73026422}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="76"/>
+											<Property Name="Min" Type="Real64" Value="-632"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FDCFB789-019A-47F7-96B8-5A52D10A3E19}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9479F67-7ED7-4A93-BD14-5CA997B4BEE6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Footsteps, Linoleum, Sneaker, Medium SND1083" ID="{147F58E0-5261-4404-B8E1-8A7B1C2023C9}" ShortID="745034254">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FDCFB789-019A-47F7-96B8-5A52D10A3E19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9479F67-7ED7-4A93-BD14-5CA997B4BEE6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Linoleum, Sneaker, Medium SND1083" ID="{B4C9048C-55AC-4E3F-807A-3D4CEB091F9B}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.022306649543379"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0651354166666667"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Linoleum, Sneaker, Medium SND1083.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="893621163"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Linoleum, Sneaker, Medium SND1083" ID="{B4C9048C-55AC-4E3F-807A-3D4CEB091F9B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps, Linoleum, Sneaker, Medium SND1083 1" ID="{5DD622C3-C70A-4106-80E4-EAE6D36DFF5B}" ShortID="489363325">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FDCFB789-019A-47F7-96B8-5A52D10A3E19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9479F67-7ED7-4A93-BD14-5CA997B4BEE6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Linoleum, Sneaker, Medium SND1083 1" ID="{889329E2-0E6A-45DB-8935-C0A9F2FD60CB}">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Linoleum, Sneaker, Medium SND1083 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="869647331"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Linoleum, Sneaker, Medium SND1083 1" ID="{889329E2-0E6A-45DB-8935-C0A9F2FD60CB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps, Linoleum, Sneaker, Medium SND1083 2" ID="{572D76C3-3C21-461E-A869-0E667252C7F8}" ShortID="312090978">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FDCFB789-019A-47F7-96B8-5A52D10A3E19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9479F67-7ED7-4A93-BD14-5CA997B4BEE6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Linoleum, Sneaker, Medium SND1083 2" ID="{32B7BDDE-FF0F-4A42-B18A-BA1D2FFA1BF5}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0181541809360731"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0086824343607306"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Linoleum, Sneaker, Medium SND1083 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="735426441"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Linoleum, Sneaker, Medium SND1083 2" ID="{32B7BDDE-FF0F-4A42-B18A-BA1D2FFA1BF5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps, Linoleum, Sneaker, Medium SND1083 3" ID="{585555D9-C81E-47C6-AF0A-C5B45951BC92}" ShortID="451148811">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FDCFB789-019A-47F7-96B8-5A52D10A3E19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9479F67-7ED7-4A93-BD14-5CA997B4BEE6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Linoleum, Sneaker, Medium SND1083 3" ID="{54C81073-367F-47B8-87C2-2A7338C1A973}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0279262271689498"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.00916980593607306"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Linoleum, Sneaker, Medium SND1083 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1012308051"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Linoleum, Sneaker, Medium SND1083 3" ID="{54C81073-367F-47B8-87C2-2A7338C1A973}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps, Linoleum, Sneaker, Medium SND1083 4" ID="{52D72F77-B038-42C8-A21C-937B1229AD55}" ShortID="420499645">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FDCFB789-019A-47F7-96B8-5A52D10A3E19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9479F67-7ED7-4A93-BD14-5CA997B4BEE6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Linoleum, Sneaker, Medium SND1083 4" ID="{038D122A-4932-4CAB-943E-694EBBC5B2FD}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0333638698630137"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.00965796232876713"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Linoleum, Sneaker, Medium SND1083 4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="586466379"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Linoleum, Sneaker, Medium SND1083 4" ID="{038D122A-4932-4CAB-943E-694EBBC5B2FD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footsteps, Linoleum, Sneaker, Medium SND1083 5" ID="{1F690F8E-233C-4D3D-919C-7A2DF3F52F45}" ShortID="863194601">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FDCFB789-019A-47F7-96B8-5A52D10A3E19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9479F67-7ED7-4A93-BD14-5CA997B4BEE6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footsteps, Linoleum, Sneaker, Medium SND1083 5" ID="{80A7F4EF-E894-47EC-A85E-A93B555D4C53}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0630963184931507"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0071429794520548"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps, Linoleum, Sneaker, Medium SND1083 5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="868441261"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footsteps, Linoleum, Sneaker, Medium SND1083 5" ID="{80A7F4EF-E894-47EC-A85E-A93B555D4C53}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
