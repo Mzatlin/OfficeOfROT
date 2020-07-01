@@ -10,6 +10,7 @@ public class RaycastToMousePos : MonoBehaviour, ICameraRaycast
     bool canCast = true;
     Camera cam;
 
+
     public RaycastHit2D RayHit { get => objectHit; }
     public LayerMask ObjectLayer { get => objectLayer; }
     public bool CanCast { get => canCast; set => canCast = value; }
@@ -26,8 +27,10 @@ public class RaycastToMousePos : MonoBehaviour, ICameraRaycast
     {
         if (canCast)
         {
-          DrawRaycast();
+            DrawRaycast();
+           
         }
+   
     }
 
     void DrawRaycast()

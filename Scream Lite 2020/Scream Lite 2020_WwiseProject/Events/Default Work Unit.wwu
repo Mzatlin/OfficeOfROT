@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="DoorOpen" ID="{1DAD460B-B5A8-4A32-8952-CF0393FDBA08}">
+					<ChildrenList>
+						<Action Name="" ID="{7F51C6CD-0FB6-413D-8CF4-80434A1C05C3}" ShortID="658727354">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door" ID="{8F3F10C4-FE30-49CE-BF86-8605556B8741}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps" ID="{9FC514E7-4D32-4503-96D3-80E3B1600AF1}">
+					<ChildrenList>
+						<Action Name="" ID="{DC0FD0EA-2B05-488A-8B49-500423050569}" ShortID="449445714">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{3C2831B3-3CED-4A85-B6D2-07BE5AA315AB}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

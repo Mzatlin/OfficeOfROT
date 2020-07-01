@@ -1,6 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1404805401	DoorOpen			\Default Work Unit\DoorOpen	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	3991942870	Music			\Default Work Unit\Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	159697679	Day 01 draft 01	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Day 01 draft 01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Day 01 Music\Day 01 draft 01\Day 01 draft 01		27095104
+	586466379	Footsteps, Linoleum, Sneaker, Medium SND1083 4	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 4_0C6CEA60.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps, Linoleum, Sneaker, Medium SND1083 4		23748
+	679694485	Door	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Door, Wood, Open, Close, Light SND1963_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door		76424
+	735426441	Footsteps, Linoleum, Sneaker, Medium SND1083 2	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 2_BE6F4798.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps, Linoleum, Sneaker, Medium SND1083 2		21356
+	868441261	Footsteps, Linoleum, Sneaker, Medium SND1083 5	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 5_B91530D3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps, Linoleum, Sneaker, Medium SND1083 5		21626
+	869647331	Footsteps, Linoleum, Sneaker, Medium SND1083 1	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps, Linoleum, Sneaker, Medium SND1083 1		24426
+	893621163	Footsteps, Linoleum, Sneaker, Medium SND1083	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Footsteps, Linoleum, Sneaker, Medium SND1083_61F90C56.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps, Linoleum, Sneaker, Medium SND1083		18822
+	1012308051	Footsteps, Linoleum, Sneaker, Medium SND1083 3	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 3_46743566.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps, Linoleum, Sneaker, Medium SND1083 3		22552
 

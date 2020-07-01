@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Boo.Lang.Environments;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,6 +13,8 @@ public class ClickToMove : MonoBehaviour, IMove
     Vector2 mousePosition;
     bool isMoving = false;
     Camera cam;
+
+    public AK.Wwise.Event MyEvent = null;
 
     bool IMove.isMoving { get => isMoving; set => isMoving = value; }
 
@@ -28,15 +31,19 @@ public class ClickToMove : MonoBehaviour, IMove
         if (isMoving)
         {
             MoveToPosition();
+            
         }
         if (Input.GetMouseButtonDown(0) && raycast.RayHit && (1 << raycast.RayHit.collider.gameObject.layer & floorMask) != 0)
         {
             SetPlayerPosition();
+            
         }
+   
     }
 
     void SetPlayerPosition()
     {
+        MyEvent.Post(gameObject);
         mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
         isMoving = true;
     }
