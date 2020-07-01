@@ -8,15 +8,13 @@ public class walkingsound : MonoBehaviour
 {
 
     
-   
-    public Rigidbody2D rb;
-    private ClickToMove clickToMove;
+  
 
 
     // Start is called before the first frame update
     void Start()
     {
-        transform.hasChanged = false;
+       
        
     }
 
@@ -25,16 +23,7 @@ public class walkingsound : MonoBehaviour
     {
        
 
-        if (transform.hasChanged)
-        {
-            transform.hasChanged = false;
-        }
-        else
-        {
-            clickToMove.MyEvent.Stop(gameObject); 
-                
-            
-        }
+       
     }
 
 
