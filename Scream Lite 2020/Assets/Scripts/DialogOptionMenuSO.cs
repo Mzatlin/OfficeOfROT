@@ -8,8 +8,4 @@ public class DialogOptionMenuSO : DialogSO, IDialogueOptionMenu
     public string description;
     public string Description => description;
 
-    public override void LoadNextDialogue()
-    {
-        throw new System.NotImplementedException();
-    }
 }

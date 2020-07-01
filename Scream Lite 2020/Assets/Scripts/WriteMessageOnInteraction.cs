@@ -8,13 +8,16 @@ public class WriteMessageOnInteraction : MonoBehaviour,IInteractionWrite
     [SerializeField]
     DialogProcessorSO dialogueWrite;
     [SerializeField]
-    DialogueObject dialogue;
-    [SerializeField]
     DialogSO dialogueSO;
+    [SerializeField]
+    DialogueObject dialogue;
+
+
     IInteract interaction;
     bool isInteracting = false;
 
-    bool IInteractionWrite.isInteracting { get => isInteracting; set => isInteracting = value; }
+    public bool IsInteracting { get => isInteracting; set => isInteracting = value; }
+
 
     // Start is called before the first frame update
     void Start()
@@ -36,17 +39,10 @@ public class WriteMessageOnInteraction : MonoBehaviour,IInteractionWrite
         }
     }
 
-    /*   void OnDestroy()
-       {
-           if(interaction != null)
-           {
-               interaction.OnInteract -= HandleInteraction;
-           }
-       }*/
 
     void HandleInteraction()
     {
-        dialogueWrite.SetupDialougeWriter(dialogue);
+        dialogueWrite.SetupDialougeWriter(dialogueSO);
         isInteracting = true;
         dialogueWrite.OnEnd += HandleEnd;
     }

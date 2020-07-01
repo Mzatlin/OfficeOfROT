@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class DialogSO : ScriptableObject
+[CreateAssetMenu(menuName = "DialogueObject")]
+public class DialogSO : ScriptableObject
 {
     public string name;
-    public abstract void LoadNextDialogue();
+    [TextArea(2, 8)]
+    public string[] sentences;
+    public List<DialogOptionSO> options; 
 }

@@ -7,11 +7,8 @@ using TMPro;
 
 public class DialogWriter : WriterBase
 {
-    [SerializeField]
-    TextMeshProUGUI textName;
     public Queue<string> dialogueSentences;
-    [SerializeField]
-    DialogProcessorSO dialogue;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,29 +34,27 @@ public class DialogWriter : WriterBase
         base.WriteDialogue();
         if (dialogueSentences.Count == 0)
         {
+            if (dialogue.currentDialogue.options.Capacity > 0)
+            {
+                dialogue.SetupDialougeWriter(dialogue.currentDialogue.options[0].dialogue);
+                return;
+            }
             EndDialogue();
             return;
         }
         StartCoroutine(TypeLine(dialogueSentences.Dequeue()));
-        NameSwap(textName.text);
+    //    NameSwap(textName.text);
     }
 
     void NameSwap(string name)
     {
         if (name == dialogue.currentDialogue.name)
         {
-            textName.text = dialogue.currentDialogue.name2;
+        //    textName.text = dialogue.currentDialogue.name2;
         }
         else
         {
             textName.text = dialogue.currentDialogue.name;
         }
-    }
-
-    void EndDialogue()
-    {
-        Debug.Log("Dialog Ended");
-        dialogCanvas.enabled = false;
-        dialogue.EndDialougeWriter();
     }
 }

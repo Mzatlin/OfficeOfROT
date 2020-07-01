@@ -20,7 +20,7 @@ public class SpawnObjectOnDialogueEnd : MonoBehaviour
 
     private void HandleEnd()
     {
-        if (interact.isInteracting)
+        if (interact.IsInteracting)
         {
             spawnObject.SetActive(true);
         }

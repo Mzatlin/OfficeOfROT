@@ -12,6 +12,10 @@ public class WriterBase : MonoBehaviour
     protected TextMeshProUGUI textDialog;
     [SerializeField]
     protected Canvas dialogCanvas;
+    [SerializeField]
+    protected DialogProcessorSO dialogue;
+    [SerializeField]
+    protected TextMeshProUGUI textName;
 
     void Start()
     {
@@ -37,5 +41,11 @@ public class WriterBase : MonoBehaviour
     {
         textDialog.text = "";
         StopAllCoroutines();
+    }
+
+    protected virtual void EndDialogue()
+    {
+        dialogCanvas.enabled = false;
+        dialogue.EndDialougeWriter();
     }
 }

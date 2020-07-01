@@ -14,6 +14,7 @@ public class RaycastInteractionManager : MonoBehaviour
         if (dialog != null)
         {
             dialog.OnWrite += HandleWriteDialog;
+            dialog.OnMenuWrite += HandleWriteDialog;
             dialog.OnEnd += HandleEndDialog;
         }
         raycast = GetComponent<ICameraRaycast>();

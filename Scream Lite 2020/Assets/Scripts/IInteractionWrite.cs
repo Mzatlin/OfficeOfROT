@@ -2,5 +2,5 @@
 
 interface IInteractionWrite
 {
-    bool isInteracting { get; set; }
+    bool IsInteracting { get; set; }
 }
