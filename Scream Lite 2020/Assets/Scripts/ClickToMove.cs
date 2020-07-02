@@ -33,6 +33,10 @@ public class ClickToMove : MonoBehaviour, IMove
             MoveToPosition();
             
         }
+        else
+        {
+            MyEvent.Stop(gameObject);
+        }
         if (Input.GetMouseButtonDown(0) && raycast.RayHit && (1 << raycast.RayHit.collider.gameObject.layer & floorMask) != 0)
         {
             SetPlayerPosition();
@@ -51,5 +55,9 @@ public class ClickToMove : MonoBehaviour, IMove
     void MoveToPosition()
     {
         transform.position = Vector2.MoveTowards(transform.position, mousePosition, moveSpeed * Time.deltaTime);
+        if (Vector3.Distance(transform.position, mousePosition) < 0.01)
+        {
+            isMoving = false;
+        }
     }
 }
