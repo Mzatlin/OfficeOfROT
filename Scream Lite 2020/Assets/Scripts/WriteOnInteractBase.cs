@@ -2,8 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogueOptionMenu : MonoBehaviour
+public class WriteOnInteractBase : MonoBehaviour
 {
+    [SerializeField]
+    protected DialogProcessorSO dialogueWrite;
+    [SerializeField]
+    protected DialogSO dialogueSO;
     // Start is called before the first frame update
     void Start()
     {

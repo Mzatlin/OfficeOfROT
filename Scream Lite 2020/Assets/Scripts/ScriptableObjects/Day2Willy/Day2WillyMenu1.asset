@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Day2WillyMenu1
+  m_EditorClassIdentifier: 
+  name: Willy
+  sentences:
+  - "\u201CDo uh\u2026 do people here like me?\u201D\r"
+  options:
+  - {fileID: 11400000, guid: 1d785e29b7af8034493bebe5e47b2fa1, type: 2}
+  - {fileID: 11400000, guid: e5bab6f468d64544680bb7e793657645, type: 2}
+  - {fileID: 11400000, guid: 1d785e29b7af8034493bebe5e47b2fa1, type: 2}

@@ -506,6 +506,152 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115220301}
   m_CullTransparentMesh: 0
+--- !u!1 &360428753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 360428758}
+  - component: {fileID: 360428757}
+  - component: {fileID: 360428756}
+  - component: {fileID: 360428755}
+  - component: {fileID: 360428754}
+  m_Layer: 10
+  m_Name: TestObject2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &360428754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360428753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cd4106d196e794190ff4f6d22b7592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueWrite: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
+  dialogueSO: {fileID: 11400000, guid: 7174cafd8d791b74e8ecd2895382c763, type: 2}
+  dialogue:
+    name: You, the Player
+    name2: Billy
+    sentences:
+    - The truth is...
+    - "Hey, if you\u2019re lucky, maybe you\u2019ll meet someone at the bar. Go on
+      and get out of here before Marsha decides she likes you a little less. Before
+      you go, though, I\u2019d check in with the other guys. Seem razzed. Try to
+      avoid Frank\u2019s line of sight if you can. Should be easy since all he does
+      is mop."
+--- !u!114 &360428755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360428753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231673910186a914e928c2e1b6dd582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &360428756
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360428753}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.001434803}
+  m_SpriteTilingProperty:
+    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.1410419}
+  m_EdgeRadius: 0
+--- !u!212 &360428757
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360428753}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 0.49056602, g: 0.3494126, b: 0.3494126, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &360428758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360428753}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.37, y: 1.4, z: -0.9}
+  m_LocalScale: {x: 3, y: 20, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &365542090
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,8 +928,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -231, y: -89}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 14.4, y: -80}
+  m_SizeDelta: {x: 650.76996, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &370206167
 MonoBehaviour:
@@ -828,12 +974,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2100684409}
-        m_MethodName: WriteDialog
-        m_Mode: 1
+      - m_Target: {fileID: 2100684410}
+        m_MethodName: LoadButton
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 370206167}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1669,8 +1815,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -231, y: -127}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 14.4, y: -118}
+  m_SizeDelta: {x: 650.76996, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &702693046
 MonoBehaviour:
@@ -1715,12 +1861,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2100684409}
-        m_MethodName: WriteDialog
-        m_Mode: 1
+      - m_Target: {fileID: 2100684410}
+        m_MethodName: LoadButton
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 702693046}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2638,6 +2784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueWrite: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
+  dialogueSO: {fileID: 11400000, guid: 0e5ddc474a83c0d41942b344d42d6a6d, type: 2}
   dialogue:
     name: You, the Player
     name2: Billy
@@ -2783,8 +2930,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -231, y: -163}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 14.4, y: -157}
+  m_SizeDelta: {x: 650.76996, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1267498299
 MonoBehaviour:
@@ -2829,12 +2976,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2100684409}
-        m_MethodName: WriteDialog
-        m_Mode: 1
+      - m_Target: {fileID: 2100684410}
+        m_MethodName: LoadButton
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1267498299}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3513,7 +3660,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1432826370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4732,6 +4879,7 @@ GameObject:
   - component: {fileID: 2100684408}
   - component: {fileID: 2100684409}
   - component: {fileID: 2100684410}
+  - component: {fileID: 2100684411}
   m_Layer: 0
   m_Name: DialogMessageManager
   m_TagString: Untagged
@@ -4768,8 +4916,8 @@ MonoBehaviour:
   typeSpeed: 2
   textDialog: {fileID: 28218852}
   dialogCanvas: {fileID: 365542093}
-  textName: {fileID: 1424544712}
   dialogue: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
+  textName: {fileID: 1424544712}
 --- !u!114 &2100684410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4780,5 +4928,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98ee01085aa777b4eada358e83bf3bec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeSpeed: 3
+  textDialog: {fileID: 566189170}
+  dialogCanvas: {fileID: 1432826372}
+  dialogue: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
+  textName: {fileID: 1697868511}
+  buttonOptions:
+  - {fileID: 370206167}
+  - {fileID: 702693046}
+  - {fileID: 1267498299}
+--- !u!114 &2100684411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100684407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a05725c2eb0f87439622de661d6b291, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -6,20 +6,33 @@ using System;
 public class DialogProcessorSO : ScriptableObject
 {
     public event Action OnWrite;
+    public event Action OnMenuWrite;
     public event Action OnEnd;
-    public DialogueObject currentDialogue;
+    public DialogSO currentDialogue;
 
 
-    public void SetupDialougeWriter(DialogueObject dialogue)
+
+    public void SetupDialougeWriter(DialogSO dialogue)
     {
         if (dialogue != null)
         {
             currentDialogue = dialogue;
-            OnWrite();
+            DecideWriter();
         }
 
     }
-
+    
+    public void DecideWriter()
+    {
+        if(currentDialogue.options.Capacity <= 1)
+        {
+            OnWrite();
+        }
+        else
+        {
+            OnMenuWrite();
+        }
+    }
 
     public void EndDialougeWriter()
     {
