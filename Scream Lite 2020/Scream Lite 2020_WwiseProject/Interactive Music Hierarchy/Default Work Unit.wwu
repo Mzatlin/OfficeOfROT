@@ -6,6 +6,11 @@
 				<MusicPlaylistContainer Name="Day 01 Music" ID="{2D78ED00-49FB-422F-B24F-870494B21CFC}" ShortID="88753312">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="100"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
