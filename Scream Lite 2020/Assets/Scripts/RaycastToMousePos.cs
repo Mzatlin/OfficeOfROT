@@ -39,7 +39,6 @@ public class RaycastToMousePos : MonoBehaviour, ICameraRaycast
         if (objectHit)
         {
             CheckForInteraction();
-            Debug.Log(objectHit.transform.name);
         }
     }
 

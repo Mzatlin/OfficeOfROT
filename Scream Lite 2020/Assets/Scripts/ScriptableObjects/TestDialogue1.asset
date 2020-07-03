@@ -12,10 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: TestDialogue1
   m_EditorClassIdentifier: 
-  name: Billy
+  name: You
   sentences:
-  - The Truth is..
-  - This Dialog was rigged from the start.
-  - Idiot.
+  - Yup, no answer. Figures he took today off.
   options:
   - {fileID: 11400000, guid: c7cc67f3db1494640959d7183c1013a6, type: 2}

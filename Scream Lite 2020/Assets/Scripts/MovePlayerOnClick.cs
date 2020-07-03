@@ -1,9 +1,8 @@
-﻿using Boo.Lang.Environments;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClickToMove : MonoBehaviour, IMove
+public class MovePlayerOnClick : GameObjectPathingBase, IMove
 {
     [SerializeField]
     float moveSpeed = 4;
@@ -19,19 +18,23 @@ public class ClickToMove : MonoBehaviour, IMove
     bool IMove.isMoving { get => isMoving; set => isMoving = value; }
 
     // Start is called before the first frame update
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         cam = Camera.main;
         raycast = cam.GetComponent<ICameraRaycast>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
+
         if (isMoving)
         {
-            MoveToPosition();
-            
+            CheckPathing();
+            MoveSeeker();
+            UpdateWayPoint();
+            CheckPosition();
         }
         else
         {
@@ -39,23 +42,36 @@ public class ClickToMove : MonoBehaviour, IMove
         }
         if (Input.GetMouseButtonDown(0) && raycast.RayHit && (1 << raycast.RayHit.collider.gameObject.layer & floorMask) != 0)
         {
-            SetPlayerPosition();
-            
+            MyEvent.Post(gameObject);
+            mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
+            //  finalPosition.position = mousePosition;
+            //  target = finalPosition;
+            UpdatePath();
+            isMoving = true;
+
         }
-   
+
     }
 
-    void SetPlayerPosition()
+    protected override void UpdatePath()
+    {
+        if (seeker.IsDone())
+        {
+            seeker.StartPath(rb.position, mousePosition, OnPathComplete);
+        }
+    }
+
+    /*void SetPlayerPosition()
     {
         MyEvent.Post(gameObject);
         mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
         isMoving = true;
-    }
+    }*/
 
-    void MoveToPosition()
+    void CheckPosition()
     {
-        transform.position = Vector2.MoveTowards(transform.position, mousePosition, moveSpeed * Time.deltaTime);
-        if (Vector3.Distance(transform.position, mousePosition) < 0.01)
+        //   transform.position = Vector2.MoveTowards(transform.position, mousePosition, moveSpeed * Time.deltaTime);
+        if (Vector3.Distance(transform.position, mousePosition) <= 2.5f)
         {
             isMoving = false;
         }
