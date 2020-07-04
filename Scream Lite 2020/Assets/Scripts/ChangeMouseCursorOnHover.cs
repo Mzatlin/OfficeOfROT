@@ -41,7 +41,6 @@ public class ChangeMouseCursorOnHover : MonoBehaviour
             var layer = LayerMask.LayerToName(raycast.RayHit.collider.gameObject.layer);
             if (cursors.ContainsKey(layer))
             {
-                Debug.Log("found");
                 Cursor.SetCursor(cursors[layer], hotSpot, cursorMode);
             }
             else

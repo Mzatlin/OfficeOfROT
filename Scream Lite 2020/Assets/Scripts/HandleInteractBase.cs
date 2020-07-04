@@ -13,7 +13,7 @@ public class HandleInteractBase : MonoBehaviour, IInteractionWrite
 
 
     // Start is called before the first frame update
-    protected virtual void Start()
+    protected virtual void Awake()
     {
         interaction = GetComponent<IInteract>();
         if (interaction != null)

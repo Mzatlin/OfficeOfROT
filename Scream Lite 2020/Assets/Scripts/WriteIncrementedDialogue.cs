@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WriteMessageOnInteraction : HandleInteractBase
+public class WriteIncrementedDialogue : HandleInteractBase
 {
     public DialogProcessorSO dialogueWrite;
-    public DialogSO dialogueSO;
+    public List<DialogSO> dialogueSO;
+    int index =0;
 
     protected override void Awake()
     {
@@ -25,7 +25,16 @@ public class WriteMessageOnInteraction : HandleInteractBase
     protected override void HandleInteraction()
     {
         base.HandleInteraction();
-        dialogueWrite.SetupDialougeWriter(dialogueSO);
+        if(index <= dialogueSO.Capacity-1)
+        {
+            dialogueWrite.SetupDialougeWriter(dialogueSO[index]);
+            index++;
+        }
+        else
+        {
+            index = 0;
+        }
+
     }
 
 }

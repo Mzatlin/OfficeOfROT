@@ -14,9 +14,9 @@ public class ChangeLevelOnInteract : HandleInteractBase
     [SerializeField]
     DialogSO dialogueSO;
 
-    protected override void Start()
+    protected override void Awake()
     {
-        base.Start();
+        base.Awake();
     }
     protected override void HandleInteraction()
     {

@@ -1,5 +1,5 @@
 ﻿using System;
-internal interface IInteract
+interface IInteract
 {
     event Action OnInteract;
     void ProcessInteraction();

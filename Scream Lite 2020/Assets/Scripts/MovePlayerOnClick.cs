@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class MovePlayerOnClick : GameObjectPathingBase, IMove
 {
-    [SerializeField]
-    float moveSpeed = 4;
-    [SerializeField]
-    LayerMask floorMask;
+
+    public float moveSpeed = 4;
+    public LayerMask floorMask;
     ICameraRaycast raycast;
     Vector2 mousePosition;
     bool isMoving = false;
