@@ -34,7 +34,7 @@ public class RaycastToMousePos : MonoBehaviour, ICameraRaycast
 
     void DrawRaycast()
     {
-        objectHit = Physics2D.Raycast(cam.ScreenToWorldPoint(Input.mousePosition), Vector2.zero, Mathf.Infinity, objectLayer);
+        objectHit = Physics2D.Raycast(cam.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
         if (objectHit)
         {
             CheckForInteraction();
