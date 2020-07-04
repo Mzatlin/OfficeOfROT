@@ -14,9 +14,13 @@ public class PathToTarget : GameObjectPathingBase
 
     void FixedUpdate()
     {
+        if(path != null)
+        {
             CheckPathing();
             MoveSeeker();
             UpdateWayPoint();
+        }
+
     }
 
 

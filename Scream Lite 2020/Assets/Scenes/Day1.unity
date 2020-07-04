@@ -4573,8 +4573,9 @@ GameObject:
   - component: {fileID: 360428756}
   - component: {fileID: 360428755}
   - component: {fileID: 360428754}
+  - component: {fileID: 360428759}
   m_Layer: 10
-  m_Name: Door
+  m_Name: ExitDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4587,13 +4588,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360428753}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f7cd4106d196e794190ff4f6d22b7592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueWrite: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
-  dialogueSO: {fileID: 11400000, guid: 7174cafd8d791b74e8ecd2895382c763, type: 2}
+  dialogueSO: {fileID: 11400000, guid: 084dbe6cf8e57c04085ac388bb884b03, type: 2}
 --- !u!114 &360428755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4696,6 +4697,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &360428759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360428753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8ea85314955ce43b04b6b29641e824, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: SampleScene
+  checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
+  dialogueWrite: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
+  dialogueSO: {fileID: 11400000, guid: 084dbe6cf8e57c04085ac388bb884b03, type: 2}
 --- !u!1 &364432742
 GameObject:
   m_ObjectHideFlags: 0
@@ -5578,6 +5595,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 758473391}
   m_RootOrder: 107
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &394106736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 394106738}
+  - component: {fileID: 394106737}
+  m_Layer: 0
+  m_Name: NPCCheckListManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &394106737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394106736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ea5a9d989b2d541aebff41d1d346df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
+  npcs:
+  - Billy
+  - Solly
+  - Marsha
+--- !u!4 &394106738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394106736}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.32977456, y: -2.657202, z: -2.578125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &402873547
 GameObject:
@@ -11837,6 +11902,7 @@ GameObject:
   - component: {fileID: 891323137}
   - component: {fileID: 891323136}
   - component: {fileID: 891323135}
+  - component: {fileID: 891323139}
   m_Layer: 10
   m_Name: SollyDialogueRadius
   m_TagString: Untagged
@@ -11910,6 +11976,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &891323139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891323134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547d9702721ca1740b4688647926b3ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Solly
+  checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
 --- !u!1 &894243135
 GameObject:
   m_ObjectHideFlags: 0
@@ -13079,6 +13159,7 @@ GameObject:
   - component: {fileID: 953982792}
   - component: {fileID: 953982791}
   - component: {fileID: 953982790}
+  - component: {fileID: 953982794}
   m_Layer: 10
   m_Name: MarshaDialogueRadius
   m_TagString: Untagged
@@ -13152,6 +13233,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &953982794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953982789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547d9702721ca1740b4688647926b3ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Marsha
+  checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
 --- !u!1 &959506525
 GameObject:
   m_ObjectHideFlags: 0
@@ -31790,6 +31885,7 @@ GameObject:
   - component: {fileID: 2108973079}
   - component: {fileID: 2108973078}
   - component: {fileID: 2108973077}
+  - component: {fileID: 2108973081}
   m_Layer: 10
   m_Name: BillyDialogueRadius
   m_TagString: Untagged
@@ -31863,6 +31959,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2108973081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108973076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547d9702721ca1740b4688647926b3ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Billy
+  checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
 --- !u!1 &2133825549
 GameObject:
   m_ObjectHideFlags: 0
