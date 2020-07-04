@@ -425,6 +425,16 @@
 								<ActiveSource Name="Printer" ID="{3D27D70A-4265-45A0-A9FE-AD3C5B68B413}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Door_Knock" ID="{D169841E-44A7-45DD-82AC-B8DAE4CACF73}" ShortID="851685991">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FDCFB789-019A-47F7-96B8-5A52D10A3E19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9479F67-7ED7-4A93-BD14-5CA997B4BEE6}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Characters" ID="{7AAB0E2B-4577-4EDD-BAF5-FF5142055703}" ShortID="573837059">

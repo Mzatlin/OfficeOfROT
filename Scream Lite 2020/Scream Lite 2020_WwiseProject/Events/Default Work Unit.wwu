@@ -93,6 +93,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Door_Knock" ID="{7162006E-9799-4EEF-96E5-62B254C880B2}">
+							<ChildrenList>
+								<Action Name="" ID="{509DD0C0-91CE-4615-A6F5-4716E7CE3372}" ShortID="898745252">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door_Knock" ID="{D169841E-44A7-45DD-82AC-B8DAE4CACF73}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Characters" ID="{B386381E-6CD4-4968-9260-A41EA9AFD711}" ShortID="135959058">
