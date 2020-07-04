@@ -39,7 +39,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
         {
             MyEvent.Stop(gameObject);
         }
-        if (Input.GetMouseButtonDown(0) && raycast.RayHit && (1 << raycast.RayHit.collider.gameObject.layer & floorMask) != 0)
+        if (Input.GetMouseButtonDown(0) && raycast.CanCast && raycast.RayHit && (1 << raycast.RayHit.collider.gameObject.layer & floorMask) != 0)
         {
             PlaySound();
             mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);

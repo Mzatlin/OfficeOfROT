@@ -6,6 +6,7 @@ using Pathfinding;
 [RequireComponent(typeof(Rigidbody2D))]
 public class GameObjectPathingBase : MonoBehaviour
 {
+
     [SerializeField]
     protected Transform target;
     [SerializeField]
@@ -18,6 +19,7 @@ public class GameObjectPathingBase : MonoBehaviour
     protected Rigidbody2D rb;
     protected Vector2 direction;
     protected Vector2 force;
+    protected SpriteRenderer render;
 
     protected int currentWayPoint = 0;
     protected bool reachedEndOfPath = false;
@@ -25,6 +27,7 @@ public class GameObjectPathingBase : MonoBehaviour
     // Start is called before the first frame update
     protected virtual void Start()
     {
+        render = GetComponentInChildren<SpriteRenderer>();
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
     }
@@ -48,9 +51,20 @@ public class GameObjectPathingBase : MonoBehaviour
 
     protected void MoveSeeker()
     {
-            direction = ((Vector2)path.vectorPath[currentWayPoint] - rb.position).normalized; //Displacement Vector or length 1 
-            Vector2 force = objectSpeed * direction * Time.deltaTime;
-            rb.AddForce(force);
+        direction = ((Vector2)path.vectorPath[currentWayPoint] - rb.position).normalized; //Displacement Vector or length 1 
+        Vector2 force = objectSpeed * direction * Time.deltaTime;
+        rb.AddForce(force);
+
+        if (rb.velocity.x >= 0.1f)
+        {
+            // transform.localScale = new Vector3(-1f, -1f, -1f);
+            render.flipX = false;
+        }
+        else if (rb.velocity.x <= -0.1f)
+        {
+            render.flipX = true;
+            //  transform.localScale = new Vector3(1f, 1f, 1f);
+        }
 
     }
 
@@ -59,7 +73,7 @@ public class GameObjectPathingBase : MonoBehaviour
         if (path == null)
             return;
 
-        if (currentWayPoint >= path.vectorPath.Count-1)
+        if (currentWayPoint >= path.vectorPath.Count - 1)
         {
             reachedEndOfPath = true;
             return;
@@ -74,7 +88,7 @@ public class GameObjectPathingBase : MonoBehaviour
     {
         if (Vector2.Distance(rb.position, path.vectorPath[currentWayPoint]) < distanceToNextWayPoint)
         {
-            if(currentWayPoint < path.vectorPath.Count-1)
+            if (currentWayPoint < path.vectorPath.Count - 1)
             {
                 currentWayPoint++;
             }

@@ -20,22 +20,11 @@ public class PathToTarget : GameObjectPathingBase
             CheckPathing();
             MoveSeeker();
             UpdateWayPoint();
-            FlipSprite();
         }
 
     }
 
-     void FlipSprite()
-    {
-        if (force.x >= 0.01f)
-        {
-            renderer.flipX = false;
-        }
-        else if (force.x <= -0.01f)
-        {
-            renderer.flipX = true;
-        }
-    }
+
 
 
 

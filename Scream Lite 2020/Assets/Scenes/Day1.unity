@@ -985,6 +985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e65b27580317eb4cb5156eebe8a890c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canRepeat: 1
   dialogueWrite: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
   dialogueSO:
   - {fileID: 11400000, guid: 0e5ddc474a83c0d41942b344d42d6a6d, type: 2}
@@ -5277,7 +5278,7 @@ SpriteRenderer:
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 1168f6e3834b4e24d80feb53e0898cb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.44, y: 0.3}
@@ -7187,7 +7188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f54056e4a32984c8942948168de891, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialog: {fileID: 0}
+  dialog: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7274,6 +7275,7 @@ MonoBehaviour:
   MultiPositionType: 1
   multiPositionTypeLabel: 0
   LargeModePositions:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

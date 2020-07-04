@@ -36,7 +36,7 @@ public class ChangeMouseCursorOnHover : MonoBehaviour
 
     void Update()
     {
-        if(raycast != null && raycast.RayHit)
+        if(raycast != null && raycast.RayHit && raycast.CanCast)
         {
             var layer = LayerMask.LayerToName(raycast.RayHit.collider.gameObject.layer);
             if (cursors.ContainsKey(layer))
@@ -47,7 +47,10 @@ public class ChangeMouseCursorOnHover : MonoBehaviour
             {
                 Cursor.SetCursor(null, Vector2.zero, cursorMode);
             }
-               
-        }    
+        }
+        else
+        {
+            Cursor.SetCursor(null, Vector2.zero, cursorMode);
+        }
     }
 }

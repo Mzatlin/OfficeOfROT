@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class RaycastInteractionManager : MonoBehaviour
 {
-    [SerializeField]
-    DialogProcessorSO dialog;
+  
+    public DialogProcessorSO dialog;
     ICameraRaycast raycast;
     // Start is called before the first frame update
     void Start()

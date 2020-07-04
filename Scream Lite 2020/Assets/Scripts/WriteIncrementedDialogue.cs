@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WriteIncrementedDialogue : HandleInteractBase
 {
+    public bool canRepeat = false;
     public DialogProcessorSO dialogueWrite;
     public List<DialogSO> dialogueSO;
     int index =0;
@@ -27,14 +28,31 @@ public class WriteIncrementedDialogue : HandleInteractBase
         base.HandleInteraction();
         if(index <= dialogueSO.Capacity-1)
         {
-            dialogueWrite.SetupDialougeWriter(dialogueSO[index]);
+            WriteDialogue();
             index++;
         }
         else
         {
-            index = 0;
+
+            if (canRepeat)
+            {
+                index = 0;
+                WriteDialogue();
+                index++;
+            }
+            else
+            {
+                index--;
+                WriteDialogue();
+            }
+
         }
 
+    }
+
+    void WriteDialogue()
+    {
+        dialogueWrite.SetupDialougeWriter(dialogueSO[index]);
     }
 
 }
