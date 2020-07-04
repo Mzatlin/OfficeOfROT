@@ -8,14 +8,10 @@ public class WriterBase : MonoBehaviour
 {
     [SerializeField]
     protected float typeSpeed = 3f;
-    [SerializeField]
-    protected TextMeshProUGUI textDialog;
-    [SerializeField]
-    protected Canvas dialogCanvas;
-    [SerializeField]
-    protected DialogProcessorSO dialogue;
-    [SerializeField]
-    protected TextMeshProUGUI textName;
+    public TextMeshProUGUI textDialog;
+    public Canvas dialogCanvas;
+    public DialogProcessorSO dialogue;
+    public TextMeshProUGUI textName;
 
     void Start()
     {

@@ -3,48 +3,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WriteMessageOnInteraction : MonoBehaviour,IInteractionWrite
+public class WriteMessageOnInteraction : HandleInteractBase
 {
-    [SerializeField]
-    DialogProcessorSO dialogueWrite;
-    [SerializeField]
-    DialogSO dialogueSO;
-    [SerializeField]
-    DialogueObject dialogue;
+    public DialogProcessorSO dialogueWrite;
+    public DialogSO dialogueSO;
 
-
-    IInteract interaction;
-    bool isInteracting = false;
-
-    public bool IsInteracting { get => isInteracting; set => isInteracting = value; }
-
-
-    // Start is called before the first frame update
-    void Start()
+    protected override void Awake()
     {
-        interaction = GetComponent<IInteract>();
-        if(interaction != null)
-        {
-            interaction.OnInteract += HandleInteraction;
-        }
-
+        base.Awake();
+        dialogueWrite.OnEnd += HandleEnd;
     }
-
-    private void HandleEnd()
+    protected override void HandleEnd()
     {
-        if (isInteracting)
+        base.HandleEnd();
+        if (IsInteracting)
         {
-            isInteracting = false;
             dialogueWrite.OnEnd -= HandleEnd;
         }
+
     }
-
-
-    void HandleInteraction()
+    protected override void HandleInteraction()
     {
+        base.HandleInteraction();
         dialogueWrite.SetupDialougeWriter(dialogueSO);
-        isInteracting = true;
-        dialogueWrite.OnEnd += HandleEnd;
     }
 
 }

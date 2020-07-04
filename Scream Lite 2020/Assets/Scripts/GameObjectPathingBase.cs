@@ -50,6 +50,7 @@ public class GameObjectPathingBase : MonoBehaviour
             direction = ((Vector2)path.vectorPath[currentWayPoint] - rb.position).normalized; //Displacement Vector or length 1 
             Vector2 force = objectSpeed * direction * Time.deltaTime;
             rb.AddForce(force);
+
     }
 
     protected void CheckPathing()

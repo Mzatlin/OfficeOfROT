@@ -7,13 +7,12 @@ using TMPro;
 
 public class DialogueOptionMenu : WriterBase
 {
-    [SerializeField]
-    List<Button> buttonOptions = new List<Button>();
+  
+    public List<Button> buttonOptions = new List<Button>();
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        //  buttonOptions = new List<Button>();
         dialogCanvas.enabled = false;
         dialogue.OnMenuWrite += HandleWrite;
     }

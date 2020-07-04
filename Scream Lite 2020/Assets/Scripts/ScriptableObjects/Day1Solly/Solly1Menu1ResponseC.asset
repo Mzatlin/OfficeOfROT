@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Solly1Menu1ResponseC
+  m_EditorClassIdentifier: 
+  name: Solly
+  sentences:
+  - You always manage to get your work done perfectly and on time. Trade secrets?
+  - "Don\u2019t play your day away on solitaire?"
+  - What a cute joke! My partner tells me the same one every time I slack on the
+    chores.
+  - You give your wife a hard time, huh?
+  - Like I said, trade secret.
+  - Would if I had one.
+  - "Too bad. Well I don\u2019t like sharing mine anyway, so it\u2019s probably for
+    the best."
+  - You offered first!
+  - "\u201CI jumped the gun! Give me a break! It\u2019s been fun talking to you,
+    but I have to get back to work. Have a good night!"
+  - "Yeah, heh, \u2018work.\u2019 You too, Solly."
+  options: []

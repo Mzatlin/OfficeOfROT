@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Solly1Menu1ResponseB
+  m_EditorClassIdentifier: 
+  name: Solly
+  sentences:
+  - "You can\u2019t be that naive! Marsha has been loving your work ethic. Lots of
+    people here like you!"
+  - I try to keep to myself.
+  - Says the chattiest person on our floor.
+  - "I mean\u2026 nothing wrong with a little small talk, is there?"
+  - Of course not! Our chats are the highlight of my day.
+  - I figured it would be winning at solitaire.
+  - Oh you hush. Run along now. I have a game to win.
+  options: []

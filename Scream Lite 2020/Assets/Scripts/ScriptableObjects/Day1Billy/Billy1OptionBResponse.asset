@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Billy1OptionBResponse
+  m_EditorClassIdentifier: 
+  name: Billy
+  sentences:
+  - "Well, aren\u2019t we a dutiful little busy bee? You could slack off a little,
+    would make me look more palatable for Ms. Millhauer."
+  - "You know you can call her Marsha, right? She\u2019s not THAT uptight."
+  - "Maybe not with you, you\u2019re on her good side. She strapped me down with
+    so much work I had to skip dinner."
+  - "You shouldn\u2019t do that. You\u2019re probably falling behind \u2018cause
+    you\u2019re not eatin\u2019 right."
+  - "Easy for you to say, you don\u2019t have a loving partner to squeeze five minutes
+    of time into your busy schedule."
+  - "Don\u2019t remind me\u2026"
+  - "\u201CHey, if you\u2019re lucky, maybe you\u2019ll meet someone at the bar.
+    Go on and get out of here before Marsha decides she likes you a little less.
+    Before you go, though, I\u2019d check in with the other guys. Seem razzed. Try
+    to avoid Frank\u2019s line of sight if you can. Should be easy since all he does
+    is mop."
+  options: []

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class RaycastToMousePos : MonoBehaviour, ICameraRaycast
 {
-    [SerializeField]
-    LayerMask objectLayer;
+
+    public LayerMask objectLayer;
     RaycastHit2D objectHit;
     bool canCast = true;
     Camera cam;
@@ -16,7 +16,7 @@ public class RaycastToMousePos : MonoBehaviour, ICameraRaycast
     public bool CanCast { get => canCast; set => canCast = value; }
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         cam = Camera.main;
     }
@@ -28,14 +28,13 @@ public class RaycastToMousePos : MonoBehaviour, ICameraRaycast
         if (canCast)
         {
             DrawRaycast();
-           
         }
    
     }
 
     void DrawRaycast()
     {
-        objectHit = Physics2D.Raycast(cam.ScreenToWorldPoint(Input.mousePosition), Vector2.zero, 10f, objectLayer);
+        objectHit = Physics2D.Raycast(cam.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
         if (objectHit)
         {
             CheckForInteraction();
