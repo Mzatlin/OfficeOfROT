@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d922695df90d65a4eb4cb72ddd43a951, type: 3}
+  m_Name: 7162006E-9799-4EEF-96E5-62B254C880B2
+  m_EditorClassIdentifier: 
+  objectName: Door_Knock
+  id: 2472666668
+  guid: 7162006E-9799-4EEF-96E5-62B254C880B2

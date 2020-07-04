@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d83ef3a80a27a64389b00d7c8f9aadac
     GuidInternal: 
-    m_lastTime: -8586077749329178690
+    m_lastTime: -8586077315191952146
     List:
     - name: Main
       guid: a3d37c1741905845a71ae2d6f47def74
@@ -56,7 +56,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 0f2fb0af93ae2940bf67e78bd3a2d8ab
     GuidInternal: 
-    m_lastTime: -8586077749328968805
+    m_lastTime: -8586077315202706019
     List:
     - name: Ambience
       guid: 92ed63e68726a842a3882a7de4f35360
@@ -93,6 +93,20 @@ MonoBehaviour:
       - ElementName: Characters
         ObjectType: 4
       Path: Default Work Unit\Characters
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Door_Knock
+      guid: 6e0062719997ef4e96e562b254c880b2
+      id: 2472666668
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 4
+      - ElementName: Door_Knock
+        ObjectType: 3
+      Path: Default Work Unit\Objects\Door_Knock
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -290,5 +304,6 @@ MonoBehaviour:
   - /Scream Lite 2020_WwiseProject
   - /Scream Lite 2020_WwiseProject/Events
   - /Scream Lite 2020_WwiseProject/Events/Default Work Unit
+  - /Scream Lite 2020_WwiseProject/Events/Default Work Unit/Objects
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

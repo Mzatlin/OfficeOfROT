@@ -7,7 +7,7 @@ public class playbuttonsound : MonoBehaviour
     [SerializeField]
     private AK.Wwise.Event myEvent = null;
 
-    public void onClick()
+    public void OnClick()
     {
         myEvent.Post(gameObject);
 
