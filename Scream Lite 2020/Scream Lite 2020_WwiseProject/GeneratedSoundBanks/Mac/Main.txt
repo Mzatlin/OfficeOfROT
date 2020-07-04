@@ -1,15 +1,37 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1404805401	DoorOpen			\Default Work Unit\DoorOpen	
+	85412153	Ambience			\Default Work Unit\Ambience	
+	282445894	Lighter			\Default Work Unit\Objects\Lighter	
+	694286824	Solly			\Default Work Unit\Characters\Solly	
+	809636474	Willy			\Default Work Unit\Characters\Willy	
+	818946243	Billy			\Default Work Unit\Characters\Billy	
+	1096578879	Marsha			\Default Work Unit\Characters\Marsha	
+	1404805401	DoorOpen			\Default Work Unit\Objects\DoorOpen	
+	1425580747	Printer			\Default Work Unit\Objects\Printer	
+	2035707747	Water_Cooler			\Default Work Unit\Objects\Water_Cooler	
+	2337612214	Fridge			\Default Work Unit\Objects\Fridge	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	3790536434	Vending_Machine			\Default Work Unit\Objects\Vending_Machine	
 	3991942870	Music			\Default Work Unit\Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	6165914	Marsha	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Marsha _10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Marsha		876536
+	61897979	Vending Machine	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Vending Machine_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Vending Machine		680068
 	159697679	Day 01 draft 01	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Day 01 draft 01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Day 01 Music\Day 01 draft 01\Day 01 draft 01		27095104
+	207377676	Water Cooler 002	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Water Cooler 002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Water Cooler\Water Cooler 002		450820
+	224045044	Fridge	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Fridge _10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Fridge		838656
+	268915267	Willy	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Willy Water cooler guy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Willy		1172004
+	358267612	Water Cooler 001	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Water Cooler 001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Water Cooler\Water Cooler 001		560024
+	511160370	Solly	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Solly Lazy Guy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Solly		387400
+	522200327	Lighter	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Lighter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Lighter		115812
 	586466379	Footsteps, Linoleum, Sneaker, Medium SND1083 4	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 4_0C6CEA60.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps, Linoleum, Sneaker, Medium SND1083 4		23748
+	587706952	Ambience	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Ambience, Office Building, Corridor, Voices Behind Wall, Water Cooler 01 SND42165_355C6336.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience		5755060
 	679694485	Door	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Door, Wood, Open, Close, Light SND1963_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door		76424
 	735426441	Footsteps, Linoleum, Sneaker, Medium SND1083 2	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 2_BE6F4798.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps, Linoleum, Sneaker, Medium SND1083 2		21356
+	795075219	Printer	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Printer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Printer		733728
 	868441261	Footsteps, Linoleum, Sneaker, Medium SND1083 5	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 5_B91530D3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps, Linoleum, Sneaker, Medium SND1083 5		21626
 	869647331	Footsteps, Linoleum, Sneaker, Medium SND1083 1	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps, Linoleum, Sneaker, Medium SND1083 1		24426
+	883871223	Billy	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Billy Best Friend_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Billy		707696
 	893621163	Footsteps, Linoleum, Sneaker, Medium SND1083	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Footsteps, Linoleum, Sneaker, Medium SND1083_61F90C56.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps, Linoleum, Sneaker, Medium SND1083		18822
 	1012308051	Footsteps, Linoleum, Sneaker, Medium SND1083 3	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Footsteps, Linoleum, Sneaker, Medium SND1083 3_46743566.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps, Linoleum, Sneaker, Medium SND1083 3		22552
+	1058011421	Water Cooler 003	D:\Middleware Projects\Github Clones\Scream-Lite-2020\Scream Lite 2020\Scream Lite 2020_WwiseProject\.cache\Mac\SFX\Water Cooler 003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Water Cooler\Water Cooler 003		482728
 

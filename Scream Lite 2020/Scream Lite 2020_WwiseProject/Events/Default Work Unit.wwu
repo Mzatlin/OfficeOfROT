@@ -14,23 +14,141 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="DoorOpen" ID="{1DAD460B-B5A8-4A32-8952-CF0393FDBA08}">
-					<ChildrenList>
-						<Action Name="" ID="{7F51C6CD-0FB6-413D-8CF4-80434A1C05C3}" ShortID="658727354">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Door" ID="{8F3F10C4-FE30-49CE-BF86-8605556B8741}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Footsteps" ID="{9FC514E7-4D32-4503-96D3-80E3B1600AF1}">
 					<ChildrenList>
 						<Action Name="" ID="{DC0FD0EA-2B05-488A-8B49-500423050569}" ShortID="449445714">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Footsteps" ID="{3C2831B3-3CED-4A85-B6D2-07BE5AA315AB}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Objects" ID="{B395E03E-A814-4535-9B86-CBD1DA0D8813}" ShortID="203182082">
+					<ChildrenList>
+						<Event Name="DoorOpen" ID="{1DAD460B-B5A8-4A32-8952-CF0393FDBA08}">
+							<ChildrenList>
+								<Action Name="" ID="{7F51C6CD-0FB6-413D-8CF4-80434A1C05C3}" ShortID="658727354">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door" ID="{8F3F10C4-FE30-49CE-BF86-8605556B8741}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Fridge" ID="{E5C1A0CF-CDAA-44E4-A7FD-5670541B11B5}">
+							<ChildrenList>
+								<Action Name="" ID="{E8A5B5A9-963C-4D47-B258-4CDDDB08246D}" ShortID="930452049">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fridge" ID="{8F86489D-587E-49DA-9754-49A55E58F8FF}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Lighter" ID="{D48AF108-144F-4C51-93B5-5390C41AA89F}">
+							<ChildrenList>
+								<Action Name="" ID="{65C88C6A-712C-41E1-8889-ED169952FCE0}" ShortID="683795729">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lighter" ID="{5D76FFC4-6DC6-4C65-839C-B419FE42CCF8}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Printer" ID="{A49649DE-E890-4240-BECE-5FA92F9447E2}">
+							<ChildrenList>
+								<Action Name="" ID="{8FB9FC9B-1F4C-423C-ABC2-D4736484E645}" ShortID="836569988">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Printer" ID="{D550098F-5609-45ED-A3E3-8D11BDFA7C79}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Vending_Machine" ID="{318D4520-40B0-41F1-990B-1A0ADE914ADA}">
+							<ChildrenList>
+								<Action Name="" ID="{A6B1CD26-EFBB-4BAB-B4AE-77597A08E26A}" ShortID="272190795">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Vending Machine" ID="{F9138667-58D6-40D8-B81D-28AF4E9F764F}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Water_Cooler" ID="{53632E5B-5E40-49C3-BF52-75F4B2276B00}">
+							<ChildrenList>
+								<Action Name="" ID="{2E777562-BDA3-45A7-934B-5D3A8B092857}" ShortID="230013534">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water Cooler" ID="{A53E21BE-2CFF-4285-93F6-1ED9E471D114}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Characters" ID="{B386381E-6CD4-4968-9260-A41EA9AFD711}" ShortID="135959058">
+					<ChildrenList>
+						<Event Name="Billy" ID="{9962AF5E-7F2B-4492-AA26-C033B1AB5BAF}">
+							<ChildrenList>
+								<Action Name="" ID="{8D56B82F-A6ED-4478-80E4-60C9DD0431F4}" ShortID="661243827">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Billy" ID="{E1C86949-360E-4ADE-9DA7-16D0B2DEA166}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Marsha" ID="{90C0C025-42B2-4E93-8027-26E164A24C05}">
+							<ChildrenList>
+								<Action Name="" ID="{7AF15D1A-59E2-4052-8C68-A44A6B7E1B7E}" ShortID="306399388">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Marsha" ID="{B3B7CEBA-7D9A-47F7-8D22-01C9FFDC0C7D}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Solly" ID="{88987FB5-34F7-4383-99D7-A281F651748E}">
+							<ChildrenList>
+								<Action Name="" ID="{8813D2F4-2EE2-464E-86E3-6169FCF91285}" ShortID="388044500">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Solly" ID="{AF6E25FD-B70E-410F-9FC4-65FBB170B48C}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Willy" ID="{762E38D1-383D-41A0-90FF-510DFF4D6B5F}">
+							<ChildrenList>
+								<Action Name="" ID="{5697C8CE-7079-4073-B8D1-29A6C2B594C5}" ShortID="974556182">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Willy" ID="{46FB61E4-7040-429B-8C4F-BA65A7568123}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Ambience" ID="{E663ED92-2687-42A8-A388-2A7DE4F35360}">
+					<ChildrenList>
+						<Action Name="" ID="{64BB9232-D46E-4869-B6E2-862A94118554}" ShortID="335014093">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{DB1EB560-EA5D-41EF-8B46-DDF1683B7FF9}" WorkUnitID="{55B49093-2A1D-43FD-ABC2-D9BC4C5B4C05}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

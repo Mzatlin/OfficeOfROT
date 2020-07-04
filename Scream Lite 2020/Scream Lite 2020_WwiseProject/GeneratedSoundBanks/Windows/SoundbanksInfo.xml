@@ -21,7 +21,23 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\DoorOpen" DurationType="OneShot" DurationMin="0.795417" DurationMax="0.795417">
+				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="587706952" Language="SFX">
+							<ShortName>Ambience, Office Building, Corridor, Voices Behind Wall, Water Cooler 01 SND42165.wav</ShortName>
+							<Path>SFX\Ambience, Office Building, Corridor, Voices Behind Wall, Water Cooler 01 SND42165_355C6336.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="818946243" Name="Billy" ObjectPath="\Events\Default Work Unit\Characters\Billy" DurationType="OneShot" DurationMin="4.011519" DurationMax="4.011519">
+					<IncludedMemoryFiles>
+						<File Id="883871223" Language="SFX">
+							<ShortName>Billy Best Friend.wav</ShortName>
+							<Path>SFX\Billy Best Friend_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\Objects\DoorOpen" DurationType="OneShot" DurationMin="0.795417" DurationMax="0.795417">
 					<IncludedMemoryFiles>
 						<File Id="679694485" Language="SFX">
 							<ShortName>Door, Wood, Open, Close, Light SND1963.wav</ShortName>
@@ -57,11 +73,83 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2337612214" Name="Fridge" ObjectPath="\Events\Default Work Unit\Objects\Fridge" DurationType="OneShot" DurationMin="4.753923" DurationMax="4.753923">
+					<IncludedMemoryFiles>
+						<File Id="224045044" Language="SFX">
+							<ShortName>Fridge .wav</ShortName>
+							<Path>SFX\Fridge _10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="282445894" Name="Lighter" ObjectPath="\Events\Default Work Unit\Objects\Lighter" DurationType="OneShot" DurationMin="0.656168" DurationMax="0.656168">
+					<IncludedMemoryFiles>
+						<File Id="522200327" Language="SFX">
+							<ShortName>Lighter.wav</ShortName>
+							<Path>SFX\Lighter_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1096578879" Name="Marsha" ObjectPath="\Events\Default Work Unit\Characters\Marsha" DurationType="OneShot" DurationMin="4.968662" DurationMax="4.968662">
+					<IncludedMemoryFiles>
+						<File Id="6165914" Language="SFX">
+							<ShortName>Marsha .wav</ShortName>
+							<Path>SFX\Marsha _10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="159697679" Language="SFX">
 							<ShortName>Day 01 draft 01.wav</ShortName>
 							<Path>SFX\Day 01 draft 01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1425580747" Name="Printer" ObjectPath="\Events\Default Work Unit\Objects\Printer" DurationType="OneShot" DurationMin="4.159093" DurationMax="4.159093">
+					<IncludedMemoryFiles>
+						<File Id="795075219" Language="SFX">
+							<ShortName>Printer.wav</ShortName>
+							<Path>SFX\Printer_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="694286824" Name="Solly" ObjectPath="\Events\Default Work Unit\Characters\Solly" DurationType="OneShot" DurationMin="2.195782" DurationMax="2.195782">
+					<IncludedMemoryFiles>
+						<File Id="511160370" Language="SFX">
+							<ShortName>Solly Lazy Guy.wav</ShortName>
+							<Path>SFX\Solly Lazy Guy_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3790536434" Name="Vending_Machine" ObjectPath="\Events\Default Work Unit\Objects\Vending_Machine" DurationType="OneShot" DurationMin="3.854898" DurationMax="3.854898">
+					<IncludedMemoryFiles>
+						<File Id="61897979" Language="SFX">
+							<ShortName>Vending Machine.wav</ShortName>
+							<Path>SFX\Vending Machine_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2035707747" Name="Water_Cooler" ObjectPath="\Events\Default Work Unit\Objects\Water_Cooler" DurationType="OneShot" DurationMin="2.410495" DurationMax="3.619123">
+					<IncludedMemoryFiles>
+						<File Id="207377676" Language="SFX">
+							<ShortName>Water Cooler 002.wav</ShortName>
+							<Path>SFX\Water Cooler 002_10C4C929.wem</Path>
+						</File>
+						<File Id="358267612" Language="SFX">
+							<ShortName>Water Cooler 001.wav</ShortName>
+							<Path>SFX\Water Cooler 001_10C4C929.wem</Path>
+						</File>
+						<File Id="1058011421" Language="SFX">
+							<ShortName>Water Cooler 003.wav</ShortName>
+							<Path>SFX\Water Cooler 003_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="809636474" Name="Willy" ObjectPath="\Events\Default Work Unit\Characters\Willy" DurationType="OneShot" DurationMin="6.643651" DurationMax="6.643651">
+					<IncludedMemoryFiles>
+						<File Id="268915267" Language="SFX">
+							<ShortName>Willy Water cooler guy.wav</ShortName>
+							<Path>SFX\Willy Water cooler guy_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

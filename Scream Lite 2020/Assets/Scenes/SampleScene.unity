@@ -2366,15 +2366,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca6e60d567c49e4582f373b5609e7d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4
-  floorMask:
-    serializedVersion: 2
-    m_Bits: 2304
-  MyEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e6f0611328d046645a10de627af253bd,
-      type: 2}
 --- !u!61 &926792795
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3143,7 +3134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 926792793}
-  enemySpeed: 400
+  objectSpeed: 200
   distanceToNextWayPoint: 3
 --- !u!114 &1242230282
 MonoBehaviour:
@@ -3801,7 +3792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 926792793}
-  enemySpeed: 400
+  objectSpeed: 200
   distanceToNextWayPoint: 3
 --- !u!114 &1374527187
 MonoBehaviour:

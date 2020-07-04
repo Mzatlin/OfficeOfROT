@@ -5,9 +5,19 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{177CD3A3-9041-4558-A71A-E2D6F47DEF74}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Willy" ID="{762E38D1-383D-41A0-90FF-510DFF4D6B5F}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Vending_Machine" ID="{318D4520-40B0-41F1-990B-1A0ADE914ADA}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Printer" ID="{A49649DE-E890-4240-BECE-5FA92F9447E2}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambience" ID="{E663ED92-2687-42A8-A388-2A7DE4F35360}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Solly" ID="{88987FB5-34F7-4383-99D7-A281F651748E}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Billy" ID="{9962AF5E-7F2B-4492-AA26-C033B1AB5BAF}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fridge" ID="{E5C1A0CF-CDAA-44E4-A7FD-5670541B11B5}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{9FC514E7-4D32-4503-96D3-80E3B1600AF1}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Water_Cooler" ID="{53632E5B-5E40-49C3-BF52-75F4B2276B00}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DoorOpen" ID="{1DAD460B-B5A8-4A32-8952-CF0393FDBA08}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Lighter" ID="{D48AF108-144F-4C51-93B5-5390C41AA89F}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music" ID="{E0727D6D-735D-4D69-AD36-E5FD3EF4C196}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Marsha" ID="{90C0C025-42B2-4E93-8027-26E164A24C05}" WorkUnitID="{AFB02F0F-AE93-4029-BF67-E78BD3A2D8AB}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
