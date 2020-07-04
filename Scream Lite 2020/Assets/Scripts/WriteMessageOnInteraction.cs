@@ -9,8 +9,6 @@ public class WriteMessageOnInteraction : MonoBehaviour,IInteractionWrite
     DialogProcessorSO dialogueWrite;
     [SerializeField]
     DialogSO dialogueSO;
-    [SerializeField]
-    DialogueObject dialogue;
 
 
     IInteract interaction;

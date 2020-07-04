@@ -10,7 +10,7 @@ public class DialogWriter : WriterBase
     public Queue<string> dialogueSentences;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         dialogCanvas.enabled = false;
         dialogueSentences = new Queue<string>();

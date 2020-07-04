@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Marsha1Menu1ResponseB
+  m_EditorClassIdentifier: 
+  name: Marsha
+  sentences:
+  - "I\u2019m managing. Figuratively and literally."
+  - Heh.
+  - "Wasn\u2019t a joke."
+  - Oh, sorry.
+  - "Skip on the jokes, focus on getting your work done, and come back well rested,
+    ok? You\u2019re a valuable team member and I don\u2019t want you running yourself
+    ragged."
+  - You mean like Billy?
+  - "Yes, like Billy. If you want you can take some of his work. If he\u2019s going
+    to complain about the extra work he asked for, he doesn\u2019t have to take it."
+  - "Can\u2019t you forward his Christmas bonus, or something?"
+  - "The last employee that was fired didn\u2019t even get a severance package. What
+    do you think?"
+  - Ah.
+  - "If you\u2019re done complaining on Billy\u2019s behalf, I suggest you head out
+    for the night."
+  - "Yes ma\u2019am."
+  options: []

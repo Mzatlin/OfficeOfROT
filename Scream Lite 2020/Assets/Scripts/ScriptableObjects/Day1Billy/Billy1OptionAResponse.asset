@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Billy1OptionAResponse
+  m_EditorClassIdentifier: 
+  name: Billy
+  sentences:
+  - "If it means I get to pretend to be better than you, then yes! Should\u2019ve
+    applied a few months sooner."
+  - "Maybe I should\u2019ve, then I could grill you for the eternity we\u2019ll be
+    working here."
+  - "Oh god, don\u2019t say that. You\u2019re gonna give me nightmares."
+  - Well, yea, I got all my stuff done for Marsha. Wanna go to a bar later?
+  - "Nah, can\u2019t. Speaking of Ms. Muillhauer, our beloved Supervisor threw some
+    extra work on my plate. I won\u2019t be out of here \u2018till like, 3. As if
+    my wife doesn\u2019t complain enough about my shifts."
+  - "But you\u2019re still happy to do it, of course?"
+  - Oh yea, I love working late into the night for the wicked witch of the west cubicle.
+  - "Hey, just tap your ruby slippers a couple of times and you\u2019ll be home free."
+  - Ha, screw you. Hope you choke on your beer.
+  - If only I were so lucky.
+  - "Haha, well, go on. Get out of here before she decides to keep you here too.
+    I\u2019d go ahead and chat with some of the other guys, too. Seem real razzed
+    lately. Don\u2019t let the mopping machine Frank catch you, though."
+  options: []

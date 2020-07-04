@@ -831,7 +831,7 @@ GameObject:
   - component: {fileID: 52260886}
   - component: {fileID: 52260885}
   m_Layer: 10
-  m_Name: TestObject2 (1)
+  m_Name: R.O.T Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -851,16 +851,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueWrite: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
   dialogueSO: {fileID: 11400000, guid: 0e5ddc474a83c0d41942b344d42d6a6d, type: 2}
-  dialogue:
-    name: You, the Player
-    name2: Billy
-    sentences:
-    - The truth is...
-    - "Hey, if you\u2019re lucky, maybe you\u2019ll meet someone at the bar. Go on
-      and get out of here before Marsha decides she likes you a little less. Before
-      you go, though, I\u2019d check in with the other guys. Seem razzed. Try to
-      avoid Frank\u2019s line of sight if you can. Should be easy since all he does
-      is mop."
 --- !u!114 &52260886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2595,6 +2585,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 758473391}
   m_RootOrder: 88
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &252146732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 252146733}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &252146733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252146732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.179494, y: -3.6971726, z: -9.226778}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &252219745
 GameObject:
@@ -4574,16 +4594,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueWrite: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
   dialogueSO: {fileID: 11400000, guid: 7174cafd8d791b74e8ecd2895382c763, type: 2}
-  dialogue:
-    name: You, the Player
-    name2: Billy
-    sentences:
-    - The truth is...
-    - "Hey, if you\u2019re lucky, maybe you\u2019ll meet someone at the bar. Go on
-      and get out of here before Marsha decides she likes you a little less. Before
-      you go, though, I\u2019d check in with the other guys. Seem razzed. Try to
-      avoid Frank\u2019s line of sight if you can. Should be easy since all he does
-      is mop."
 --- !u!114 &360428755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9172,7 +9182,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &735886304
 Transform:
   m_ObjectHideFlags: 0
@@ -9517,16 +9527,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueWrite: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
   dialogueSO: {fileID: 11400000, guid: 0e5ddc474a83c0d41942b344d42d6a6d, type: 2}
-  dialogue:
-    name: You, the Player
-    name2: Billy
-    sentences:
-    - The truth is...
-    - "Hey, if you\u2019re lucky, maybe you\u2019ll meet someone at the bar. Go on
-      and get out of here before Marsha decides she likes you a little less. Before
-      you go, though, I\u2019d check in with the other guys. Seem razzed. Try to
-      avoid Frank\u2019s line of sight if you can. Should be easy since all he does
-      is mop."
 --- !u!114 &763982722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11825,6 +11825,91 @@ Transform:
   m_Father: {fileID: 758473391}
   m_RootOrder: 169
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &891323134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 891323138}
+  - component: {fileID: 891323137}
+  - component: {fileID: 891323136}
+  - component: {fileID: 891323135}
+  m_Layer: 10
+  m_Name: SollyDialogueRadius
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &891323135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891323134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cd4106d196e794190ff4f6d22b7592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueWrite: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
+  dialogueSO: {fileID: 11400000, guid: 51a4c8bebfa292c45ab930242d98785c, type: 2}
+--- !u!114 &891323136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891323134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231673910186a914e928c2e1b6dd582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &891323137
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891323134}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.10955346, y: -0.028338537}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.4, y: 0.75}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6052011, y: 0.6653037}
+  m_EdgeRadius: 0
+--- !u!4 &891323138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891323134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.27, y: -3.94, z: -8.53}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &894243135
 GameObject:
   m_ObjectHideFlags: 0
@@ -12525,7 +12610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  objectSpeed: 200
+  objectSpeed: 250
   distanceToNextWayPoint: 1
   moveSpeed: 4
   floorMask:
@@ -12575,7 +12660,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 2
+  m_LinearDrag: 2.5
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -12981,6 +13066,91 @@ Transform:
   m_Children: []
   m_Father: {fileID: 758473391}
   m_RootOrder: 189
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &953982789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 953982793}
+  - component: {fileID: 953982792}
+  - component: {fileID: 953982791}
+  - component: {fileID: 953982790}
+  m_Layer: 10
+  m_Name: MarshaDialogueRadius
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &953982790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953982789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cd4106d196e794190ff4f6d22b7592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueWrite: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
+  dialogueSO: {fileID: 11400000, guid: 29db87c7306cd734b9e478997dcdc5b4, type: 2}
+--- !u!114 &953982791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953982789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231673910186a914e928c2e1b6dd582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &953982792
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953982789}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.040611282, y: -0.074222}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.4, y: 0.75}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.46731684, y: 0.4056778}
+  m_EdgeRadius: 0
+--- !u!4 &953982793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953982789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.27, y: -2.04, z: -8.53}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &959506525
 GameObject:
@@ -16314,16 +16484,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueWrite: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
   dialogueSO: {fileID: 11400000, guid: 0e5ddc474a83c0d41942b344d42d6a6d, type: 2}
-  dialogue:
-    name: You, the Player
-    name2: Billy
-    sentences:
-    - The truth is...
-    - "Hey, if you\u2019re lucky, maybe you\u2019ll meet someone at the bar. Go on
-      and get out of here before Marsha decides she likes you a little less. Before
-      you go, though, I\u2019d check in with the other guys. Seem razzed. Try to
-      avoid Frank\u2019s line of sight if you can. Should be easy since all he does
-      is mop."
 --- !u!114 &1197981074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31505,9 +31665,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2100684407}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a05725c2eb0f87439622de661d6b291, type: 3}
+  m_Script: {fileID: 11500000, guid: 561e679271e5d1c40bb0396a01329946, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueWrite: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
+  dialogueSO: {fileID: 11400000, guid: eec1d564db3258d4780a797229b9877a, type: 2}
 --- !u!1 &2102149695
 GameObject:
   m_ObjectHideFlags: 0
@@ -31615,6 +31777,91 @@ Transform:
   m_Children: []
   m_Father: {fileID: 758473391}
   m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2108973076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2108973080}
+  - component: {fileID: 2108973079}
+  - component: {fileID: 2108973078}
+  - component: {fileID: 2108973077}
+  m_Layer: 10
+  m_Name: BillyDialogueRadius
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2108973077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108973076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cd4106d196e794190ff4f6d22b7592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueWrite: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
+  dialogueSO: {fileID: 11400000, guid: fcb0b10906d031547b3a272c7b5e871e, type: 2}
+--- !u!114 &2108973078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108973076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231673910186a914e928c2e1b6dd582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &2108973079
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108973076}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.007421732, y: 0.0076312423}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.4, y: 0.75}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.37125063, y: 0.7372433}
+  m_EdgeRadius: 0
+--- !u!4 &2108973080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108973076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.3, y: -3.94, z: -8.53}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2133825549
 GameObject:

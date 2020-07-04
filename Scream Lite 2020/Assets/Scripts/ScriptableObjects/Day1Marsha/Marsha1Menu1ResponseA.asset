@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Marsha1Menu1ResponseA
+  m_EditorClassIdentifier: 
+  name: Marsha
+  sentences:
+  - What makes you say that?
+  - "I don\u2019t know\u2026 everyone just seems uh\u2026 frustrated? Exhausted?\r\n"
+  - "It\u2019s a stressful job. A lot of work has to be done to make deadlines."
+  - "Can\u2019t it be spaced out? Some of my co-workers are really feeling the stress."
+  - "It can\u2019t. We have a lot of data to compile and organize or else we\u2019ll
+    throw off the entire production pipeline. I\u2019m trying to spread the work
+    as evenly as possible."
+  - "Billy seems to be doing a lot of it\u2026"
+  - "He needed more money, didn\u2019t he? So I gave him more work."
+  - Right. Have a good night.
+  - Mmhm.
+  options: []

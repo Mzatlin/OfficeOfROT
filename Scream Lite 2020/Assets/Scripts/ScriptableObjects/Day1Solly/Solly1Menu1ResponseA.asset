@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Solly1Menu1ResponseA
+  m_EditorClassIdentifier: 
+  name: Solly
+  sentences:
+  - "That\u2019s awfully sweet of you! You doing anything fun tonight?"
+  - Just hitting the bars. Nothing too special.
+  - "Sounds fun! Tell me all about it when you get back. Oh\u2026 you\u2019re not
+    going in your suit, are you?"
+  - I mean, probably?
+  - Not a good look for catching the eye. I can help you find something nicer if
+    you want.
+  - "I\u2019m not looking for anyone, Sol. Just need to get my mind off work."
+  - You should try playing some solitaire. It distracts me from all my problems.
+  - You mean like the reports you have to write?
+  - "Exactly! I\u2019m close to winning this game. Go out and have a good time!"
+  options: []
