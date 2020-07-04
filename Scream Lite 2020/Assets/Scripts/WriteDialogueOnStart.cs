@@ -5,7 +5,7 @@ using UnityEngine;
 public class WriteDialogueOnStart : MonoBehaviour
 {
     [SerializeField]
-    DialogProcessorSO dialogueWrite;
+    DialogueLoader dialogueWrite;
     [SerializeField]
     DialogSO dialogueSO;
 

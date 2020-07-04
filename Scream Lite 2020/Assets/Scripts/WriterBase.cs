@@ -10,7 +10,7 @@ public class WriterBase : MonoBehaviour
     protected float typeSpeed = 3f;
     public TextMeshProUGUI textDialog;
     public Canvas dialogCanvas;
-    public DialogProcessorSO dialogue;
+    public DialogueLoader dialogue;
     public TextMeshProUGUI textName;
 
     void Start()

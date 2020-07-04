@@ -6,7 +6,7 @@ using UnityEngine;
 public class RaycastInteractionManager : MonoBehaviour
 {
   
-    public DialogProcessorSO dialog;
+    public DialogueLoader dialog;
     ICameraRaycast raycast;
     // Start is called before the first frame update
     void Start()

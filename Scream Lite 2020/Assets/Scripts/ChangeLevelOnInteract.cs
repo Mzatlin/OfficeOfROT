@@ -10,7 +10,7 @@ public class ChangeLevelOnInteract : HandleInteractBase
     [SerializeField]
     NPCCheckListSO checkList;
     [SerializeField]
-    DialogProcessorSO dialogueWrite;
+    DialogueLoader dialogueWrite;
     [SerializeField]
     DialogSO dialogueSO;
 

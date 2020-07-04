@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using System;
 
-[CreateAssetMenu(menuName = "DialougeProcessor")]
-public class DialogProcessorSO : ScriptableObject
+[CreateAssetMenu(menuName ="DialogueLoader")]
+public class DialogueLoader : ScriptableObject
 {
     public event Action OnWrite;
     public event Action OnMenuWrite;
@@ -18,10 +20,10 @@ public class DialogProcessorSO : ScriptableObject
         }
 
     }
-    
+
     public void DecideWriter()
     {
-        if(currentDialogue.options.Capacity <= 1)
+        if (currentDialogue.options.Capacity <= 1)
         {
             OnWrite();
         }

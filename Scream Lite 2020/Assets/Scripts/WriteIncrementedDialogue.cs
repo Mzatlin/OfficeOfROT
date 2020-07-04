@@ -5,7 +5,7 @@ using UnityEngine;
 public class WriteIncrementedDialogue : HandleInteractBase
 {
     public bool canRepeat = false;
-    public DialogProcessorSO dialogueWrite;
+    public DialogueLoader dialogueWrite;
     public List<DialogSO> dialogueSO;
     int index =0;
 

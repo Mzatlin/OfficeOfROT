@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class WriteOnInteractBase : MonoBehaviour
 {
-    [SerializeField]
-    protected DialogProcessorSO dialogueWrite;
+  
+    public DialogueLoader dialogueWrite;
     [SerializeField]
     protected DialogSO dialogueSO;
     // Start is called before the first frame update

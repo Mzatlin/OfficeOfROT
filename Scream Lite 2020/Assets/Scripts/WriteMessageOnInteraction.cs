@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class WriteMessageOnInteraction : HandleInteractBase
 {
-    public DialogProcessorSO dialogueWrite;
+    public DialogueLoader dialogueWrite;
     public DialogSO dialogueSO;
 
     protected override void Awake()
