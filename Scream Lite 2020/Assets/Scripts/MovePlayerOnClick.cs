@@ -28,7 +28,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
     void FixedUpdate()
     {
 
-        if (isMoving)
+        if (isMoving && path != null)
         {
             CheckPathing();
             MoveSeeker();
@@ -41,15 +41,21 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
         }
         if (Input.GetMouseButtonDown(0) && raycast.RayHit && (1 << raycast.RayHit.collider.gameObject.layer & floorMask) != 0)
         {
-            MyEvent.Post(gameObject);
+            PlaySound();
             mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-            //  finalPosition.position = mousePosition;
-            //  target = finalPosition;
             UpdatePath();
             isMoving = true;
 
         }
 
+    }
+
+    void PlaySound()
+    {
+        if (!isMoving)
+        {
+            MyEvent.Post(gameObject);
+        }
     }
 
     protected override void UpdatePath()

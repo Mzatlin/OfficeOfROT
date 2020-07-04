@@ -17,6 +17,7 @@ public class GameObjectPathingBase : MonoBehaviour
     protected Seeker seeker;
     protected Rigidbody2D rb;
     protected Vector2 direction;
+    protected Vector2 force;
 
     protected int currentWayPoint = 0;
     protected bool reachedEndOfPath = false;

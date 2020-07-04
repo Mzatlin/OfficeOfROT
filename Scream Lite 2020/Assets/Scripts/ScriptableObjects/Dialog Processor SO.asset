@@ -12,13 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Dialog Processor SO
   m_EditorClassIdentifier: Assembly-CSharp::DialogProcessorSO
-  currentDialogue:
-    name: You, the Player
-    name2: Billy
-    sentences:
-    - The truth is...
-    - "Hey, if you\u2019re lucky, maybe you\u2019ll meet someone at the bar. Go on
-      and get out of here before Marsha decides she likes you a little less. Before
-      you go, though, I\u2019d check in with the other guys. Seem razzed. Try to
-      avoid Frank\u2019s line of sight if you can. Should be easy since all he does
-      is mop."
+  currentDialogue: {fileID: 0}

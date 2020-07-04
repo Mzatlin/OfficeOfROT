@@ -1202,7 +1202,7 @@ GameObject:
   - component: {fileID: 70558761}
   - component: {fileID: 70558760}
   - component: {fileID: 70558759}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tile (127)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3051,7 +3051,7 @@ GameObject:
   - component: {fileID: 261705256}
   - component: {fileID: 261705255}
   - component: {fileID: 261705254}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tile (109)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4509,7 +4509,7 @@ GameObject:
   - component: {fileID: 353269085}
   - component: {fileID: 353269084}
   - component: {fileID: 353269083}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tile (123)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4869,7 +4869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: SampleScene
   checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
-  dialogueWrite: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
+  dialogueWrite: {fileID: 0}
   dialogueSO: {fileID: 11400000, guid: 084dbe6cf8e57c04085ac388bb884b03, type: 2}
 --- !u!114 &360428760
 MonoBehaviour:
@@ -5214,6 +5214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 366004878}
   - component: {fileID: 366004879}
+  - component: {fileID: 366004880}
   m_Layer: 0
   m_Name: New Sprite
   m_TagString: Untagged
@@ -5285,6 +5286,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &366004880
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366004877}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1481d4ee3ed7a314199f62bbc5a59967, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &369494963
 GameObject:
   m_ObjectHideFlags: 0
@@ -5505,8 +5525,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -8348929976448271042, guid: b741be4e4a4e6cb4e9058416569e5b91,
+    type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5642,7 +5663,7 @@ GameObject:
   - component: {fileID: 390700748}
   - component: {fileID: 390700747}
   - component: {fileID: 390700746}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tile (108)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5929,8 +5950,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.039494473, y: 0.08400001}
   m_AnchorMax: {x: 1, y: 0.37100002}
-  m_AnchoredPosition: {x: -14.599976, y: 41.400024}
-  m_SizeDelta: {x: -29.599998, y: -2.2999878}
+  m_AnchoredPosition: {x: -14.699982, y: 20.125015}
+  m_SizeDelta: {x: -29.399963, y: 40.25003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &403580790
 MonoBehaviour:
@@ -5945,14 +5966,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 75882586e77b1b14fbcf891e226a1301, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6113,7 +6134,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 294, y: -148}
+  m_AnchoredPosition: {x: 282, y: -164}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419059903
@@ -6189,8 +6210,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -8348929976448271042, guid: b741be4e4a4e6cb4e9058416569e5b91,
+    type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7165,7 +7187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f54056e4a32984c8942948168de891, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialog: {fileID: 11400000, guid: 19d048ccff2330440a62805ba6b754ac, type: 2}
+  dialog: {fileID: 0}
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9172,8 +9194,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -8348929976448271042, guid: b741be4e4a4e6cb4e9058416569e5b91,
+    type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -15692,7 +15715,7 @@ GameObject:
   - component: {fileID: 1083710535}
   - component: {fileID: 1083710534}
   - component: {fileID: 1083710533}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tile (107)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16448,7 +16471,7 @@ GameObject:
   - component: {fileID: 1170317343}
   - component: {fileID: 1170317342}
   - component: {fileID: 1170317341}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tile (122)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17008,7 +17031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAACYn+u+IGyzYgIAAAUFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMty2jAU/RVG65IxDuHRXesQ0kUeU9rJxhthXWMNsuTRI0Ay/HuvZBk7dIW455yrcx/yJ+HSNFBYpdeasyfFgHwfEX8m30Y9+AhHulNywz+g47xxZitPooHzm1quMD7xMqNqsJoXP+ROeHKCQSd5qXS9YjvIlLEGwyUVBhDSynq1xNDniBzxZ7z0khOe0rk/feBpmYzOeCxAWtA9Nb1Jbme388UsjYpxepMmd/NkcReFrc7JQtC6AeaLGMgnUTZpaRLLiwyPFEoIbqI3Yk9NqD2jjXFYGRIYp1hrMOT5FfBdZX3eofilLA3Y2AhNT/dcY8varOSnavtYU7Nvfb1T4fw9i8kyDabarE//EcaTAJda1Y/dxZPEX2IrXux/01NBjR10ehi+/+rcyQMVe7oV8FaBfFZrrZxkCFrtvNQZSO/7v5fasgqKfR9vrV4FXdM3vBtsN1ZfwzmUf8wEr7ceupm2gY1QoeFhG0DjaH6h4bArJqbAqHfx18AfuhsuVQQeuDYWoVil9Pa2ymlPJavQM1+Ns5nSEkI4mm5AUmFPr5jGXs/wChtce4U8UP984uUR617FlSSEe36SXEGv6nAZlqnU4QlM9eKs4BJ60x54xj5lSsp2xYY96WQbp0taDGQ7x9nX1SI0mbPFYrlIt2lZFrAd303plM0hpcvpdEZnKQm7xyXWScVrazS2B6cm++QS96z7qozWmjZh3ZmmhzX/qNWg5VyWalNoAPnSZrgYB42X4LNkK8axQRuwlsswb/KZE6GKPbD8kigPla6OVtO8z5KThr8r6yM5ycJnJCdncv4HUEsDBBQAAAgIAACYn+tulr0LbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrRSooF5ioWFpYVRklFaWnJqkq6pSaJJinmqUaKliYlZopmRUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACYn+u+IGyzYgIAAAUFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACYn+tulr0LbQAAAHgAAAAJACQAAAAAAAAAAAAAAK8CAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAZwMAAAAA
+    dataString: UEsDBBQAAAgIAACAn+u+IGyzYgIAAAUFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMty2jAU/RVG65IxDuHRXesQ0kUeU9rJxhthXWMNsuTRI0Ay/HuvZBk7dIW455yrcx/yJ+HSNFBYpdeasyfFgHwfEX8m30Y9+AhHulNywz+g47xxZitPooHzm1quMD7xMqNqsJoXP+ROeHKCQSd5qXS9YjvIlLEGwyUVBhDSynq1xNDniBzxZ7z0khOe0rk/feBpmYzOeCxAWtA9Nb1Jbme388UsjYpxepMmd/NkcReFrc7JQtC6AeaLGMgnUTZpaRLLiwyPFEoIbqI3Yk9NqD2jjXFYGRIYp1hrMOT5FfBdZX3eofilLA3Y2AhNT/dcY8varOSnavtYU7Nvfb1T4fw9i8kyDabarE//EcaTAJda1Y/dxZPEX2IrXux/01NBjR10ehi+/+rcyQMVe7oV8FaBfFZrrZxkCFrtvNQZSO/7v5fasgqKfR9vrV4FXdM3vBtsN1ZfwzmUf8wEr7ceupm2gY1QoeFhG0DjaH6h4bArJqbAqHfx18AfuhsuVQQeuDYWoVil9Pa2ymlPJavQM1+Ns5nSEkI4mm5AUmFPr5jGXs/wChtce4U8UP984uUR617FlSSEe36SXEGv6nAZlqnU4QlM9eKs4BJ60x54xj5lSsp2xYY96WQbp0taDGQ7x9nX1SI0mbPFYrlIt2lZFrAd303plM0hpcvpdEZnKQm7xyXWScVrazS2B6cm++QS96z7qozWmjZh3ZmmhzX/qNWg5VyWalNoAPnSZrgYB42X4LNkK8axQRuwlsswb/KZE6GKPbD8kigPla6OVtO8z5KThr8r6yM5ycJnJCdncv4HUEsDBBQAAAgIAACAn+tulr0LbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrRSooF5ioWFpYVRklFaWnJqkq6pSaJJinmqUaKliYlZopmRUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACAn+u+IGyzYgIAAAUFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACAn+tulr0LbQAAAHgAAAAJACQAAAAAAAAAAAAAAK8CAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAZwMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -17714,7 +17737,7 @@ GameObject:
   - component: {fileID: 1239378477}
   - component: {fileID: 1239378476}
   - component: {fileID: 1239378475}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tile (131)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17826,7 +17849,7 @@ GameObject:
   - component: {fileID: 1242230281}
   - component: {fileID: 1242230280}
   m_Layer: 0
-  m_Name: Enemy Test (1)
+  m_Name: Mantis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17866,7 +17889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 926792793}
-  objectSpeed: 200
+  objectSpeed: 150
   distanceToNextWayPoint: 1
 --- !u!114 &1242230282
 MonoBehaviour:
@@ -18388,8 +18411,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -8348929976448271042, guid: b741be4e4a4e6cb4e9058416569e5b91,
+    type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -18417,7 +18441,7 @@ GameObject:
   - component: {fileID: 1268496349}
   - component: {fileID: 1268496348}
   - component: {fileID: 1268496347}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tile (110)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20535,7 +20559,7 @@ GameObject:
   - component: {fileID: 1374527185}
   - component: {fileID: 1374527191}
   m_Layer: 0
-  m_Name: Enemy Test
+  m_Name: WillyMonster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20575,7 +20599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 926792793}
-  objectSpeed: 200
+  objectSpeed: 150
   distanceToNextWayPoint: 1
 --- !u!114 &1374527187
 MonoBehaviour:
@@ -20986,7 +21010,7 @@ GameObject:
   - component: {fileID: 1383322250}
   - component: {fileID: 1383322249}
   - component: {fileID: 1383322248}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tile (112)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21117,8 +21141,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.039494473, y: 0.08400001}
   m_AnchorMax: {x: 1, y: 0.37100002}
-  m_AnchoredPosition: {x: -14.599915, y: 41.400047}
-  m_SizeDelta: {x: -29.599998, y: -2.2999878}
+  m_AnchoredPosition: {x: -14.700012, y: 20.125}
+  m_SizeDelta: {x: -29.399963, y: 40.25006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1399791131
 MonoBehaviour:
@@ -21133,14 +21157,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 75882586e77b1b14fbcf891e226a1301, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -22631,6 +22655,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1483184437}
   - component: {fileID: 1483184438}
+  - component: {fileID: 1483184439}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -22702,6 +22727,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1483184439
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483184436}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7c27ffd87e953344d917c6b4e5295668, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1484582400
 GameObject:
   m_ObjectHideFlags: 0
@@ -23598,7 +23642,7 @@ GameObject:
   - component: {fileID: 1529280093}
   - component: {fileID: 1529280092}
   - component: {fileID: 1529280091}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tile (132)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27202,7 +27246,7 @@ GameObject:
   - component: {fileID: 1765458657}
   - component: {fileID: 1765458656}
   - component: {fileID: 1765458655}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tile (106)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29758,7 +29802,7 @@ GameObject:
   - component: {fileID: 1923040464}
   - component: {fileID: 1923040463}
   - component: {fileID: 1923040462}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tile (126)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30514,7 +30558,7 @@ GameObject:
   - component: {fileID: 1981164267}
   - component: {fileID: 1981164266}
   - component: {fileID: 1981164265}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tile (125)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31965,7 +32009,7 @@ GameObject:
   - component: {fileID: 2088009938}
   - component: {fileID: 2088009937}
   - component: {fileID: 2088009936}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tile (111)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

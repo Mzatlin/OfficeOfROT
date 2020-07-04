@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using System;
+
 [CreateAssetMenu(menuName = "DialougeProcessor")]
 public class DialogProcessorSO : ScriptableObject
 {
@@ -9,8 +8,6 @@ public class DialogProcessorSO : ScriptableObject
     public event Action OnMenuWrite;
     public event Action OnEnd;
     public DialogSO currentDialogue;
-
-
 
     public void SetupDialougeWriter(DialogSO dialogue)
     {
