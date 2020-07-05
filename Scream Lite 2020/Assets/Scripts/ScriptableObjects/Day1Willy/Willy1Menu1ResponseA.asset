@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Willy1Menu1ResponseA
+  m_EditorClassIdentifier: 
+  name: You
+  name2: Willy
+  sentences:
+  - "Yup! He\u2019s takin\u2019 the day off to go to the greens! I said I\u2019d
+    watch over the place for him. Gotta enjoy the fresh air on the lord\u2019s day
+    right?"
+  - Sure. He went golfing, huh? (God, I wish I was golfing)
+  - "Yup! He\u2019s a real talent. If you want, I can put in a good word for you."
+  - No thanks, Willy.
+  - "Okay! Well, uh, don\u2019t be a stranger! I\u2019m always by the water cooler,
+    if you want to chat!"
+  - I know, Willy.
+  options: []

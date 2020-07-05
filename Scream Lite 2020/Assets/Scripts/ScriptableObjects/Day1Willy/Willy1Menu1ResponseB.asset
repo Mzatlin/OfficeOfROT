@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Willy1Menu1ResponseB
+  m_EditorClassIdentifier: 
+  name: You
+  name2: Willy
+  sentences:
+  - Room temperature! You finished with all your reports? You probably did, but dad
+    would want me to make sure his employees are doing things right!
+  - Yes sir.
+  - Well then get on out of here, you rascal! Go have some fun. Maybe hit the bars!
+  - "I will be sure to do that. (Isn\u2019t he like 10 years younger than me?)"
+  options: []
