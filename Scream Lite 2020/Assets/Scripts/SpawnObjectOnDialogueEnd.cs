@@ -3,8 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnObjectOnDialogueEnd : HandleInteractBase
+public class SpawnObjectOnDialogueEnd : HandleInteractBase, IExitSpawn
 {
+    public event Action OnSpawnEnd;
     public List<GameObject> spawnObjects = new List<GameObject>();
     public NPCCheckListSO checkList;
     public DialogueLoader dialogueWrite;
@@ -55,6 +56,7 @@ public class SpawnObjectOnDialogueEnd : HandleInteractBase
 
         if (isFinished)
         {
+            OnSpawnEnd();
             foreach (GameObject obj in spawnObjects)
             {
                 obj.SetActive(true);

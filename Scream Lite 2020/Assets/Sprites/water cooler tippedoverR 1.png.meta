@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: f17554d5e1497b44f8bbea8a48abfb24
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4032888180619885622
+    second: water cooler tippedoverR 1_0
+  - first:
+      213: 6081269974334835610
+    second: water cooler tippedoverR 1_1
+  - first:
+      213: -6401496777772306343
+    second: water cooler tippedoverR 1_2
+  - first:
+      213: 5261308768312469028
+    second: water cooler tippedoverR 1_3
+  - first:
+      213: -623649350738630010
+    second: water cooler tippedoverR 1_4
+  - first:
+      213: -5242559537378833839
+    second: water cooler tippedoverR 1_5
+  - first:
+      213: 1453717508230283945
+    second: water cooler tippedoverR 1_6
+  - first:
+      213: -6971455175803810836
+    second: water cooler tippedoverR 1_7
+  - first:
+      213: -539344065538169685
+    second: water cooler tippedoverR 1_8
+  - first:
+      213: 5582781313150066269
+    second: water cooler tippedoverR 1_9
+  - first:
+      213: 194763532560406786
+    second: water cooler tippedoverR 1_10
+  - first:
+      213: 5374715290668964858
+    second: water cooler tippedoverR 1_11
+  - first:
+      213: 4979479724481180484
+    second: water cooler tippedoverR 1_12
+  - first:
+      213: -5640057820257561550
+    second: water cooler tippedoverR 1_13
+  - first:
+      213: 3712899128329836777
+    second: water cooler tippedoverR 1_14
+  - first:
+      213: -729410940977751887
+    second: water cooler tippedoverR 1_15
+  - first:
+      213: -388730604238808254
+    second: water cooler tippedoverR 1_16
+  - first:
+      213: -1727731816080290131
+    second: water cooler tippedoverR 1_17
+  - first:
+      213: -2627433479457686298
+    second: water cooler tippedoverR 1_18
+  - first:
+      213: 3172052880193544911
+    second: water cooler tippedoverR 1_19
+  - first:
+      213: 1320764116072001989
+    second: water cooler tippedoverR 1_20
+  - first:
+      213: 6280204821795520448
+    second: water cooler tippedoverR 1_21
+  - first:
+      213: 7031600274014756155
+    second: water cooler tippedoverR 1_22
+  - first:
+      213: 7983039595384221704
+    second: water cooler tippedoverR 1_23
+  - first:
+      213: 3060463465123538467
+    second: water cooler tippedoverR 1_24
+  - first:
+      213: 5136177300196697459
+    second: water cooler tippedoverR 1_25
+  - first:
+      213: -3302179062325913541
+    second: water cooler tippedoverR 1_26
+  - first:
+      213: 972472504708049870
+    second: water cooler tippedoverR 1_27
+  - first:
+      213: -389802098542290737
+    second: water cooler tippedoverR 1_28
+  - first:
+      213: -5064386747585124896
+    second: water cooler tippedoverR 1_29
+  - first:
+      213: 8805707217249997866
+    second: water cooler tippedoverR 1_30
+  - first:
+      213: 8361139141801571435
+    second: water cooler tippedoverR 1_31
+  - first:
+      213: -7206665299704326922
+    second: water cooler tippedoverR 1_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c38b0ee62b7f730800000000000000
+      internalID: 4032888180619885622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b0a7b52d2056450800000000000000
+      internalID: 6081269974334835610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 0
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950f212e8905927a0800000000000000
+      internalID: -6401496777772306343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426a9ecf27ce30940800000000000000
+      internalID: 5261308768312469028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a22d0483a5857f0800000000000000
+      internalID: -623649350738630010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_5
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 0
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ac2b480efae37b0800000000000000
+      internalID: -5242559537378833839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_6
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a205d12f54ac2410800000000000000
+      internalID: 1453717508230283945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_7
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 0
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebc7a6347a604f90800000000000000
+      internalID: -6971455175803810836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_8
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 0
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4e1e11e6dd388f0800000000000000
+      internalID: -539344065538169685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_9
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 0
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e9ff486060a7d40800000000000000
+      internalID: 5582781313150066269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_10
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 0
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2099675a660f3b200800000000000000
+      internalID: 194763532560406786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_11
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 0
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb1f259413d69a40800000000000000
+      internalID: 5374715290668964858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_12
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 0
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443f5ff4d6aaa1540800000000000000
+      internalID: 4979479724481180484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_13
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 0
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23452e67b4d7ab1b0800000000000000
+      internalID: -5640057820257561550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_14
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 0
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e815fed51ed68330800000000000000
+      internalID: 3712899128329836777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_15
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 0
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8dcbf1d9c90e5f0800000000000000
+      internalID: -729410940977751887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_16
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bd5053393fa9af0800000000000000
+      internalID: -388730604238808254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_17
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 0
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daec463311dd508e0800000000000000
+      internalID: -1727731816080290131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_18
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 0
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecb4f1db2b798bd0800000000000000
+      internalID: -2627433479457686298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_19
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 0
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2e0bcc945650c20800000000000000
+      internalID: 3172052880193544911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_20
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 0
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1fd8247fb445210800000000000000
+      internalID: 1320764116072001989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_21
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 0
+        width: 63
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf31dfe205c72750800000000000000
+      internalID: 6280204821795520448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_22
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 0
+        width: 65
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d5037b133459160800000000000000
+      internalID: 7031600274014756155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_23
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 0
+        width: 69
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80031ce473479ce60800000000000000
+      internalID: 7983039595384221704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_24
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 0
+        width: 71
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326efb67e43f87a20800000000000000
+      internalID: 3060463465123538467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_25
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 0
+        width: 72
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37526a9ba0e574740800000000000000
+      internalID: 5136177300196697459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_26
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 0
+        width: 76
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38d45573ad4c22d0800000000000000
+      internalID: -3302179062325913541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_27
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 0
+        width: 75
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb25f4379aee7d00800000000000000
+      internalID: 972472504708049870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_28
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 0
+        width: 75
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc85faf7e05279af0800000000000000
+      internalID: -389802098542290737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_29
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 0
+        width: 75
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e52ef8d51fa7b9b0800000000000000
+      internalID: -5064386747585124896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_30
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 0
+        width: 76
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2497483f08243a70800000000000000
+      internalID: 8805707217249997866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_31
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 0
+        width: 76
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6472b010cbb80470800000000000000
+      internalID: 8361139141801571435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water cooler tippedoverR 1_32
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 0
+        width: 74
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f45dfba718ccfb90800000000000000
+      internalID: -7206665299704326922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
