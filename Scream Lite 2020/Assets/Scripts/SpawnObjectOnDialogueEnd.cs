@@ -3,27 +3,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnObjectOnDialogueEnd : MonoBehaviour
+public class SpawnObjectOnDialogueEnd : HandleInteractBase
 {
-    [SerializeField]
-    GameObject spawnObject;
-    [SerializeField]
-    DialogueLoader dialogue;
+
+    public List<GameObject> spawnObjects = new List<GameObject>();
+    public DialogueLoader dialogue;
     IInteractionWrite interact;
+    bool isFinished;
     // Start is called before the first frame update
     void Start()
     {
-        spawnObject.SetActive(false);
+        foreach (GameObject obj in spawnObjects)
+        {
+            obj.SetActive(false);
+        }
+
         interact = GetComponent<IInteractionWrite>();
         dialogue.OnEnd += HandleEnd;
+        dialogue.OnWrite += HandleInteraction;
     }
 
-    private void HandleEnd()
+    protected override void HandleInteraction()
     {
-        if (interact.IsInteracting)
-        {
-            spawnObject.SetActive(true);
-        }
+        base.HandleInteraction();
+    }
+
+    protected override void HandleEnd()
+    {
+
+   //     if (interact.IsInteracting)
+   //     {
+            foreach (GameObject obj in spawnObjects)
+            {
+                obj.SetActive(true);
+            }
+   //     }
+        base.HandleEnd();
+
+
     }
 
 }
