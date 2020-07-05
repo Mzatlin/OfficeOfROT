@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Willy3Start
+  m_EditorClassIdentifier: 
+  name: Willy
+  name2: You
+  sentences:
+  - "I need a drink\u2026"
+  - "Haven\u2019t you had enough of those?"
+  - CHRIST!
+  - "I know you\u2019ve been hitting the bottles. I know an alcoholic when I see
+    one."
+  - "I-I\u2019m not an-"
+  - "You don\u2019t think I know someone who drinks to get through the day? Why do
+    you think I drink so much water here? The hangovers are atrocious if you don\u2019t."
+  - Jesus, Willy.
+  - "It really weighs down on a guy. Dad gets to make money while I do all the work.
+    Everyone here is afraid of me and refuses to talk to me. Except you. You\u2019re
+    the only person in this place who pretends to even care."
+  - "Willy\u2026"
+  - "It\u2019s one thing for your dad to not care, it\u2019s another when the people
+    who are in the same boat as you treat you like a pariah. I see you talking with
+    the others and no matter how hard I try I could never have that. Everyone scattered
+    to the winds the second I say \u2018hello.\u2019 So I waited here. Waited for
+    anyone to talk to me. I was stupid to think otherwise. Like anybody would care
+    about the rich boss\u2019s step-son."
+  - His step-son?
+  - "He never had any kids, married my mom, and now I\u2019m here. He won\u2019t
+    even write me into his will. Isn\u2019t that awful? I run the place for him and
+    he won\u2019t even consider me his actual flesh and blood. I\u2019m a joke. It\u2019s
+    all I ever will be."
+  options: []

@@ -772,9 +772,9 @@ MonoBehaviour:
   canRepeat: 1
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
   dialogueSO:
-  - {fileID: 11400000, guid: 0e5ddc474a83c0d41942b344d42d6a6d, type: 2}
-  - {fileID: 11400000, guid: 15c23333b990d1744bd859d3f551b013, type: 2}
-  - {fileID: 11400000, guid: d2da06cb652071c419be0448c92ff335, type: 2}
+  - {fileID: 11400000, guid: 39fd820f9a7233d4a88ed621d2d031eb, type: 2}
+  - {fileID: 11400000, guid: 9f830633465a15e43a4550712284666f, type: 2}
+  - {fileID: 11400000, guid: c58365ffa0f56df47803f6495acf8e34, type: 2}
 --- !u!114 &52260891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10189,8 +10189,9 @@ GameObject:
   - component: {fileID: 763982726}
   - component: {fileID: 763982729}
   - component: {fileID: 763982728}
-  - component: {fileID: 763982721}
   - component: {fileID: 763982730}
+  - component: {fileID: 763982721}
+  - component: {fileID: 763982731}
   m_Layer: 15
   m_Name: Janitor
   m_TagString: Untagged
@@ -10207,16 +10208,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 763982720}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e65b27580317eb4cb5156eebe8a890c, type: 3}
+  m_Script: {fileID: 11500000, guid: 80a2ed226e4795549be8f3b5e1787ea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canRepeat: 0
-  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
-  dialogueSO:
-  - {fileID: 11400000, guid: 9ae2d40ef9496654d9c05d33663b8bab, type: 2}
-  - {fileID: 11400000, guid: 18c7db1f95d593948ab0b491d758bed5, type: 2}
-  - {fileID: 11400000, guid: a7790c089da678c4eb192e52dbf706d2, type: 2}
-  - {fileID: 11400000, guid: a6244af529d624344a4ef719ce7fad3d, type: 2}
+  endOptions:
+  - {fileID: 11400000, guid: 5d66482ef94ff5643902aeb9374d4e19, type: 2}
+  responses:
+  - {fileID: 11400000, guid: c2c6f03d790a0744b80e4bd120a1d1b0, type: 2}
+  writer: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
 --- !u!114 &763982722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10456,6 +10455,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Frank
   checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
+--- !u!114 &763982731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763982720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebadff94709d1645a37a08547d6292c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  dialogueSO: {fileID: 11400000, guid: c2c6f03d790a0744b80e4bd120a1d1b0, type: 2}
 --- !u!1 &771466795
 GameObject:
   m_ObjectHideFlags: 0
@@ -12470,13 +12483,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endOptions:
-  - {fileID: 11400000, guid: 3ed6cf4efda26ad4ca360feb08442b77, type: 2}
-  - {fileID: 11400000, guid: f8f8fef6370f46c47a134e0c867f2c89, type: 2}
-  - {fileID: 11400000, guid: d957bf3c810bd764d9764b918d8b5a69, type: 2}
+  - {fileID: 11400000, guid: 7c913e75bbeb57c42b24896f868135a1, type: 2}
   responses:
-  - {fileID: 11400000, guid: a604d47457a22144c93457f116608f19, type: 2}
-  - {fileID: 11400000, guid: 7d21a7ead532f1a48bd2a3979c9602cb, type: 2}
-  - {fileID: 11400000, guid: e06f52469c8702e4ca0be8a1fcf442eb, type: 2}
+  - {fileID: 11400000, guid: 5cee6963a836e714db8f6e4f4ebcb94e, type: 2}
   writer: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
 --- !u!114 &891323136
 MonoBehaviour:
@@ -12557,7 +12566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
-  dialogueSO: {fileID: 11400000, guid: 51a4c8bebfa292c45ab930242d98785c, type: 2}
+  dialogueSO: {fileID: 11400000, guid: 5cee6963a836e714db8f6e4f4ebcb94e, type: 2}
 --- !u!1 &894243135
 GameObject:
   m_ObjectHideFlags: 0
@@ -13642,7 +13651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
-  dialogueSO: {fileID: 11400000, guid: 29db87c7306cd734b9e478997dcdc5b4, type: 2}
+  dialogueSO: {fileID: 11400000, guid: c62e10813da8f49448e3b3a02bdab228, type: 2}
 --- !u!114 &953982796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13656,13 +13665,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endOptions:
-  - {fileID: 11400000, guid: 503f81480ab021544be58bdb90b54143, type: 2}
-  - {fileID: 11400000, guid: cee33c2db64fa2046ba7829d50ab52f4, type: 2}
-  - {fileID: 11400000, guid: 50fe626f822451847ba04910bbe8ce4c, type: 2}
+  - {fileID: 11400000, guid: dcc9c46bfbc4de74e8b2022b0fc569ad, type: 2}
   responses:
-  - {fileID: 11400000, guid: c06851de65117ed489b436d5a595e77f, type: 2}
-  - {fileID: 11400000, guid: d3fe879b0403d3c4b9e39dacef1c1418, type: 2}
-  - {fileID: 11400000, guid: 72a0b625243adb84c9bae68079a98ebe, type: 2}
+  - {fileID: 11400000, guid: c62e10813da8f49448e3b3a02bdab228, type: 2}
   writer: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
 --- !u!1 &959506525
 GameObject:
@@ -16797,7 +16802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
-  dialogueSO: {fileID: 11400000, guid: 413d6e27a451aa64dbdae672da8ab535, type: 2}
+  dialogueSO: {fileID: 11400000, guid: be418b8e168a71a489f509c8a26d9997, type: 2}
 --- !u!114 &1197981074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16929,13 +16934,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endOptions:
-  - {fileID: 11400000, guid: 7353d1227bd2e274cbfb0770980e04dc, type: 2}
-  - {fileID: 11400000, guid: 287648af0d111ba4e999b3bdb81912c5, type: 2}
-  - {fileID: 11400000, guid: f45aa4b8be6f3424e8dff03979f0d6da, type: 2}
+  - {fileID: 11400000, guid: 8582055a128413b41a6def9484ae7569, type: 2}
   responses:
-  - {fileID: 11400000, guid: 32b047f8056294a4294c34867d8f9ec1, type: 2}
-  - {fileID: 11400000, guid: 8f227395fa16e114e96e406f9eb79e48, type: 2}
-  - {fileID: 11400000, guid: 5b0053eb8c700f740aa37367b6b5ed61, type: 2}
+  - {fileID: 11400000, guid: be418b8e168a71a489f509c8a26d9997, type: 2}
   writer: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
 --- !u!95 &1197981080
 Animator:
@@ -30491,7 +30492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
-  dialogueSO: {fileID: 11400000, guid: eec1d564db3258d4780a797229b9877a, type: 2}
+  dialogueSO: {fileID: 11400000, guid: 244ac3d73ef9e3946b258f28eb8128fd, type: 2}
 --- !u!1 &2102149695
 GameObject:
   m_ObjectHideFlags: 0
@@ -30634,7 +30635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
-  dialogueSO: {fileID: 11400000, guid: fcb0b10906d031547b3a272c7b5e871e, type: 2}
+  dialogueSO: {fileID: 11400000, guid: 63b91917444e245458716a90dd334e89, type: 2}
 --- !u!114 &2108973078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30714,13 +30715,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endOptions:
-  - {fileID: 11400000, guid: 1273e577b9ccf77488599144578dcef1, type: 2}
-  - {fileID: 11400000, guid: 809868ed3d99c4446a7d6bd83cc3268a, type: 2}
-  - {fileID: 11400000, guid: 75c6361d791b6384ba5822c9dc673566, type: 2}
+  - {fileID: 11400000, guid: 8d62445fa2bbbb44ebce74c78784f92b, type: 2}
   responses:
-  - {fileID: 11400000, guid: 41099d2f5cdab8d4a9ae3631b7ab7c12, type: 2}
-  - {fileID: 11400000, guid: fbc42de289211cc4fb2dea0a41c7fc61, type: 2}
-  - {fileID: 11400000, guid: c61afeefc28849e4695c5bd06b291618, type: 2}
+  - {fileID: 11400000, guid: 63b91917444e245458716a90dd334e89, type: 2}
   writer: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
 --- !u!1 &2133825549
 GameObject:

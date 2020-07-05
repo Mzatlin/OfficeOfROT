@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Frank3Start
+  m_EditorClassIdentifier: 
+  name: Frank
+  name2: You
+  sentences:
+  - What the hell did I step in?!
+  - "Hmm\u2026"
+  - God, Frank?! Wha-
+  - "I\u2019m sorry\u2026"
+  - What are you-
+  - "Couldn\u2019t clean up. I\u2019m a mess."
+  - What do you mean?
+  - "People here hate me. I\u2019m filthy. Disgusting. I\u2019m a mess. Can\u2019t
+    talk to no one. Don\u2019t know how."
+  - "Oh my god, Frank, I didn\u2019t know. I\u2019m sorry-"
+  - "You were the only one. Thanks. I\u2019m sorry \u2018bout the mess. I can\u2019t
+    clean it up\u2026"
+  options: []

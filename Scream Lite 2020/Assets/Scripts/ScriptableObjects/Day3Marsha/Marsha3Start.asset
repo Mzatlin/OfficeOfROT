@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Marsha3Start
+  m_EditorClassIdentifier: 
+  name: You
+  name2: Marsha
+  sentences:
+  - You again.
+  - "Oh my god\u2026"
+  - What? Say it. Call me whatever terrible things you and your friends came up for
+    me.
+  - "What\u2019re you-"
+  - "Doing this job is hard as hell. It\u2019s exhausting, tiring. I barely have
+    time to sleep or do anything for me. But I managed. Somehow I managed. But you
+    know what makes it unbearable? When you\u2019re constantly harassed and abused
+    by your co-workers. Trying to find ways to protect Sol from losing their job,
+    almost losing mine. All the while being told how horrible you are?"
+  - ...
+  - "Do you know how many complaints I\u2019ve filed for all the awful things that\u2019ve
+    been said about me behind my back? Being groped by my boss and having my job
+    used as leverage? Do you know how many times I was laughed out of that office?
+    How humiliating that is?"
+  - "I\u2026 I have no idea."
+  - "What was one of the things they called me? A preying mantis? No no, a man eater?
+    That\u2019s it\u2026 a man eater. If that\u2019s what they all want, then fine.
+    I\u2019ll rip their tiny little heads right off. I\u2019m done being used and
+    abused by you sick, disgusting people! "
+  - Marsha...
+  - "You\u2026 you\u2026 You were the only one who seemed to care. You and Sol were
+    the only two here who treated me with any respect. I\u2026 Go. Just leave. I
+    can\u2019t be  around you right now."
+  options: []

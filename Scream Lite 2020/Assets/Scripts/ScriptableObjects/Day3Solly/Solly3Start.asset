@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Solly3Start
+  m_EditorClassIdentifier: 
+  name: Solly
+  name2: You
+  sentences:
+  - Sol.. you-
+  - Not a very good look, is it?
+  - I can...I can get you out, I-
+  - "Don\u2019t worry about it, hon\u2026 I\u2019m on borrowed time, and AZT can
+    keep off what\u2019s eating at me for so long."
+  - What are you talking about?
+  - "It doesn\u2019t matter. You know, I wish I had done something more with my time
+    instead of working here to pay off my meds\u2026 In the little time I do have,
+    I\u2026Agh, I want to say, but, but I don\u2019t want you thinking any less of
+    me."
+  - W-Why would I?
+  - "You and Marsha made my days here. She helped me when no one else would, and
+    you\u2026 well, like I said, I don\u2019t want you to think less of me."
+  - "...oh. I\u2026 I would never, Sol. You\u2019re a good guy."
+  - ... Thank you. That means a lot.
+  options: []

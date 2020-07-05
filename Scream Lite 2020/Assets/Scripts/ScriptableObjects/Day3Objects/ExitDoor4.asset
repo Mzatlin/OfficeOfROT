@@ -12,8 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: ExitDoor4
   m_EditorClassIdentifier: 
-  name: You
-  name2: You
+  name: Billy, Willy, Frank, Solly, Marsha
+  name2: Billy, Willy, Frank, Solly, Marsha
   sentences:
-  - I can't leave them... they don't want me to leave...
+  - "I can\u2019t blame you for wanting to leave. All the hours we\u2019ve wasted
+    here. But you made it bearable. Its not as if we\u2019re actually going to amount
+    to anything. We can hope all we\u2019ll amount to something more. Not everyone
+    is that lucky. So please\u2026\r\n\r\n"
+  - 'Stay
+
+    
+
+'
   options: []
