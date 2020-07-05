@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Marsha2Menu1BResponse
+  m_EditorClassIdentifier: 
+  name: You
+  name2: Marsha
+  sentences:
+  - If you have something to say, then spit it out. Your co-workers are more than
+    comfortable with doing that.
+  - "They\u2019re not trying to insult you Marsha."
+  - Strange. Feels that way.
+  - You ever try talking to them?
+  - "About what? Doing my job? Trying to do what\u2019s best and fair for the team?"
+  - You mean like saddling Billy with extra work and letting Solly play Solitaire?
+  - "Billy ASKED for the extra work, you know that. And Solly\u2026 Solly gets their
+    work done. And if they can\u2019t, I find a way to get it done."
+  - "That\u2019s not even remotely fair!"
+  - "It is fair. It\u2019s about Equity, not Equality. I have my reasons for the
+    way things are run, I would hope you of all people can trust me on that."
+  - "I\u2026 sure. Fine."
+  - "Life tends not to be kind, and neither does this business. If you don\u2019t
+    like it, find somewhere else to work."
+  options: []

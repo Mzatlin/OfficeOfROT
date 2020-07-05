@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Billy2Menu2ResponseA
+  m_EditorClassIdentifier: 
+  name: You
+  name2: Billy
+  sentences:
+  - Perfectly! I slept a total of three hours! Had a long talk with the wife about
+    my habits.
+  - "That sounds\u2026 lovely."
+  - You bet! Trying to explain to her how earning money is not easy and very, VERY
+    time consuming, and our rundown house needs repairs.
+  - What was it this time? The pipes? The floors?
+  - "The roof! On the plus side, any time it rains, we have a nice waterfall installation
+    in the little one\u2019s room."
+  - Bet the kid loves that.
+  - Oh, totally! Her cries were the other couple hours that took up my sleep time.
+  - "You sure you don\u2019t want me to take any extra work from you?"
+  - "Trust me, I don\u2019t need Marsha thinking of me any less than she does. Don\u2019t
+    worry, you not helping helps a lot. Speaking of which, think you can mingle for
+    a bit? I gotta focus on this earning\u2019s report."
+  options: []

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Marsha2Menu1
+  m_EditorClassIdentifier: 
+  name: Marsha
+  name2: Marsha
+  sentences:
+  - "Why wouldn\u2019t I be?"
+  options:
+  - {fileID: 11400000, guid: d4991b1596f2f3644aeeb3dbf69d5ae3, type: 2}
+  - {fileID: 11400000, guid: 70fd3c6bcb13d774aa727dd4391732da, type: 2}
+  - {fileID: 11400000, guid: ceaf9739a67abd44d9f6487833edf034, type: 2}

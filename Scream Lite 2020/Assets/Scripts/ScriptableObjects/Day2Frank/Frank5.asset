@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Frank5
+  m_EditorClassIdentifier: 
+  name: Frank
+  name2: You
+  sentences:
+  - Hey there.
+  - Howdy.
+  - "Doin\u2019 good, hopefully?"
+  - "Sweaty. Hot. Tryna\u2019 clean up a mess."
+  - "Looks, uh\u2026 clean to me."
+  - Different kind.
+  - "I see. Uh\u2026 hope you can clean it."
+  - Mmhm.
+  options: []

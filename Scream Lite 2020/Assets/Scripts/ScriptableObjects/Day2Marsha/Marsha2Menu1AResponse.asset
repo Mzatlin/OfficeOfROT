@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Marsha2Menu1AResponse
+  m_EditorClassIdentifier: 
+  name: You
+  name2: Marsha
+  sentences:
+  - "\u201CIs that the new insult at me from around the office?"
+  - What do you mean?
+  - "I just assumed people had been throwing around more comments at my expense.
+    I must\u2019ve been mistaken."
+  - "We\u2019re all adults, Marsha, we wouldn\u2019t-"
+  - "I\u2019m not deaf, and I\u2019m definitely not stupid. I\u2019d say if anyone
+    has complaints, take it to HR, but from my experience, they don\u2019t really
+    listen."
+  - What?
+  - "Don\u2019t worry about it. I have work to finish up. I need to get home, forgot
+    to feed the cat this morning."
+  options: []

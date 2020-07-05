@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Frank6
+  m_EditorClassIdentifier: 
+  name: Frank
+  name2: You
+  sentences:
+  - What kind of mess are you cleaning?
+  - "S\u2019personal\u2026"
+  - "...What kind of personal? It\u2019s not uh, messy, is it?"
+  - Not that kind.
+  - Oh, thank god.
+  - Yup.
+  options: []

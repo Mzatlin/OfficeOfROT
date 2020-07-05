@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Billy2Menu2ResponseB
+  m_EditorClassIdentifier: 
+  name: You
+  name2: Billy
+  sentences:
+  - God, I wish I could have a drink! I got no time or money to spare.
+  - Good way to stay sober, though!
+  - "Sobriety\u2019s over-rated. Besides, my wife had that covered before she\u2026
+    well, lost her job."
+  - "I\u2019m sorry-"
+  - "Don\u2019t worry about it. Just means I have to work more. Nothing to it. Once
+    its done maybe the wife can hit me instead of the bottle, and Marsha will give
+    me a raise."
+  - Want me to talk to her-
+  - "No, don\u2019t. It\u2019s fine. Just\u2026 just go chat for a bit, ok? I need
+    to focus."
+  options: []

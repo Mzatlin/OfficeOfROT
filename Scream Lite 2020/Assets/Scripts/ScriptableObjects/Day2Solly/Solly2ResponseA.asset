@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Solly2ResponseA
+  m_EditorClassIdentifier: 
+  name: You
+  name2: Solly
+  sentences:
+  - "I tend to be bad at time management. I can\u2019t help it!"
+  - "You should get better! It\u2019s not healthy, you\u2019re gonna live a short
+    life if you keep it up."
+  - "Heheh, you\u2019re probably right about that one. I think I almost forgot to
+    take Zidovu\u2026 You don\u2019t know what Zidovudine is, right?"
+  - "No, I don\u2019t think so\u2026?"
+  - "Okay good, definitely don\u2019t look that one up. Favor for a friend?"
+  - "Uh, sure\u2026"
+  - "Thanks! I\u2019m gonna keep working. Take care!"
+  options: []

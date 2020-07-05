@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Solly2ResponseB
+  m_EditorClassIdentifier: 
+  name: You
+  name2: Solly
+  sentences:
+  - "Mm\u2026 something like that."
+  - "You really shouldn\u2019t be playing so much. It\u2019s a miracle Marsha hasn\u2019t
+    fired you yet."
+  - "Marsha and I have a\u2026 mutual understanding. I\u2019ll leave it at that."
+  - I see.
+  - "I just get tired more easily than most. So I take more breaks. So long as I
+    get my work done on time, that\u2019s all that really matters."
+  - "I don\u2019t know how you could when you\u2019re constantly playing with cards."
+  - Like I said, mutual understanding.
+  - Must be one hell of a mutual understanding, then.
+  - You have no idea.
+  options: []
