@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Marsha1Menu1ResponseC
   m_EditorClassIdentifier: 
-  name: Marsha
+  name: You
+  name2: Marsha
   sentences:
   - I appreciate that, thank you.
   - "Ok? I just said \u2018you too.\u2019"

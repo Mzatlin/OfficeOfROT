@@ -8,7 +8,9 @@ using TMPro;
 public class DialogWriter : WriterBase
 {
     public Queue<string> dialogueSentences;
-
+    private string name1;
+    private string name2;
+    bool canSwap = false;
     // Start is called before the first frame update
     void Awake()
     {
@@ -17,9 +19,14 @@ public class DialogWriter : WriterBase
         dialogue.OnWrite += HandleWrite;
     }
 
+
     void HandleWrite()
     {
         textName.text = dialogue.currentDialogue.name;
+        if(dialogue.currentDialogue.name2 != "")
+        {
+            canSwap = true;
+        }
         dialogCanvas.enabled = true;
         dialogueSentences.Clear();
         foreach (string line in dialogue.currentDialogue.sentences)
@@ -43,14 +50,18 @@ public class DialogWriter : WriterBase
             return;
         }
         StartCoroutine(TypeLine(dialogueSentences.Dequeue()));
-    //    NameSwap(textName.text);
+
+        if (canSwap)
+        {
+            NameSwap(textName.text);
+        } 
     }
 
     void NameSwap(string name)
     {
         if (name == dialogue.currentDialogue.name)
         {
-        //    textName.text = dialogue.currentDialogue.name2;
+           textName.text = dialogue.currentDialogue.name2;
         }
         else
         {

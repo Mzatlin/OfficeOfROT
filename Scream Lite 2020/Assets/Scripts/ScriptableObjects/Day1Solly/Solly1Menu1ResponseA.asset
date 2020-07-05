@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Solly1Menu1ResponseA
   m_EditorClassIdentifier: 
-  name: Solly
+  name: You
+  name2: Solly
   sentences:
   - "That\u2019s awfully sweet of you! You doing anything fun tonight?"
   - Just hitting the bars. Nothing too special.

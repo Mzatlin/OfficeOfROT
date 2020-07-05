@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ROTFlavor1
   m_EditorClassIdentifier: 
   name: You
+  name2: 
   sentences:
   - Yup, no answer. Figures he took today off.
   options: []

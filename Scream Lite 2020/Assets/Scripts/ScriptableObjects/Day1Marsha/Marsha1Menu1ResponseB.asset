@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Marsha1Menu1ResponseB
   m_EditorClassIdentifier: 
-  name: Marsha
+  name: You
+  name2: Marsha
   sentences:
   - "I\u2019m managing. Figuratively and literally."
   - Heh.

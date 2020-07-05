@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ExitDoor1
   m_EditorClassIdentifier: 
   name: You
+  name2: 
   sentences:
   - I kind of want to talk to more coworkers before I leave.
   options: []

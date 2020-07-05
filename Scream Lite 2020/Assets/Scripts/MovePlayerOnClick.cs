@@ -11,6 +11,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
     Vector2 mousePosition;
     bool isMoving = false;
     Camera cam;
+    Animator animate;
 
     public AK.Wwise.Event MyEvent = null;
 
@@ -21,6 +22,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
     {
         base.Start();
         cam = Camera.main;
+        animate = GetComponentInChildren<Animator>();
         raycast = cam.GetComponent<ICameraRaycast>();
     }
 
@@ -30,6 +32,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
 
         if (isMoving && path != null)
         {
+            animate.SetFloat("MoveX",Mathf.Abs(rb.velocity.x));
             CheckPathing();
             MoveSeeker();
             UpdateWayPoint();
@@ -79,6 +82,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
         if (Vector3.Distance(transform.position, mousePosition) <= 2.5f)
         {
             isMoving = false;
+            animate.SetFloat("MoveX", 0f);
         }
     }
 }

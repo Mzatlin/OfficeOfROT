@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Day1SollyMenu1
   m_EditorClassIdentifier: 
   name: Solly
+  name2: 
   sentences:
   - "Hey there! How\u2019s the up and comer doing?"
   options:

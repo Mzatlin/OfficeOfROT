@@ -8,4 +8,5 @@ public class DialogOptionSO : ScriptableObject
     public string description;
     public DialogSO dialogue;
 
+
 }

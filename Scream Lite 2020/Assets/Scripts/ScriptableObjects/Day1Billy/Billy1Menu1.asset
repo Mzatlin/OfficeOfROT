@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Billy1Menu1
   m_EditorClassIdentifier: 
   name: Billy
+  name2: You
   sentences:
   - "Hey there, rookie. Takin\u2019 off?"
   options:
