@@ -10,13 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
-  m_Name: Marsha1Menu1
+  m_Name: ExitDoor4
   m_EditorClassIdentifier: 
-  name: Marsha
-  name2: Marsha
+  name: You
+  name2: You
   sentences:
-  - Thank you. Have a good night.
-  options:
-  - {fileID: 11400000, guid: c19ceda7fea0cfd48b76709423a763e4, type: 2}
-  - {fileID: 11400000, guid: 69e50d9a49554c947aef134b8ceeff55, type: 2}
-  - {fileID: 11400000, guid: c6d8fcc1fa86fe44a992ebd225ba41ec, type: 2}
+  - I can't leave them... they don't want me to leave...
+  options: []

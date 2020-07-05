@@ -5,42 +5,61 @@ using UnityEngine;
 
 public class SpawnObjectOnDialogueEnd : HandleInteractBase
 {
-
     public List<GameObject> spawnObjects = new List<GameObject>();
-    public DialogueLoader dialogue;
-    IInteractionWrite interact;
+    public NPCCheckListSO checkList;
+    public DialogueLoader dialogueWrite;
+    public DialogSO dialogueSO;
+    public DialogSO endDialogue;
     bool isFinished;
-    // Start is called before the first frame update
-    void Start()
+
+    protected override void Awake()
     {
+        base.Awake();
+        isFinished = false;
+        dialogueWrite.OnEnd += HandleEnd;
         foreach (GameObject obj in spawnObjects)
         {
             obj.SetActive(false);
         }
-
-        interact = GetComponent<IInteractionWrite>();
-        dialogue.OnEnd += HandleEnd;
-        dialogue.OnWrite += HandleInteraction;
     }
-
     protected override void HandleInteraction()
     {
         base.HandleInteraction();
+
+        foreach (string npc in checkList.npcList.Keys)
+        {
+            if (!checkList.GetNPCCheck(npc))
+            {
+                WriteFailureMessage();
+                return;
+            }
+        }
+        isFinished = true;
+        WriteSuccessMessage();
+        
+    }
+
+    void WriteFailureMessage()
+    {
+        dialogueWrite.SetupDialougeWriter(dialogueSO);
+    }
+
+    void WriteSuccessMessage()
+    {
+        dialogueWrite.SetupDialougeWriter(endDialogue);
     }
 
     protected override void HandleEnd()
     {
+        base.HandleEnd();
 
-   //     if (interact.IsInteracting)
-   //     {
+        if (isFinished)
+        {
             foreach (GameObject obj in spawnObjects)
             {
                 obj.SetActive(true);
             }
-   //     }
-        base.HandleEnd();
-
-
+        }
     }
 
 }

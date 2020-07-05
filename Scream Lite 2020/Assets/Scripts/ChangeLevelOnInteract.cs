@@ -7,12 +7,9 @@ public class ChangeLevelOnInteract : HandleInteractBase
 {
     [SerializeField]
     string sceneName;
-    [SerializeField]
-    NPCCheckListSO checkList;
-    [SerializeField]
-    DialogueLoader dialogueWrite;
-    [SerializeField]
-    DialogSO dialogueSO;
+    public NPCCheckListSO checkList;
+    public DialogueLoader dialogueWrite;
+    public DialogSO dialogueSO;
 
     protected override void Awake()
     {
