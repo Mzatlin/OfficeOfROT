@@ -14,6 +14,14 @@ public class WriteDialogueOnStart : MonoBehaviour
     void Start()
     {
         dialogueWrite.SetupDialougeWriter(dialogueSO);
+        //  StartCoroutine(WriteDelay());
+
+    }
+
+    IEnumerator WriteDelay()
+    {
+        yield return new WaitForSeconds(2f);
+     //   dialogueWrite.SetupDialougeWriter(dialogueSO);
     }
 
 }

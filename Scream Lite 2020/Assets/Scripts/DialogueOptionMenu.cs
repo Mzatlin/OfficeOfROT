@@ -11,8 +11,9 @@ public class DialogueOptionMenu : WriterBase
     public List<Button> buttonOptions = new List<Button>();
 
     // Start is called before the first frame update
-    void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         dialogCanvas.enabled = false;
         dialogue.OnMenuWrite += HandleWrite;
     }

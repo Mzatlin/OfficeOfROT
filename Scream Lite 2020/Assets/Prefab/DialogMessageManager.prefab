@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5347768308436103792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5347768308436103807}
+  - component: {fileID: 5347768308436103806}
+  - component: {fileID: 5347768308436103805}
+  - component: {fileID: 5347768308436103804}
+  m_Layer: 0
+  m_Name: DialogMessageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5347768308436103807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5347768308436103792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 395.62503, y: 69.966705, z: -57.6875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5347768308436103806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5347768308436103792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73133b47d18d97140b685b7fa681f6d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeSpeed: 2
+  textDialog: {fileID: 0}
+  dialogCanvas: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  textName: {fileID: 0}
+--- !u!114 &5347768308436103805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5347768308436103792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98ee01085aa777b4eada358e83bf3bec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeSpeed: 3
+  textDialog: {fileID: 0}
+  dialogCanvas: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  textName: {fileID: 0}
+  buttonOptions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &5347768308436103804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5347768308436103792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 561e679271e5d1c40bb0396a01329946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  dialogueSO: {fileID: 11400000, guid: eec1d564db3258d4780a797229b9877a, type: 2}

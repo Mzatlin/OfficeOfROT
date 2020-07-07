@@ -12,8 +12,9 @@ public class DialogWriter : WriterBase
     private string name2;
     bool canSwap = false;
     // Start is called before the first frame update
-    void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         dialogCanvas.enabled = false;
         dialogueSentences = new Queue<string>();
         dialogue.OnWrite += HandleWrite;
@@ -27,7 +28,11 @@ public class DialogWriter : WriterBase
         {
             canSwap = true;
         }
-        dialogCanvas.enabled = true;
+        if(dialogCanvas != null)
+        {
+            dialogCanvas.enabled = true;
+        }
+
         dialogueSentences.Clear();
         foreach (string line in dialogue.currentDialogue.sentences)
         {
@@ -38,7 +43,7 @@ public class DialogWriter : WriterBase
 
     protected override void WriteDialogue()
     {
-        base.WriteDialogue();
+
         if (dialogueSentences.Count == 0)
         {
             if (dialogue.currentDialogue.options.Capacity > 0)
@@ -49,6 +54,12 @@ public class DialogWriter : WriterBase
             EndDialogue();
             return;
         }
+        base.WriteDialogue();
+        if (this != null)
+        {
+            StopAllCoroutines();
+        }
+
         StartCoroutine(TypeLine(dialogueSentences.Dequeue()));
 
         if (canSwap)

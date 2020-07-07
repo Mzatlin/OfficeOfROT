@@ -12,9 +12,17 @@ public class WriterBase : MonoBehaviour
     public Canvas dialogCanvas;
     public DialogueLoader dialogue;
     public TextMeshProUGUI textName;
+    protected bool created; 
 
-    void Start()
+    protected virtual void Awake()
     {
+        if (!created)
+        {
+            DontDestroyOnLoad(dialogCanvas);
+            DontDestroyOnLoad(this.gameObject);
+            created = true;
+            Debug.Log("Awake: " + this.gameObject);
+        }
         dialogCanvas.enabled = false;
     }
 
@@ -36,6 +44,11 @@ public class WriterBase : MonoBehaviour
     protected virtual void WriteDialogue()
     {
         textDialog.text = "";
+
+    }
+
+    protected virtual void OnDestroy()
+    {
         StopAllCoroutines();
     }
 
