@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d83ef3a80a27a64389b00d7c8f9aadac
     GuidInternal: 
-    m_lastTime: -8586077315191952146
+    m_lastTime: -8586077177650785847
     List:
     - name: Main
       guid: a3d37c1741905845a71ae2d6f47def74
@@ -56,7 +56,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 0f2fb0af93ae2940bf67e78bd3a2d8ab
     GuidInternal: 
-    m_lastTime: -8586077315202706019
+    m_lastTime: -8586077177664009057
     List:
     - name: Ambience
       guid: 92ed63e68726a842a3882a7de4f35360
@@ -82,8 +82,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Characters\Billy
       maxAttenuation: 0
-      maxDuration: 4.011519
-      minDuration: 4.011519
+      maxDuration: -1
+      minDuration: -1
     - name: Characters
       guid: 1e3886b3d46c68499260a41ea9afd711
       id: 1557941045
@@ -122,8 +122,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Objects\DoorOpen
       maxAttenuation: 0
-      maxDuration: 0.795417
-      minDuration: 0.795417
+      maxDuration: -1
+      minDuration: -1
     - name: Footsteps
       guid: e714c59f324d034596d380e3b1600af1
       id: 2385628198
@@ -148,8 +148,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Objects\Fridge
       maxAttenuation: 0
-      maxDuration: 4.753923
-      minDuration: 4.753923
+      maxDuration: -1
+      minDuration: -1
     - name: Lighter
       guid: 08f18ad44f14514c93b55390c41aa89f
       id: 282445894
@@ -162,8 +162,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Objects\Lighter
       maxAttenuation: 0
-      maxDuration: 0.656168
-      minDuration: 0.656168
+      maxDuration: -1
+      minDuration: -1
     - name: Marsha
       guid: 25c0c090b242934e802726e164a24c05
       id: 1096578879
@@ -176,8 +176,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Characters\Marsha
       maxAttenuation: 0
-      maxDuration: 4.968662
-      minDuration: 4.968662
+      maxDuration: -1
+      minDuration: -1
     - name: Music
       guid: 6d7d72e05d73694dad36e5fd3ef4c196
       id: 3991942870
@@ -214,8 +214,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Objects\Printer
       maxAttenuation: 0
-      maxDuration: 4.159093
-      minDuration: 4.159093
+      maxDuration: -1
+      minDuration: -1
     - name: Solly
       guid: b57f9888f734834399d7a281f651748e
       id: 694286824
@@ -228,8 +228,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Characters\Solly
       maxAttenuation: 0
-      maxDuration: 2.195782
-      minDuration: 2.195782
+      maxDuration: -1
+      minDuration: -1
     - name: Vending_Machine
       guid: 20458d31b040f141990b1a0ade914ada
       id: 3790536434
@@ -242,8 +242,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Objects\Vending_Machine
       maxAttenuation: 0
-      maxDuration: 3.854898
-      minDuration: 3.854898
+      maxDuration: -1
+      minDuration: -1
     - name: Water_Cooler
       guid: 5b2e6353405ec349bf5275f4b2276b00
       id: 2035707747
@@ -256,8 +256,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Objects\Water_Cooler
       maxAttenuation: 0
-      maxDuration: 3.619123
-      minDuration: 2.410495
+      maxDuration: -1
+      minDuration: -1
     - name: Willy
       guid: d1382e763d38a04190ff510dff4d6b5f
       id: 809636474
@@ -270,8 +270,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Characters\Willy
       maxAttenuation: 0
-      maxDuration: 6.643651
-      minDuration: 6.643651
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPath: Default Work Unit
