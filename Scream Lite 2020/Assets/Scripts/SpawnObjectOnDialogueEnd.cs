@@ -18,10 +18,20 @@ public class SpawnObjectOnDialogueEnd : HandleInteractBase, IExitSpawn
         base.Awake();
         isFinished = false;
         dialogueWrite.OnEnd += HandleEnd;
-        foreach (GameObject obj in spawnObjects)
+        SetupObjects();
+
+    }
+
+    void SetupObjects()
+    {
+        if(spawnObjects != null && spawnObjects.Capacity > 0)
         {
-            obj.SetActive(false);
+            foreach (GameObject obj in spawnObjects)
+            {
+                obj.SetActive(false);
+            }
         }
+
     }
     protected override void HandleInteraction()
     {

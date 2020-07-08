@@ -16,9 +16,12 @@ public class DespawnOnDialogueExit : MonoBehaviour
 
     private void HandleSpawn()
     {
-        foreach(GameObject obj in despawns)
+        if (despawns != null && despawns.Capacity > 0)
         {
-            obj.SetActive(false);
+            foreach (GameObject obj in despawns)
+            {
+                obj.SetActive(false);
+            }
         }
     }
 
