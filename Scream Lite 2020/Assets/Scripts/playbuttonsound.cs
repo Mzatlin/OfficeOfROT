@@ -6,10 +6,20 @@ public class playbuttonsound : MonoBehaviour
 {
     [SerializeField]
     private AK.Wwise.Event myEvent = null;
+    ICameraRaycast camera;
+
+    private void Awake()
+    {
+        camera = Camera.main.GetComponent<ICameraRaycast>();
+    }
 
     public void OnClick()
     {
-        myEvent.Post(gameObject);
+        if (camera != null && camera.CanCast)
+        {
+            myEvent.Post(gameObject);
+        }
+
 
     }
 
