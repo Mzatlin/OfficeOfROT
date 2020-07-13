@@ -66,7 +66,10 @@ public class SpawnObjectOnDialogueEnd : HandleInteractBase, IExitSpawn
 
         if (isFinished)
         {
-            OnSpawnEnd();
+            if(this.gameObject != null)
+            {
+                OnSpawnEnd();
+            }
             foreach (GameObject obj in spawnObjects)
             {
                 obj.SetActive(true);

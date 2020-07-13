@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WriteDialogueOnStart : MonoBehaviour
+public class WriteDialogueOnStart : MonoBehaviour, IStartWrite
 {
     [SerializeField]
     DialogueLoader dialogueWrite;
@@ -11,21 +11,19 @@ public class WriteDialogueOnStart : MonoBehaviour
     [SerializeField]
     int index;
 
-    // Start is called before the first frame update
-    void Start()
+    public void StartWriteDialogue()
     {
-        if(dialogueSOs.Capacity > 0)
+        if (dialogueSOs.Capacity > 0)
         {
-            if(index > dialogueSOs.Capacity-1)
+            if (index > dialogueSOs.Capacity - 1)
             {
                 index = 0;
             }
             dialogueWrite.SetupDialougeWriter(dialogueSOs[index]);
             index++;
         }
-      
-        //  StartCoroutine(WriteDelay());
 
+        //  StartCoroutine(WriteDelay());
     }
 
     IEnumerator WriteDelay()
@@ -33,5 +31,5 @@ public class WriteDialogueOnStart : MonoBehaviour
         yield return new WaitForSeconds(2f);
      //   dialogueWrite.SetupDialougeWriter(dialogueSO);
     }
-
 }
+
