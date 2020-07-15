@@ -11,7 +11,10 @@ public class DespawnOnDialogueExit : MonoBehaviour
     void Start()
     {
         spawn = GetComponent<IExitSpawn>();
-        spawn.OnSpawnEnd += HandleSpawn;
+        if (spawn != null)
+        {
+            spawn.OnSpawnEnd += HandleSpawn;
+        }
     }
 
     private void HandleSpawn()

@@ -22,6 +22,11 @@ public class SpawnObjectOnDialogueEnd : HandleInteractBase, IExitSpawn
 
     }
 
+    void OnDestroy()
+    {
+        dialogueWrite.OnEnd -= HandleEnd;
+    }
+
     void SetupObjects()
     {
         if(spawnObjects != null && spawnObjects.Capacity > 0)
