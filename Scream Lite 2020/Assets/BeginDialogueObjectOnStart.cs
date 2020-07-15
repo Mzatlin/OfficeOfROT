@@ -12,7 +12,10 @@ public class BeginDialogueObjectOnStart : MonoBehaviour
     void Start()
     {
         messageManager = FindObjectOfType<WriteDialogueOnStart>();
-        write = messageManager.GetComponent<IStartWrite>();
+        if(messageManager != null)
+        {
+            write = messageManager.GetComponent<IStartWrite>();
+        }
         if(write != null)
         {
             write.StartWriteDialogue();
