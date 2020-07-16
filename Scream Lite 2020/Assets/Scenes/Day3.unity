@@ -1810,7 +1810,7 @@ MonoBehaviour:
   targetMask:
     serializedVersion: 2
     m_Bits: 512
-  sceneName: TitleScreen
+  sceneName: FinalScene
 --- !u!1 &1106877483
 GameObject:
   m_ObjectHideFlags: 0
@@ -3800,7 +3800,7 @@ MonoBehaviour:
   targetMask:
     serializedVersion: 2
     m_Bits: 512
-  sceneName: TitleScreen
+  sceneName: FinalScene
 --- !u!1001 &2085222503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4054,6 +4054,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 539985514}
     m_Modifications:
+    - target: {fileID: 353381694, guid: 513d6e75edf5bec46b9d414a1f05f581, type: 3}
+      propertyPath: sceneName
+      value: FinalScene
+      objectReference: {fileID: 0}
     - target: {fileID: 6847464704807768938, guid: 513d6e75edf5bec46b9d414a1f05f581,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4307,6 +4311,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 6081174634251978646, guid: 1d3b4f64fd4d66e46a9241ecb28ecaf9,
+        type: 3}
+      propertyPath: sceneName
+      value: FinalScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d3b4f64fd4d66e46a9241ecb28ecaf9, type: 3}

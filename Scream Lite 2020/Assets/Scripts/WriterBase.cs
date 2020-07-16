@@ -6,6 +6,7 @@ using TMPro;
 
 public class WriterBase : MonoBehaviour
 {
+    public static WriterBase instance;
     [SerializeField]
     protected float typeSpeed = 3f;
     public TextMeshProUGUI textDialog;
@@ -16,7 +17,12 @@ public class WriterBase : MonoBehaviour
 
     protected virtual void Awake()
     {
-        if (!created)
+        if (created && instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+            Destroy(dialogCanvas);
+        }
+        else
         {
             DontDestroyOnLoad(dialogCanvas);
             DontDestroyOnLoad(this.gameObject);
