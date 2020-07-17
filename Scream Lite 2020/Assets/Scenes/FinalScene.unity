@@ -296,6 +296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 755974590}
   - component: {fileID: 755974589}
+  - component: {fileID: 755974591}
   m_Layer: 0
   m_Name: StartManager
   m_TagString: Untagged
@@ -330,6 +331,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &755974591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755974588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c7f2144473b0f449f453c8234cf3b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: TitleScreen
+  load: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
 --- !u!1 &1470926854
 GameObject:
   m_ObjectHideFlags: 0
