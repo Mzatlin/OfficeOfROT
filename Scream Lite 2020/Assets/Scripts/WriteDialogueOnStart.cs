@@ -13,6 +13,12 @@ public class WriteDialogueOnStart : MonoBehaviour, IStartWrite
 
     public void StartWriteDialogue()
     {
+       StartCoroutine(WriteDelay());
+    }
+
+    IEnumerator WriteDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
         if (dialogueSOs.Capacity > 0)
         {
             if (index > dialogueSOs.Capacity - 1)
@@ -22,14 +28,6 @@ public class WriteDialogueOnStart : MonoBehaviour, IStartWrite
             dialogueWrite.SetupDialougeWriter(dialogueSOs[index]);
             index++;
         }
-
-        //  StartCoroutine(WriteDelay());
-    }
-
-    IEnumerator WriteDelay()
-    {
-        yield return new WaitForSeconds(2f);
-     //   dialogueWrite.SetupDialougeWriter(dialogueSO);
     }
 }
 

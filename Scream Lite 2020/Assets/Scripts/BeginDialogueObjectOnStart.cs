@@ -21,5 +21,4 @@ public class BeginDialogueObjectOnStart : MonoBehaviour
             write.StartWriteDialogue();
         }
     }
-
 }

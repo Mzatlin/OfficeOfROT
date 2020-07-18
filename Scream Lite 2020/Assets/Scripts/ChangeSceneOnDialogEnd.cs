@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class ChangeSceneOnDialogEnd : MonoBehaviour
 {
+    [SerializeField]
+    float timeDelay = 3f;
     public string name;
     public DialogueLoader load; 
     // Start is called before the first frame update
@@ -16,6 +18,12 @@ public class ChangeSceneOnDialogEnd : MonoBehaviour
 
     private void HandleEnd()
     {
+        StartCoroutine(LoadDelay());
+    }
+
+    IEnumerator LoadDelay()
+    {
+        yield return new WaitForSeconds(timeDelay);
         SceneManager.LoadScene(name, LoadSceneMode.Single);
     }
 
