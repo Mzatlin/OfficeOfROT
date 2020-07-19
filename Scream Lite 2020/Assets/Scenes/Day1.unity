@@ -370,6 +370,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420036}
   - component: {fileID: 519420037}
+  - component: {fileID: 519420038}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -568,6 +569,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   multiPositionArray: []
 --- !u!114 &519420037
 MonoBehaviour:
@@ -590,7 +592,19 @@ MonoBehaviour:
   - Floor
   - NPC
   cursorMode: 0
-  hotSpot: {x: 0, y: 0}
+--- !u!114 &519420038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 727f41b370e99d2439008cfcee5b5b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loader: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
 --- !u!1001 &891776156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1971,6 +1985,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 7d9d6cd609fd0f241b8d86f9f82f4a67,
         type: 2}
+    - target: {fileID: 5347768308436103804, guid: 33e0a90f9f9447941b218aceb3bed654,
+        type: 3}
+      propertyPath: timerDelay
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5347768308436103805, guid: 33e0a90f9f9447941b218aceb3bed654,
         type: 3}
       propertyPath: textDialog
@@ -2240,6 +2259,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OfficeSpace
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099708855771325976, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: enableActionOnEvent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099708855771325976, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099708855771325982, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099708855771325983, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44a815d2ac193d841bd8aef57eb9aedd, type: 3}

@@ -9,6 +9,7 @@ public class WriteDialogueOnStart : MonoBehaviour, IStartWrite
     [SerializeField]
     List<DialogSO> dialogueSOs = new List<DialogSO>();
     [SerializeField]
+    float timerDelay = 0.5f;
     int index;
 
     public void StartWriteDialogue()
@@ -18,7 +19,7 @@ public class WriteDialogueOnStart : MonoBehaviour, IStartWrite
 
     IEnumerator WriteDelay()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(timerDelay);
         if (dialogueSOs.Capacity > 0)
         {
             if (index > dialogueSOs.Capacity - 1)

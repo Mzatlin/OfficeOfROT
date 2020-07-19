@@ -10,7 +10,7 @@ public class ChangeMouseCursorOnHover : MonoBehaviour
 
     public Dictionary<string, Texture2D> cursors = new Dictionary<string, Texture2D>();
     public CursorMode cursorMode = CursorMode.Auto;
-    public Vector2 hotSpot = Vector2.zero;
+    Vector2 hotSpot = Vector2.zero;
 
     void Start()
     {
@@ -21,7 +21,7 @@ public class ChangeMouseCursorOnHover : MonoBehaviour
     void CreateDictionary()
     {
         int index = 0;
-        foreach(string layer in layermasks)
+        foreach (string layer in layermasks)
         {
 
             if (!cursors.ContainsKey(layer))
@@ -36,21 +36,35 @@ public class ChangeMouseCursorOnHover : MonoBehaviour
 
     void Update()
     {
-        if(raycast != null && raycast.RayHit && raycast.CanCast)
+        if (CheckRayCast())
         {
-            var layer = LayerMask.LayerToName(raycast.RayHit.collider.gameObject.layer);
-            if (cursors.ContainsKey(layer))
-            {
-                Cursor.SetCursor(cursors[layer], hotSpot, cursorMode);
-            }
-            else
-            {
-                Cursor.SetCursor(null, Vector2.zero, cursorMode);
-            }
+            ChangeCursor();
         }
         else
         {
             Cursor.SetCursor(null, Vector2.zero, cursorMode);
         }
+    }
+    
+    void ChangeCursor()
+    {
+        var layer = LayerMask.LayerToName(raycast.RayHit.collider.gameObject.layer);
+        if (cursors.ContainsKey(layer))
+        {
+            Cursor.SetCursor(cursors[layer], hotSpot, cursorMode);
+        }
+        else
+        {
+            Cursor.SetCursor(null, Vector2.zero, cursorMode);
+        }
+    }
+
+    bool CheckRayCast()
+    {
+        if (raycast != null && raycast.RayHit && raycast.CanCast)
+        {
+            return true;
+        }
+        return false;
     }
 }

@@ -6,14 +6,17 @@ using UnityEngine.UI;
 
 public class AnimateFadeInOnDialogueExit : FadeInBase
 {
-
-    private Animator animate;
     public DialogueLoader load;
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
         load.OnEnd += HandleEnd;
+    }
+
+    private void OnDestroy()
+    {
+        load.OnEnd -= HandleEnd;
     }
 
     private void HandleEnd()

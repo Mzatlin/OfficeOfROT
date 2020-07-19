@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalScene.unity
     guid: dc33fb3aa3bb1224fb416224651e54ea
+  - enabled: 1
+    path: Assets/Scenes/DayMessageScene.unity
+    guid: 8db4ca41a8483a1459b0f4695ccc5049
   m_configObjects: {}

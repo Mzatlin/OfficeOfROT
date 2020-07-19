@@ -16,6 +16,11 @@ public class ChangeSceneOnDialogEnd : MonoBehaviour
         load.OnEnd += HandleEnd;
     }
 
+    private void OnDestroy()
+    {
+        load.OnEnd -= HandleEnd;
+    }
+
     private void HandleEnd()
     {
         StartCoroutine(LoadDelay());
