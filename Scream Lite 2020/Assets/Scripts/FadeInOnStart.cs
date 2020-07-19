@@ -14,8 +14,8 @@ public class FadeInOnStart : FadeInBase
 
     protected override void FadeIn()
     {
-        animate.SetBool("IsFadeIn", false);
-        animate.SetBool("IsFadeOut", true);
+        animate.SetBool("IsFadeIn", true);
+        animate.SetBool("IsFadeOut", false);
     }
 
 }

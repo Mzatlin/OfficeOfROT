@@ -29,7 +29,7 @@ public class AnimateFadeInOnDialogueExit : FadeInBase
 
     protected override void FadeIn()
     {
-        animate.SetBool("IsFadeIn", true);
-        animate.SetBool("IsFadeOut", false);
+        animate.SetBool("IsFadeIn", false);
+        animate.SetBool("IsFadeOut", true);
     }
 }
