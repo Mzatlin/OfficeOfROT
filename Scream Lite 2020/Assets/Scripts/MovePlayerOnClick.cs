@@ -26,6 +26,13 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
         raycast = cam.GetComponent<ICameraRaycast>();
     }
 
+    void OnDestroy()
+    {
+        MyEvent.Stop(gameObject);
+        isMoving = false;
+    }
+
+
     // Update is called once per frame
     void FixedUpdate()
     {
