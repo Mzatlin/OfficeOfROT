@@ -325,7 +325,7 @@ MonoBehaviour:
   moveSpeed: 4
   floorMask:
     serializedVersion: 2
-    m_Bits: 35072
+    m_Bits: 98560
   MyEvent:
     idInternal: 0
     valueGuidInternal: 

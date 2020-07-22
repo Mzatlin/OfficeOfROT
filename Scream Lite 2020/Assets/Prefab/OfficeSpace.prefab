@@ -7879,7 +7879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9099708854636669242}
   - component: {fileID: 9099708854636669243}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Exit Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13532,7 +13532,7 @@ GameObject:
   - component: {fileID: 9099708855151687724}
   - component: {fileID: 9099708855151687725}
   - component: {fileID: 9099708855151687726}
-  m_Layer: 14
+  m_Layer: 16
   m_Name: ExitDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
