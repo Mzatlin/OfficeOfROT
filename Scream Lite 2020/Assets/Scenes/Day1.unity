@@ -299,7 +299,7 @@ PrefabInstance:
     - target: {fileID: 6462215712932923303, guid: da86ff9a3fa788f4cb3b49eb5ed46606,
         type: 3}
       propertyPath: m_Color.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da86ff9a3fa788f4cb3b49eb5ed46606, type: 3}
@@ -371,7 +371,6 @@ GameObject:
   - component: {fileID: 519420036}
   - component: {fileID: 519420037}
   - component: {fileID: 519420038}
-  - component: {fileID: 519420039}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -610,18 +609,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loader: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
---- !u!114 &519420039
+--- !u!1 &528548737 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9099708855151687716, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+    type: 3}
+  m_PrefabInstance: {fileID: 9099708855368109301}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &528548747
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
+  m_GameObject: {fileID: 528548737}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd4151e47e0dd7a4a8e8a29aeb0f810d, type: 3}
+  m_Script: {fileID: 11500000, guid: 92d6fc83296bc7a4aac3658b7c902ec8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  image: {fileID: 896273918}
+  sceneName: Day2
+  timeDelay: 2
 --- !u!1001 &891776156
 PrefabInstance:
   m_ObjectHideFlags: 0

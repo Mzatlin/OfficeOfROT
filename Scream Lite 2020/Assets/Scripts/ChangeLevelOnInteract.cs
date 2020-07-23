@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeLevelOnInteract : HandleInteractBase
 {
-    [SerializeField]
-    string sceneName;
+    ILoadScene scene;
     public NPCCheckListSO checkList;
     public DialogueLoader dialogueWrite;
     public DialogSO dialogueSO;
@@ -14,6 +13,7 @@ public class ChangeLevelOnInteract : HandleInteractBase
     protected override void Awake()
     {
         base.Awake();
+        scene = GetComponent<ILoadScene>();
     }
     protected override void HandleInteraction()
     {
@@ -27,8 +27,8 @@ public class ChangeLevelOnInteract : HandleInteractBase
                 return;
             }
         }
-
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+        scene.LoadScene();
+     
     }
 
     void WriteFailureMessage()

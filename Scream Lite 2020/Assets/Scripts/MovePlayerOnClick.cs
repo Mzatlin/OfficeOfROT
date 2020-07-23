@@ -76,16 +76,9 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
         }
     }
 
-    /*void SetPlayerPosition()
-    {
-        MyEvent.Post(gameObject);
-        mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-        isMoving = true;
-    }*/
 
     void CheckPosition()
     {
-        //   transform.position = Vector2.MoveTowards(transform.position, mousePosition, moveSpeed * Time.deltaTime);
         if (Vector3.Distance(transform.position, mousePosition) <= 2.5f)
         {
             isMoving = false;
