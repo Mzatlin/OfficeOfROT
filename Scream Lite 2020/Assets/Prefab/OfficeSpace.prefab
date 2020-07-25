@@ -12070,7 +12070,7 @@ GameObject:
   - component: {fileID: 9099708855048775275}
   - component: {fileID: 9099708855048775252}
   - component: {fileID: 9099708855048775253}
-  m_Layer: 13
+  m_Layer: 14
   m_Name: Vending Machine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13654,7 +13654,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8ea85314955ce43b04b6b29641e824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Day2
   checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
   dialogueSO: {fileID: 11400000, guid: 084dbe6cf8e57c04085ac388bb884b03, type: 2}
@@ -13794,7 +13793,7 @@ GameObject:
   - component: {fileID: 9099708855163586600}
   - component: {fileID: 9099708855163586601}
   - component: {fileID: 9099708855163586606}
-  m_Layer: 13
+  m_Layer: 14
   m_Name: Fridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18933,7 +18932,7 @@ GameObject:
   - component: {fileID: 9099708855771325982}
   - component: {fileID: 9099708855771325983}
   - component: {fileID: 9099708855771325976}
-  m_Layer: 13
+  m_Layer: 14
   m_Name: CoffeeTable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19017,7 +19016,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.22114772, y: -0.3734036}
+  m_Offset: {x: 0.09108282, y: -0.22157492}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -19028,7 +19027,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.83097756, y: 0.51147974}
+  m_Size: {x: 0.21153866, y: 0.20428357}
   m_EdgeRadius: 0
 --- !u!114 &9099708855771325977
 MonoBehaviour:

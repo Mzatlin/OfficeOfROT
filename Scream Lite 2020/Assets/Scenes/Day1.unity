@@ -2344,10 +2344,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 16
       objectReference: {fileID: 0}
+    - target: {fileID: 9099708855163586606, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: data.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d75d7e9eba3a1ec49806b4fbf1a63d43,
+        type: 2}
     - target: {fileID: 9099708855771325971, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 9099708855771325976, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
