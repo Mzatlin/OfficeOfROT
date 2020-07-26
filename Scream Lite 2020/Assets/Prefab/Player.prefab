@@ -323,7 +323,7 @@ MonoBehaviour:
   target: {fileID: 0}
   objectSpeed: 250
   distanceToNextWayPoint: 1
-  moveSpeed: 4
+  moveSpeed: 6
   floorMask:
     serializedVersion: 2
     m_Bits: 98560

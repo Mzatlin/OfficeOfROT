@@ -2260,6 +2260,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7486792124840387218, guid: be3dfbb248804bf46b615bf80d5ca49c,
+        type: 3}
+      propertyPath: distanceToNextWayPoint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7486792124840387218, guid: be3dfbb248804bf46b615bf80d5ca49c,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7486792124840387219, guid: be3dfbb248804bf46b615bf80d5ca49c,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 9c3aaee945149ed42a5c5279338c470e, type: 2}
     - target: {fileID: 7486792124840387221, guid: be3dfbb248804bf46b615bf80d5ca49c,
         type: 3}
       propertyPath: canvas
@@ -2338,6 +2353,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OfficeSpace
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099708855151687713, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.04735619
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099708855151687713, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.62726843
       objectReference: {fileID: 0}
     - target: {fileID: 9099708855151687716, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
