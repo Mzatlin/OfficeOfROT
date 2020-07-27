@@ -640,27 +640,6 @@ MonoBehaviour:
   eventIdInternal: 0
   valueGuidInternal: 
   m_callbackDataInternal: {fileID: 0}
---- !u!1 &528548737 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9099708855151687716, guid: 44a815d2ac193d841bd8aef57eb9aedd,
-    type: 3}
-  m_PrefabInstance: {fileID: 9099708855368109301}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &528548747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528548737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92d6fc83296bc7a4aac3658b7c902ec8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 896273918}
-  sceneName: Day2
-  timeDelay: 2
 --- !u!1001 &891776156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2289,6 +2268,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 736077631911849092, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: sceneName
+      value: Day2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1858765636299653050, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 896273918}
     - target: {fileID: 9099708854636669240, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
       propertyPath: m_Layer

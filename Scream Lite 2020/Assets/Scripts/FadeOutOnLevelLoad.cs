@@ -1,44 +1,52 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class FadeOutOnLevelLoad : MonoBehaviour, ILoadScene
+public class FadeOutOnLevelLoad : MonoBehaviour
 {
+
     [SerializeField]
     Image image;
     Animator animate;
-    [SerializeField]
-    string sceneName;
-    [SerializeField]
-    float timeDelay = 2f;
-    ICameraRaycast raycast;
-    Camera cam;
-    public void LoadScene()
-    {
-        raycast.CanCast = false;
-        animate.SetBool("IsFadeOut", true);
-        animate.SetBool("IsFadeIn", false);
-        StartCoroutine(LoadDelay());
-
-    }
+    ILoadScene scene;
 
     // Start is called before the first frame update
     void Start()
     {
-        cam = Camera.main;
-        raycast = cam.GetComponent<ICameraRaycast>();
-        if(image != null)
+        if (image != null)
         {
             animate = image.GetComponent<Animator>();
         }
+
+        scene = GetComponent<ILoadScene>();
+        if(scene != null)
+        {
+            scene.OnLevelLoad += HandleLoad;
+        }
+
     }
 
-    IEnumerator LoadDelay()
+    void OnDestroy()
     {
-        yield return new WaitForSeconds(timeDelay);
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+        scene.OnLevelLoad -= HandleLoad;
     }
+
+    void HandleLoad()
+    {
+        AnimateFade();
+    }
+
+    public void AnimateFade()
+    {
+
+        animate.SetBool("IsFadeOut", true);
+        animate.SetBool("IsFadeIn", false);
+    }
+
+
+
 
 }

@@ -1861,22 +1861,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2085222503}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1100813841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100813834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0d6c634f4479b41a9d3e5a101a53ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 512
-  sceneName: FinalScene
 --- !u!1 &1106877483
 GameObject:
   m_ObjectHideFlags: 0
@@ -3996,22 +3980,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1604889401}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2065887272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2065887265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0d6c634f4479b41a9d3e5a101a53ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetMask:
-    serializedVersion: 2
-    m_Bits: 512
-  sceneName: FinalScene
 --- !u!1001 &2085222503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4339,7 +4307,8 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 353381694, guid: 513d6e75edf5bec46b9d414a1f05f581, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 513d6e75edf5bec46b9d414a1f05f581, type: 3}
 --- !u!1001 &7486792125094305480
 PrefabInstance:
@@ -4436,6 +4405,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be3dfbb248804bf46b615bf80d5ca49c, type: 3}
+--- !u!1 &7486792125094305481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7486792124840387216, guid: be3dfbb248804bf46b615bf80d5ca49c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7486792125094305480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7486792125094305482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7486792125094305481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dce481206218f64586c3c79d9b8798a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7486792125094305483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7486792125094305481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abf63e8321d8d434caa328e18dd1cf2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7486792125094305484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7486792125094305481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef00b345963c8f54182e33f7e0f6c833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7486792125094305485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7486792125094305481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d6fc83296bc7a4aac3658b7c902ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 1784581225}
+--- !u!114 &7486792125094305486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7486792125094305481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d790e3fd8bd4b9f48b166bc90de9aca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: FinalScene
+  timeDelay: 2
 --- !u!1001 &8069483649800396968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4528,5 +4566,6 @@ PrefabInstance:
       propertyPath: sceneName
       value: FinalScene
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6081174634251978646, guid: 1d3b4f64fd4d66e46a9241ecb28ecaf9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d3b4f64fd4d66e46a9241ecb28ecaf9, type: 3}
