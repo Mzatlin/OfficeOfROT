@@ -42,11 +42,6 @@ public class WriterBase : MonoBehaviour
 
     }
 
-    public void ProcessDialogWrite()
-    {
-        WriteDialogue();
-    }
-
     protected virtual void WriteDialogue()
     {
         textDialog.text = "";

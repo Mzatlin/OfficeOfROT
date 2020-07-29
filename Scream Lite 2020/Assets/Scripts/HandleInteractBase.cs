@@ -20,7 +20,7 @@ public class HandleInteractBase : MonoBehaviour, IInteractionWrite
         {
             interaction.OnInteract += HandleInteraction;
         }
-
+         
     }
 
     protected virtual void HandleInteraction()
@@ -35,4 +35,5 @@ public class HandleInteractBase : MonoBehaviour, IInteractionWrite
             isInteracting = false;
         }
     }
+
 }

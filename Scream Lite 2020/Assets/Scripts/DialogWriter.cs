@@ -8,8 +8,10 @@ using TMPro;
 public class DialogWriter : WriterBase
 {
     public Queue<string> dialogueSentences;
+    private string currentSentence;
     private string name1;
     private string name2;
+    IEnumerator coroutine = null;
     bool canSwap = false;
     // Start is called before the first frame update
     protected override void Awake()
@@ -41,6 +43,17 @@ public class DialogWriter : WriterBase
         WriteDialogue();
     }
 
+    public void ProcessDialogWrite()
+    {
+        if(currentSentence != textDialog.text)
+        {
+            textDialog.text = currentSentence;
+            StopCoroutine(coroutine);
+            return;
+        }
+        WriteDialogue();
+    }
+
     protected override void WriteDialogue()
     {
 
@@ -54,13 +67,15 @@ public class DialogWriter : WriterBase
             EndDialogue();
             return;
         }
+
         base.WriteDialogue();
         if (this != null)
         {
             StopAllCoroutines();
         }
-
-        StartCoroutine(TypeLine(dialogueSentences.Dequeue()));
+        currentSentence = dialogueSentences.Dequeue();
+        coroutine = TypeLine(currentSentence);
+        StartCoroutine(coroutine);
 
         if (canSwap)
         {
