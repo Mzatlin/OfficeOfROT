@@ -30,7 +30,9 @@ public class WriterBase : MonoBehaviour
             Debug.Log("Awake: " + this.gameObject);
         }
         dialogCanvas.enabled = false;
+        //dialogue.OnWrite += HandleWrite;
     }
+
 
     protected IEnumerator TypeLine(string line)
     {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovePlayerOnClick : GameObjectPathingBase, IMove
 {
-
+    public GameObject walkLocation;
     public float moveSpeed = 4;
     public LayerMask floorMask;
     ICameraRaycast raycast;
@@ -24,6 +24,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
         cam = Camera.main;
         animate = GetComponentInChildren<Animator>();
         raycast = cam.GetComponent<ICameraRaycast>();
+        walkLocation.SetActive(false);
     }
 
     void OnDestroy()
@@ -36,7 +37,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
     // Update is called once per frame
     void FixedUpdate()
     {
-
+        ReadInput();
         if (isMoving && path != null)
         {
             animate.SetFloat("MoveX",Mathf.Abs(rb.velocity.x));
@@ -48,16 +49,25 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
         else
         {
             MyEvent.Stop(gameObject);
+            walkLocation.SetActive(false);
         }
-        if (Input.GetMouseButtonDown(0) && raycast.CanCast && raycast.RayHit && (1 << raycast.RayHit.collider.gameObject.layer & floorMask) != 0)
+
+    }
+
+    void ReadInput()
+    {
+        if(raycast.CanCast && raycast.RayHit && Input.GetMouseButtonDown(0))
         {
-            PlaySound();
-            mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-            UpdatePath();
-            isMoving = true;
-
+            if ((1 << raycast.RayHit.collider.gameObject.layer & floorMask) != 0)
+            {
+                PlaySound();
+                mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
+                UpdatePath();
+                isMoving = true;
+                walkLocation.transform.position = mousePosition;
+                walkLocation.SetActive(true);
+            }
         }
-
     }
 
     void PlaySound()
