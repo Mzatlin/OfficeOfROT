@@ -35,7 +35,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
 
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         ReadInput();
         if (isMoving && path != null)
@@ -56,7 +56,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
 
     void ReadInput()
     {
-        if(raycast.CanCast && raycast.RayHit && Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) && raycast.CanCast && raycast.RayHit)
         {
             if ((1 << raycast.RayHit.collider.gameObject.layer & floorMask) != 0)
             {

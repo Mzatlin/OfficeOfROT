@@ -31,7 +31,10 @@ public class FadeOutOnLevelLoad : MonoBehaviour
 
     void OnDestroy()
     {
-        scene.OnLevelLoad -= HandleLoad;
+        if(scene != null)
+        {
+            scene.OnLevelLoad -= HandleLoad;
+        }
     }
 
     void HandleLoad()

@@ -23,7 +23,10 @@ public class StopRaycastOnLevelLoad : MonoBehaviour
 
     void OnDestroy()
     {
-        scene.OnLevelLoad -= HandleLoad;
+        if (scene != null)
+        {
+            scene.OnLevelLoad -= HandleLoad;
+        }
     }
 
     private void HandleLoad()
