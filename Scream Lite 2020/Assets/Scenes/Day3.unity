@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -753,12 +753,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2128117120361175834, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 7486792125094305481}
     - target: {fileID: 8053545671017218347, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 819cba4b9f7b61a49b0be0b56edd29ba,
         type: 3}
+    - target: {fileID: 9099708854143549803, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 9099708854313611616, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -890,6 +900,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099708855317445857, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 9099708855317445871, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
@@ -1263,6 +1278,7 @@ GameObject:
   - component: {fileID: 763982730}
   - component: {fileID: 763982721}
   - component: {fileID: 763982731}
+  - component: {fileID: 763982732}
   m_Layer: 15
   m_Name: Janitor
   m_TagString: Untagged
@@ -1540,12 +1556,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
   dialogueSO: {fileID: 11400000, guid: c2c6f03d790a0744b80e4bd120a1d1b0, type: 2}
+--- !u!114 &763982732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763982720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd13a56504aacee459f6946835d7bc70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7486792125094305481}
+  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  dialogueSO: {fileID: 0}
 --- !u!1 &804995875 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9099708855151687716, guid: 44a815d2ac193d841bd8aef57eb9aedd,
     type: 3}
   m_PrefabInstance: {fileID: 722383619}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &804995876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804995875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd13a56504aacee459f6946835d7bc70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7486792125094305481}
+  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  dialogueSO: {fileID: 0}
 --- !u!114 &804995877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1615,6 +1661,7 @@ GameObject:
   - component: {fileID: 891323139}
   - component: {fileID: 891323140}
   - component: {fileID: 891323135}
+  - component: {fileID: 891323141}
   m_Layer: 15
   m_Name: SollyDialogueRadius
   m_TagString: Untagged
@@ -1719,6 +1766,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
   dialogueSO: {fileID: 11400000, guid: 5cee6963a836e714db8f6e4f4ebcb94e, type: 2}
+--- !u!114 &891323141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891323134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd13a56504aacee459f6946835d7bc70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7486792125094305481}
+  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  dialogueSO: {fileID: 0}
 --- !u!4 &926792793 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7486792124840387217, guid: be3dfbb248804bf46b615bf80d5ca49c,
@@ -1751,6 +1813,7 @@ GameObject:
   - component: {fileID: 953982794}
   - component: {fileID: 953982796}
   - component: {fileID: 953982795}
+  - component: {fileID: 953982790}
   m_Layer: 15
   m_Name: MarshaDialogueRadius
   m_TagString: Untagged
@@ -1758,6 +1821,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &953982790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953982789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd13a56504aacee459f6946835d7bc70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7486792125094305481}
+  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  dialogueSO: {fileID: 0}
 --- !u!114 &953982791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2336,6 +2414,7 @@ GameObject:
   - component: {fileID: 1197981079}
   - component: {fileID: 1197981073}
   - component: {fileID: 1197981080}
+  - component: {fileID: 1197981081}
   m_Layer: 15
   m_Name: WillyDialogueRadius
   m_TagString: Untagged
@@ -2511,6 +2590,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1197981081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197981072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd13a56504aacee459f6946835d7bc70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7486792125094305481}
+  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  dialogueSO: {fileID: 0}
 --- !u!1 &1234830198
 GameObject:
   m_ObjectHideFlags: 0
@@ -4169,6 +4263,7 @@ GameObject:
   - component: {fileID: 2108973081}
   - component: {fileID: 2108973082}
   - component: {fileID: 2108973077}
+  - component: {fileID: 2108973083}
   m_Layer: 15
   m_Name: BillyDialogueRadius
   m_TagString: Untagged
@@ -4273,6 +4368,21 @@ MonoBehaviour:
   responses:
   - {fileID: 11400000, guid: 63b91917444e245458716a90dd334e89, type: 2}
   writer: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+--- !u!114 &2108973083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108973076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd13a56504aacee459f6946835d7bc70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7486792125094305481}
+  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  dialogueSO: {fileID: 0}
 --- !u!4 &2120707222 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9099708855837394613, guid: 44a815d2ac193d841bd8aef57eb9aedd,

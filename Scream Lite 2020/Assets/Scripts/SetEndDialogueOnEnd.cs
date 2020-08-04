@@ -2,7 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ * This class takes a list of options and chooses a dialogue response based on the selected option.
+ * When the user selects an option, it will remain cached in the DialogueSO, so on completion we can find the selected option and set it. 
+ * This option is then set to the attached NPC class for it to output the correct final dialogue box when reinitiated.
+ */
 public class SetEndDialogueOnEnd : MonoBehaviour
 {
     INPCWrite npcDialog;

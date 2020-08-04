@@ -1110,6 +1110,7 @@ GameObject:
   - component: {fileID: 763982728}
   - component: {fileID: 763982721}
   - component: {fileID: 763982730}
+  - component: {fileID: 763982731}
   m_Layer: 15
   m_Name: Janitor
   m_TagString: Untagged
@@ -1375,6 +1376,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Frank
   checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
+--- !u!114 &763982731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763982720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd13a56504aacee459f6946835d7bc70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7486792125094305481}
+  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  dialogueSO: {fileID: 0}
 --- !u!1 &891323134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1389,6 +1405,7 @@ GameObject:
   - component: {fileID: 891323139}
   - component: {fileID: 891323140}
   - component: {fileID: 891323135}
+  - component: {fileID: 891323141}
   m_Layer: 15
   m_Name: SollyDialogueRadius
   m_TagString: Untagged
@@ -1497,6 +1514,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
   dialogueSO: {fileID: 11400000, guid: a3322d8c12e150b4b934c8d9ab9f61ba, type: 2}
+--- !u!114 &891323141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891323134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd13a56504aacee459f6946835d7bc70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7486792125094305481}
+  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  dialogueSO: {fileID: 0}
 --- !u!1 &953982789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,6 +1543,7 @@ GameObject:
   - component: {fileID: 953982794}
   - component: {fileID: 953982796}
   - component: {fileID: 953982795}
+  - component: {fileID: 953982790}
   m_Layer: 15
   m_Name: MarshaDialogueRadius
   m_TagString: Untagged
@@ -1518,6 +1551,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &953982790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953982789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd13a56504aacee459f6946835d7bc70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7486792125094305481}
+  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  dialogueSO: {fileID: 0}
 --- !u!114 &953982791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1720,6 +1768,7 @@ GameObject:
   - component: {fileID: 1197981078}
   - component: {fileID: 1197981079}
   - component: {fileID: 1197981073}
+  - component: {fileID: 1197981080}
   m_Layer: 15
   m_Name: WillyDialogueRadius
   m_TagString: Untagged
@@ -1884,6 +1933,21 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9028be4997e32074fa35e1cf897f05bb, type: 2}
   - {fileID: 11400000, guid: 1d12574581bb0d745a5c751fc9c2be72, type: 2}
   writer: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+--- !u!114 &1197981080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197981072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd13a56504aacee459f6946835d7bc70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7486792125094305481}
+  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  dialogueSO: {fileID: 0}
 --- !u!1001 &1285905073
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2091,12 +2155,22 @@ PrefabInstance:
       propertyPath: image
       value: 
       objectReference: {fileID: 1772676585}
+    - target: {fileID: 2128117120361175834, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 7486792125094305481}
     - target: {fileID: 9099708854104749219, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 87905f2a820338749aef3d6eecf6ac47,
         type: 3}
+    - target: {fileID: 9099708854143549803, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 9099708854313611621, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
       propertyPath: m_IsActive
@@ -2189,6 +2263,11 @@ PrefabInstance:
         type: 3}
       propertyPath: sceneName
       value: Day3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099708855317445857, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 9099708855317445871, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
@@ -2409,6 +2488,7 @@ GameObject:
   - component: {fileID: 2108973081}
   - component: {fileID: 2108973082}
   - component: {fileID: 2108973077}
+  - component: {fileID: 2108973083}
   m_Layer: 15
   m_Name: BillyDialogueRadius
   m_TagString: Untagged
@@ -2517,6 +2597,21 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 71100381217174544b649e90c7498ec4, type: 2}
   - {fileID: 11400000, guid: deb5009dafb986a499375707798065f4, type: 2}
   writer: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+--- !u!114 &2108973083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108973076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd13a56504aacee459f6946835d7bc70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7486792125094305481}
+  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
+  dialogueSO: {fileID: 0}
 --- !u!1001 &7486792125094305480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2601,3 +2696,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be3dfbb248804bf46b615bf80d5ca49c, type: 3}
+--- !u!1 &7486792125094305481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7486792124840387216, guid: be3dfbb248804bf46b615bf80d5ca49c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7486792125094305480}
+  m_PrefabAsset: {fileID: 0}

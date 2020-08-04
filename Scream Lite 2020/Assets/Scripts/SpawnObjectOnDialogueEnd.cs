@@ -12,6 +12,7 @@ public class SpawnObjectOnDialogueEnd : HandleInteractBase, IExitSpawn
     public DialogSO dialogueSO;
     public DialogSO endDialogue;
     bool isFinished;
+    ILoadDialogue loader;
 
     protected override void Awake()
     {
@@ -19,6 +20,7 @@ public class SpawnObjectOnDialogueEnd : HandleInteractBase, IExitSpawn
         isFinished = false;
         dialogueWrite.OnEnd += HandleEnd;
         SetupObjects();
+        loader = GetComponent<ILoadDialogue>();
 
     }
 
@@ -57,12 +59,12 @@ public class SpawnObjectOnDialogueEnd : HandleInteractBase, IExitSpawn
 
     void WriteFailureMessage()
     {
-        dialogueWrite.SetupDialougeWriter(dialogueSO);
+        loader.SetDialogue(dialogueSO);
     }
 
     void WriteSuccessMessage()
     {
-        dialogueWrite.SetupDialougeWriter(endDialogue);
+       loader.SetDialogue(endDialogue);
     }
 
     protected override void HandleEnd()

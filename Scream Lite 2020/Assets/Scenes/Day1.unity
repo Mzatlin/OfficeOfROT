@@ -2364,16 +2364,51 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 495301177654375744, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1927992203}
     - target: {fileID: 736077631911849092, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
       propertyPath: sceneName
       value: Day2
       objectReference: {fileID: 0}
+    - target: {fileID: 990490843426335228, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1927992203}
+    - target: {fileID: 1279815951807909212, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1927992203}
     - target: {fileID: 1858765636299653050, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
       propertyPath: image
       value: 
       objectReference: {fileID: 896273918}
+    - target: {fileID: 2128117120361175834, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1927992203}
+    - target: {fileID: 4666197069867930234, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1927992203}
+    - target: {fileID: 5354407752573703301, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1927992203}
+    - target: {fileID: 9099708854143549803, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 9099708854313611620, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
       propertyPath: player
@@ -2470,6 +2505,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: d75d7e9eba3a1ec49806b4fbf1a63d43,
         type: 2}
+    - target: {fileID: 9099708855317445857, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 9099708855497905086, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
       propertyPath: player

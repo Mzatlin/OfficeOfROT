@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WriteNPCMessageOnInteraction : HandleInteractBase, INPCWrite
 {
-    public GameObject player;
+    ILoadDialogue loader;
     bool isLoaded = false;
     public DialogueLoader dialogueWrite;
     ICameraRaycast raycast;
@@ -12,12 +12,15 @@ public class WriteNPCMessageOnInteraction : HandleInteractBase, INPCWrite
     public DialogSO dialogueSO;
     public DialogSO dialogToLoad { get => dialogueSO; set => dialogueSO = value; }
 
+    public bool IsLoaded { get => isLoaded; set => isLoaded = value; }
+
     protected override void Awake()
     {
         base.Awake();
         dialogueWrite.OnEnd += HandleEnd;
         cam = Camera.main;
         raycast = cam.GetComponent<ICameraRaycast>();
+        loader = GetComponent<ILoadDialogue>();
     }
     protected override void HandleEnd()
     {
@@ -32,10 +35,10 @@ public class WriteNPCMessageOnInteraction : HandleInteractBase, INPCWrite
     protected override void HandleInteraction()
     {
         base.HandleInteraction();
-       // dialogueWrite.SetupDialougeWriter(dialogueSO);
+        loader.SetDialogue(dialogueSO);
     }
 
-    void Update()
+ /*   void Update()
     {
         if (IsInteracting)
         {
@@ -48,7 +51,7 @@ public class WriteNPCMessageOnInteraction : HandleInteractBase, INPCWrite
         }
     }
 
-    void LoadDialogue()
+   public void LoadDialogue()
     {
         if (!isLoaded)
         {
@@ -57,5 +60,6 @@ public class WriteNPCMessageOnInteraction : HandleInteractBase, INPCWrite
         }
 
     }
+    */
 
 }

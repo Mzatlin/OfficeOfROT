@@ -7,12 +7,15 @@ public class WriteIncrementedDialogue : HandleInteractBase
     public bool canRepeat = false;
     public DialogueLoader dialogueWrite;
     public List<DialogSO> dialogueSO;
+
+    ILoadDialogue loader;
     int index =0;
 
     protected override void Awake()
     {
         base.Awake();
         dialogueWrite.OnEnd += HandleEnd;
+        loader = GetComponent<ILoadDialogue>();
     }
     protected override void HandleEnd()
     {
@@ -52,7 +55,11 @@ public class WriteIncrementedDialogue : HandleInteractBase
 
     void WriteDialogue()
     {
-        dialogueWrite.SetupDialougeWriter(dialogueSO[index]);
+        // dialogueWrite.SetupDialougeWriter(dialogueSO[index]);
+        if(loader != null)
+        {
+            loader.SetDialogue(dialogueSO[index]);
+        }
     }
 
 }
