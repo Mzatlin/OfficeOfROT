@@ -26,7 +26,7 @@ public class LoadDialogueProcessor : MonoBehaviour, ILoadDialogue
         if (interact.IsInteracting && isReady)
         {
             raycast.CanCast = false;
-            if (Vector2.Distance(transform.position, player.transform.position) < 2.5)
+            if (Vector2.Distance(transform.position, player.transform.position) < 2.6)
             {
                 LoadDialogue();
             }
