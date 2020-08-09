@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WriteDialogueOnStart : MonoBehaviour, IStartWrite
+public class WriteDialogueOnStart : CollectionProcessorBase, IStartWrite
 {
     [SerializeField]
     DialogueLoader dialogueWrite;
@@ -10,7 +10,7 @@ public class WriteDialogueOnStart : MonoBehaviour, IStartWrite
     List<DialogSO> dialogueSOs = new List<DialogSO>();
     [SerializeField]
     float timerDelay = 0.5f;
-    int index;
+
 
     public void StartWriteDialogue()
     {
@@ -20,15 +20,12 @@ public class WriteDialogueOnStart : MonoBehaviour, IStartWrite
     IEnumerator WriteDelay()
     {
         yield return new WaitForSeconds(timerDelay);
-        if (dialogueSOs.Capacity > 0)
-        {
-            if (index > dialogueSOs.Capacity - 1)
-            {
-                index = 0;
-            }
-            dialogueWrite.SetupDialougeWriter(dialogueSOs[index]);
-            index++;
-        }
+        IterateListByOne(dialogueSOs);
+    }
+
+    protected override void UseItemInList(int index)
+    {
+        dialogueWrite.SetupDialougeWriter(dialogueSOs[index]);
     }
 }
 
