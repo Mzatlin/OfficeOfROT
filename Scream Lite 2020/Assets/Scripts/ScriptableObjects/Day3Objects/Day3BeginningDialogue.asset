@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Day3BeginningDialogue
+  m_EditorClassIdentifier: 
+  name: You
+  name2: You
+  sentences:
+  - "The heat must be getting to me\u2026 and the flickering lights. There\u2019s
+    no way I was seein\u2019 all that- whatever that was. "
+  - 'Was Marsha turning into a bug?? What in the world is happening?! '
+  - "I gotta sleep it off. I\u2019ll be fine by tomorrow. It\u2019ll be fine. Just
+    tired"
+  options: []

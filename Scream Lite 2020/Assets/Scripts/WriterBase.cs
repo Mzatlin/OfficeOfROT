@@ -13,11 +13,11 @@ public class WriterBase : MonoBehaviour
     public Canvas dialogCanvas;
     public DialogueLoader dialogue;
     public TextMeshProUGUI textName;
-    protected bool created; 
+    protected bool isCreated = false;
 
     protected virtual void Awake()
     {
-        if (created && instance != null && instance != this)
+        if (isCreated && instance != null && instance != this)
         {
             Destroy(this.gameObject);
             Destroy(dialogCanvas);
@@ -26,8 +26,9 @@ public class WriterBase : MonoBehaviour
         {
             DontDestroyOnLoad(dialogCanvas);
             DontDestroyOnLoad(this.gameObject);
-            created = true;
             Debug.Log("Awake: " + this.gameObject);
+            instance = this;
+            isCreated = true;
         }
         dialogCanvas.enabled = false;
         //dialogue.OnWrite += HandleWrite;

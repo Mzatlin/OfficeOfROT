@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
+  m_Name: Day2BeginningDialogue
+  m_EditorClassIdentifier: 
+  name: You
+  name2: You
+  sentences:
+  - "Guess everyone seems normal, pretty par for the course. Hm, feelin\u2019 like
+    golfin\u2019, actually. \n"
+  - "Maybe when I quit\u2026 should prolly wait \u2018till things are more relaxed,
+    though.\r\n"
+  options: []

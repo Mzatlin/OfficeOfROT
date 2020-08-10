@@ -4470,7 +4470,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ebadff94709d1645a37a08547d6292c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
   dialogueSO: {fileID: 11400000, guid: 413d6e27a451aa64dbdae672da8ab535, type: 2}
 --- !u!114 &990490843426335228
@@ -5293,7 +5292,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ebadff94709d1645a37a08547d6292c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
   dialogueSO: {fileID: 11400000, guid: fcb0b10906d031547b3a272c7b5e871e, type: 2}
 --- !u!114 &1279815951807909212
@@ -11453,7 +11451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d790e3fd8bd4b9f48b166bc90de9aca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sceneName: DayMessageScene
   timeDelay: 2
 --- !u!114 &1858765636299653050
 MonoBehaviour:
@@ -13775,7 +13773,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ebadff94709d1645a37a08547d6292c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
   dialogueSO: {fileID: 11400000, guid: 29db87c7306cd734b9e478997dcdc5b4, type: 2}
 --- !u!114 &5354407752573703301
@@ -15116,7 +15113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ebadff94709d1645a37a08547d6292c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
   dialogueSO: {fileID: 11400000, guid: 51a4c8bebfa292c45ab930242d98785c, type: 2}
 --- !u!114 &9099708855684812298

@@ -4,14 +4,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ChangeSceneOnDialogEnd : MonoBehaviour
+public class ChangeSceneOnDialogEnd : DayLookupBase
 {
     [SerializeField]
     float timeDelay = 3f;
-    public string name;
+    public List<string> names = new List<string>();
+    private string name;
     public DialogueLoader load; 
     // Start is called before the first frame update
-    void Start()
+    protected override void Start()
     {
         load.OnEnd += HandleEnd;
     }
@@ -26,10 +27,28 @@ public class ChangeSceneOnDialogEnd : MonoBehaviour
         StartCoroutine(LoadDelay());
     }
 
+    private void IncrementDay()
+    {
+        day.IncrementDay();
+    }
+
     IEnumerator LoadDelay()
     {
         yield return new WaitForSeconds(timeDelay);
+        LookupItem(day.currentDay);
+        IncrementDay();
         SceneManager.LoadScene(name, LoadSceneMode.Single);
     }
 
+    protected override void SetItem(int index)
+    {
+        if (names[index - 1] != null && names.Capacity > 1)
+        {
+            name = names[index - 1];
+        }
+        else
+        {
+            name = names[0];
+        }
+    }
 }

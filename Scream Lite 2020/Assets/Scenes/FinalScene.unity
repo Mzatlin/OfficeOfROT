@@ -306,6 +306,7 @@ GameObject:
   - component: {fileID: 755974591}
   - component: {fileID: 755974592}
   - component: {fileID: 755974593}
+  - component: {fileID: 755974594}
   m_Layer: 0
   m_Name: StartManager
   m_TagString: Untagged
@@ -325,7 +326,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2e3675658af154b86aab5ab8b9f83f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messageManager: {fileID: 0}
 --- !u!4 &755974590
 Transform:
   m_ObjectHideFlags: 0
@@ -352,8 +352,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45c7f2144473b0f449f453c8234cf3b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  day: {fileID: 11400000, guid: 4b6022d6e036c6842a9694360618a305, type: 2}
   timeDelay: 3
-  name: TitleScreen
+  names:
+  - DayMessageScene
   load: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
 --- !u!114 &755974592
 MonoBehaviour:
@@ -382,6 +384,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 427299391}
+--- !u!114 &755974594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755974588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e20ace06dfc53014d9a9436e8729d710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  day: {fileID: 11400000, guid: 4b6022d6e036c6842a9694360618a305, type: 2}
+  finalImage: {fileID: 1560510960}
+  intendedDay: 3
 --- !u!114 &834823415 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1614280324648158512, guid: b15eaf3e96b7876488868300850dcc8e,

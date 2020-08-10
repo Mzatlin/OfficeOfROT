@@ -151,7 +151,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2e3675658af154b86aab5ab8b9f83f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messageManager: {fileID: 0}
 --- !u!114 &13534571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2365,6 +2364,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5207361194363092419, guid: 7d050959175de674bae0c67b2e7955aa,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: aa1c2089a910e584cbea094703628331,
+        type: 3}
     - target: {fileID: 5639562278321579711, guid: 7d050959175de674bae0c67b2e7955aa,
         type: 3}
       propertyPath: m_Name
@@ -2387,7 +2392,7 @@ PrefabInstance:
     - target: {fileID: 736077631911849092, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
       propertyPath: sceneName
-      value: Day2
+      value: DayMessageScene
       objectReference: {fileID: 0}
     - target: {fileID: 990490843426335228, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}

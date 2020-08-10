@@ -6,7 +6,6 @@ using System.Linq;
 public class BeginDialogueObjectOnStart : MonoBehaviour
 {
     IStartWrite write;
-    [SerializeField]
     WriteDialogueOnStart messageManager;
     // Start is called before the first frame update
     void Start()
