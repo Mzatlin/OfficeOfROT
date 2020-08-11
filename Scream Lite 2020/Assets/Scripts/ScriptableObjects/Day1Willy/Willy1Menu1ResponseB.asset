@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Willy1Menu1ResponseB
   m_EditorClassIdentifier: 
-  name: You
+  name1: You
   name2: Willy
   sentences:
   - Room temperature! You finished with all your reports? You probably did, but dad

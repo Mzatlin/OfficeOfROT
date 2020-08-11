@@ -25,7 +25,7 @@ public class DialogWriter : WriterBase
 
     void HandleWrite()
     {
-        textName.text = dialogue.currentDialogue.name;
+        textName.text = dialogue.currentDialogue.name1;
         if(dialogue.currentDialogue.name2 != "")
         {
             canSwap = true;
@@ -68,14 +68,15 @@ public class DialogWriter : WriterBase
             return;
         }
 
-        base.WriteDialogue();
         if (this != null)
         {
+            base.WriteDialogue();
             StopAllCoroutines();
+            currentSentence = dialogueSentences.Dequeue();
+            coroutine = TypeLine(currentSentence);
+            StartCoroutine(coroutine);
         }
-        currentSentence = dialogueSentences.Dequeue();
-        coroutine = TypeLine(currentSentence);
-        StartCoroutine(coroutine);
+
 
         if (canSwap)
         {
@@ -85,13 +86,13 @@ public class DialogWriter : WriterBase
 
     void NameSwap(string name)
     {
-        if (name == dialogue.currentDialogue.name)
+        if (name == dialogue.currentDialogue.name1)
         {
            textName.text = dialogue.currentDialogue.name2;
         }
         else
         {
-            textName.text = dialogue.currentDialogue.name;
+            textName.text = dialogue.currentDialogue.name1;
         }
     }
 }

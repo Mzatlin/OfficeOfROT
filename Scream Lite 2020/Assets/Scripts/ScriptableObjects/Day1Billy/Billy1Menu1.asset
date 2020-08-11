@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Billy1Menu1
   m_EditorClassIdentifier: 
-  name: Billy
-  name2: You
+  name1: Billy
+  name2: Billy
   sentences:
   - "Hey there, rookie. Takin\u2019 off?"
   options:

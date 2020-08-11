@@ -20,9 +20,15 @@ public class DialogueOptionMenu : WriterBase
 
     void HideButtons()
     {
-        foreach (Button button in buttonOptions)
+        if(buttonOptions != null && buttonOptions.Capacity > 0)
         {
-            button.enabled = false;
+            foreach (Button button in buttonOptions)
+            {
+                if(button != null)
+                {
+                    button.enabled = false;
+                }
+            }
         }
     }
 
@@ -30,8 +36,13 @@ public class DialogueOptionMenu : WriterBase
     {
         for (int i = 0; i < dialogue.currentDialogue.options.Capacity; i++)
         {
-            buttonOptions[i].GetComponentInChildren<TextMeshProUGUI>().text = dialogue.currentDialogue.options[i].description;
-            buttonOptions[i].enabled = true;
+            var button = buttonOptions[i];
+            if(button != null)
+            {
+                button.GetComponentInChildren<TextMeshProUGUI>().text = dialogue.currentDialogue.options[i].description;
+                button.enabled = true;
+            }
+
         }
     }
 
@@ -39,9 +50,12 @@ public class DialogueOptionMenu : WriterBase
     {
         HideButtons();
         EnableOptions();
-        textName.text = dialogue.currentDialogue.name;
-        dialogCanvas.enabled = true;
-        WriteDialogue();
+        textName.text = dialogue.currentDialogue.name1;
+        if(dialogCanvas != null)
+        {
+            dialogCanvas.enabled = true;
+            WriteDialogue();
+        }
     }
 
     protected override void WriteDialogue()

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Willy2EndA
   m_EditorClassIdentifier: 
-  name: Solly
-  name2: Solly
+  name1: 
+  name2: Willy
   sentences:
   - Um.. people do like me, right?
   options: []

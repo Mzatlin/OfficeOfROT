@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Day2BeginningDialogue
   m_EditorClassIdentifier: 
-  name: You
-  name2: You
+  name: 
+  name2: 
   sentences:
   - "Guess everyone seems normal, pretty par for the course. Hm, feelin\u2019 like
     golfin\u2019, actually. \n"
-  - "Maybe when I quit\u2026 should prolly wait \u2018till things are more relaxed,
+  - "Maybe when I quit\u2026 should probably wait \u2018till things are more relaxed,
     though.\r\n"
   options: []

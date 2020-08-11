@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Marsha1Menu1
   m_EditorClassIdentifier: 
-  name: Marsha
-  name2: Marsha
+  name1: Marsha
+  name2: 
   sentences:
   - Thank you. Have a good night.
   options:

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Day1StartDialogue
   m_EditorClassIdentifier: 
   name: You
-  name2: 
+  name2: You
   sentences:
   - "The boss had us working overtime today, on the lord\u2019s day, no less. Classy
     as always. I\u2019m about to head out, gonna see how Billy\u2019s doing before

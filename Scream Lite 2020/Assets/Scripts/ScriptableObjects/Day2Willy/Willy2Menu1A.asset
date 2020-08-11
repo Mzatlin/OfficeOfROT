@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Willy2Menu1A
   m_EditorClassIdentifier: 
-  name: Willy
-  name2: 
+  name1: Willy
+  name2: Willy
   sentences:
   - "\u201COh! Good! Th\u2026 That\u2019s good! That\u2019s very good. You\u2019re
     not lying to me, are you?\u201D\r\n"

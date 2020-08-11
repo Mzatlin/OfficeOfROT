@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Solly2Menu2
   m_EditorClassIdentifier: 
-  name: Solly
-  name2: Solly
+  name1: Solly
+  name2: 
   sentences:
   - "I was a little tired and sort of just\u2026 slept here!"
   options:

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: ExitDoor4
   m_EditorClassIdentifier: 
-  name: Billy, Willy, Frank, Solly, Marsha
+  name1: Billy, Willy, Frank, Solly, Marsha
   name2: Billy, Willy, Frank, Solly, Marsha
   sentences:
   - "I can\u2019t blame you for wanting to leave. All the hours we\u2019ve wasted
@@ -21,7 +21,7 @@ MonoBehaviour:
     is that lucky. So please\u2026\r\n\r\n"
   - 'Stay
 
-    
+
 
 '
   options: []

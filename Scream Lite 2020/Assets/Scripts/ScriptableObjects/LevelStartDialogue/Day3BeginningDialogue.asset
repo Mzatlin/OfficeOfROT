@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
-  m_Name: Day1BeginningDialogue
+  m_Name: Day3BeginningDialogue
   m_EditorClassIdentifier: 
-  name: You
-  name2: You
+  name: 
+  name2: 
   sentences:
-  - "I\u2019m an average office worker. Been doin\u2019 this job for years. Too many
-    years,  "
-  - if you ask me. 3 days ago I wanted to put in my two weeks notice.
-  - "Now\u2026"
+  - "The heat must be getting to me\u2026 and the flickering lights. There\u2019s
+    no way I was seein\u2019 all that- whatever that was. "
+  - 'Was Marsha turning into a bug?? What in the world is happening?! '
+  - "I gotta sleep it off. I\u2019ll be fine by tomorrow. It\u2019ll be fine. Just
+    tired..."
   options: []

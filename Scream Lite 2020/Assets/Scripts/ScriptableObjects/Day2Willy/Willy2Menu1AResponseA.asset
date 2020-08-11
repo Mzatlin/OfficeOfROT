@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Willy2Menu1AResponseA
   m_EditorClassIdentifier: 
-  name: Willy
-  name2: 
+  name1: Willy
+  name2: Willy
   sentences:
   - "I can\u2019t tell if you\u2019re joking or not\u2026 If you are, it\u2019s uh\u2026
     not very funny. "

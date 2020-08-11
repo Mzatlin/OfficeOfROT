@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Billy2Menu2ResponseB
   m_EditorClassIdentifier: 
-  name: You
+  name1: You
   name2: Billy
   sentences:
   - God, I wish I could have a drink! I got no time or money to spare.

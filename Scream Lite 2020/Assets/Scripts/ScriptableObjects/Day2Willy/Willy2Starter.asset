@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Willy2Starter
   m_EditorClassIdentifier: 
-  name: You
+  name1: You
   name2: Willy
   sentences:
   - "H-hey there! How\u2019s it hanging? Have fun last night?"

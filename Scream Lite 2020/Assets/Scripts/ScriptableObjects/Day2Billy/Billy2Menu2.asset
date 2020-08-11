@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Billy2Menu2
   m_EditorClassIdentifier: 
-  name: Billy
-  name2: Billy
+  name1: Billy
+  name2: 
   sentences:
   - "I\u2019m just tired. Didn\u2019t get much to eat. I\u2019ll be fine. What about
     you?"

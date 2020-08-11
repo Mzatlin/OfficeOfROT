@@ -27,22 +27,16 @@ public class ChangeSceneOnDialogEnd : DayLookupBase
         StartCoroutine(LoadDelay());
     }
 
-    private void IncrementDay()
-    {
-        day.IncrementDay();
-    }
-
     IEnumerator LoadDelay()
     {
         yield return new WaitForSeconds(timeDelay);
         LookupItem(day.currentDay);
-        IncrementDay();
         SceneManager.LoadScene(name, LoadSceneMode.Single);
     }
 
     protected override void SetItem(int index)
     {
-        if (names[index - 1] != null && names.Capacity > 1)
+        if (names.Capacity > 1 && names[index - 1] != null)
         {
             name = names[index - 1];
         }

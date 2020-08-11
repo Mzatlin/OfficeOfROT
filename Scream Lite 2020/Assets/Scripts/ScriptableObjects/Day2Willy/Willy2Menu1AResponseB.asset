@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Willy2Menu1AResponseB
   m_EditorClassIdentifier: 
-  name: You
+  name1: Willy
   name2: Willy
   sentences:
   - "Oh thank god. The tension in this place is causing me to melt. Literally! Haha,
