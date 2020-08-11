@@ -9,7 +9,7 @@ public class ChangeSceneOnDialogEnd : DayLookupBase
     [SerializeField]
     float timeDelay = 3f;
     public List<string> names = new List<string>();
-    private string name;
+    private string sceneName;
     public DialogueLoader load; 
     // Start is called before the first frame update
     protected override void Start()
@@ -31,18 +31,18 @@ public class ChangeSceneOnDialogEnd : DayLookupBase
     {
         yield return new WaitForSeconds(timeDelay);
         LookupItem(day.currentDay);
-        SceneManager.LoadScene(name, LoadSceneMode.Single);
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 
     protected override void SetItem(int index)
     {
         if (names.Capacity > 1 && names[index - 1] != null)
         {
-            name = names[index - 1];
+            sceneName = names[index - 1];
         }
         else
         {
-            name = names[0];
+            sceneName = names[0];
         }
     }
 }

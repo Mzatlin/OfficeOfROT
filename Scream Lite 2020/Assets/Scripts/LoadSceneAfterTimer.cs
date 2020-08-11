@@ -8,7 +8,7 @@ public class LoadSceneAfterTimer : MonoBehaviour
     [SerializeField]
     float timer = 5f;
     [SerializeField]
-    string name;
+    string sceneName = "";
     // Start is called before the first frame update
 
     void Start()
@@ -19,6 +19,6 @@ public class LoadSceneAfterTimer : MonoBehaviour
     IEnumerator Timer()
     {
         yield return new WaitForSeconds(timer);
-        SceneManager.LoadScene(name,LoadSceneMode.Single);
+        SceneManager.LoadScene(sceneName,LoadSceneMode.Single);
     }
 }

@@ -5,16 +5,16 @@ using UnityEngine;
 public class CheckOffNPCOnInteract : HandleInteractBase
 {
 
-    public string name;
+    public string npcName;
     [SerializeField]
     NPCCheckListSO checkList;
 
     protected override void HandleInteraction()
     {
         base.HandleInteraction();
-        if (checkList.npcList.ContainsKey(name))
+        if (checkList.npcList.ContainsKey(npcName))
         {
-            checkList.npcList[name] = true;
+            checkList.npcList[npcName] = true;
         }
         else
         {

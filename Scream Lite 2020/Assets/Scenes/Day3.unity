@@ -1982,7 +1982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 547d9702721ca1740b4688647926b3ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Frank
+  npcName: Frank
   checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
 --- !u!114 &763982731
 MonoBehaviour:
@@ -2195,7 +2195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 547d9702721ca1740b4688647926b3ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Solly
+  npcName: Solly
   checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
 --- !u!114 &891323140
 MonoBehaviour:
@@ -2345,7 +2345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 547d9702721ca1740b4688647926b3ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Marsha
+  npcName: Marsha
   checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
 --- !u!114 &953982795
 MonoBehaviour:
@@ -2997,7 +2997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 547d9702721ca1740b4688647926b3ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Willy
+  npcName: Willy
   checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
 --- !u!114 &1197981079
 MonoBehaviour:
@@ -5566,7 +5566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 547d9702721ca1740b4688647926b3ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Billy
+  npcName: Billy
   checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
 --- !u!114 &2108973082
 MonoBehaviour:

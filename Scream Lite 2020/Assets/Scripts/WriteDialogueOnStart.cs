@@ -17,6 +17,14 @@ public class WriteDialogueOnStart : CollectionProcessorBase, IStartWrite
        StartCoroutine(WriteDelay());
     }
 
+    public void ResetIndex()
+    {
+        if(dialogueSOs != null)
+        {
+            index = 0;
+        }
+    }
+
     IEnumerator WriteDelay()
     {
         yield return new WaitForSeconds(timerDelay);

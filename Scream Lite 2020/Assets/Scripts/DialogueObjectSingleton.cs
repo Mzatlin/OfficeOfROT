@@ -11,11 +11,11 @@ public class DialogueObjectSingleton : MonoBehaviour
     {
         if (instance != null && instance != this)
         {
-            Destroy(this.gameObject);
             foreach(GameObject can in dialogueboxes)
             {
                 Destroy(can);
             }
+            Destroy(this.gameObject);
 
         }
         else

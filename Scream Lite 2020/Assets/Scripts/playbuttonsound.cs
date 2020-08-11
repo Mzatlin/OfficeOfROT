@@ -6,14 +6,14 @@ public class playbuttonsound : HandleInteractBase
 {
     [SerializeField]
     private AK.Wwise.Event myEvent = null;
-    ICameraRaycast camera;
+    ICameraRaycast raycastCamera;
     Camera cam;
 
     protected override void Awake()
     {
         base.Awake();
         cam = Camera.main;
-        camera = cam.GetComponent<ICameraRaycast>();
+        raycastCamera = cam.GetComponent<ICameraRaycast>();
     }
 
     private void OnDestroy()
@@ -25,7 +25,7 @@ public class playbuttonsound : HandleInteractBase
     {
         myEvent.Post(gameObject);
         base.HandleInteraction();
-        if (camera != null && camera.CanCast)
+        if (raycastCamera != null && raycastCamera.CanCast)
         {
             myEvent.Post(gameObject);
         }

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f0bcf708381f4f45983f2bb651fe695, type: 3}
   m_Name: Day Tracker SO
   m_EditorClassIdentifier: 
-  currentDay: 3
+  currentDay: 4
   maxDay: 4
