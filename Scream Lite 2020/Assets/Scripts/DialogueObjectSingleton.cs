@@ -25,7 +25,6 @@ public class DialogueObjectSingleton : MonoBehaviour
                 DontDestroyOnLoad(can);
             }
             DontDestroyOnLoad(this.gameObject);
-            Debug.Log("Awake: " + this.gameObject);
             instance = this;
         }
     }

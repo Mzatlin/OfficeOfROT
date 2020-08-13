@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Pathfinding;
 using UnityEngine;
 
 public class MovePlayerOnClick : GameObjectPathingBase, IMove
@@ -15,7 +16,8 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
 
     public AK.Wwise.Event MyEvent = null;
 
-    bool IMove.isMoving { get => isMoving; set => isMoving = value; }
+    public bool IsMoving { get => isMoving; set => isMoving = value; }
+    public Path MovePath => path;
 
     // Start is called before the first frame update
     protected override void Start()

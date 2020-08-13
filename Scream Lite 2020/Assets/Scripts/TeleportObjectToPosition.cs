@@ -8,17 +8,6 @@ public class TeleportObjectToPosition : MonoBehaviour
     LayerMask targetMask;
     [SerializeField]
     GameObject location;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -27,7 +16,7 @@ public class TeleportObjectToPosition : MonoBehaviour
             var move = collision.GetComponent<IMove>();
             if(move != null)
             {
-                move.isMoving = false;
+                move.IsMoving = false;
                 collision.transform.position = location.transform.position;
             }
 

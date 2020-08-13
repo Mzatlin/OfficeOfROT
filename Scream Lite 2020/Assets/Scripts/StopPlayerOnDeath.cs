@@ -25,7 +25,7 @@ public class StopPlayerOnDeath : MonoBehaviour
 
     private void HandleDeath()
     {
-        move.isMoving = false;
+        move.IsMoving = false;
     }
 
 

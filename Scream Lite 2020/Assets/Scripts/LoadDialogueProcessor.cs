@@ -7,6 +7,7 @@ public class LoadDialogueProcessor : MonoBehaviour, ILoadDialogue
     IInteractionWrite interact;
     public GameObject player;
     public DialogueLoader dialogueWrite;
+    IMove move;
     ICameraRaycast raycast;
     Camera cam;
     public DialogSO dialogueSO;
@@ -19,11 +20,16 @@ public class LoadDialogueProcessor : MonoBehaviour, ILoadDialogue
         cam = Camera.main;
         interact = GetComponent<IInteractionWrite>();
         raycast = cam.GetComponent<ICameraRaycast>();
+
+        if(player != null)
+        {
+            move = player.GetComponent<IMove>();
+        }
     }
 
     void Update()
     {
-        if (interact.IsInteracting && isReady)
+        if (interact.IsInteracting && isReady && move.MovePath != null)
         {
             raycast.CanCast = false;
             if (Vector2.Distance(transform.position, player.transform.position) < 2.6)
