@@ -12,6 +12,7 @@ public class AnimateOnExit : MonoBehaviour
     {
         spawn = GetComponent<IExitSpawn>();
         spawn.OnSpawnEnd += HandleSpawn;
+        SetupAnimators();
     }
 
    void SetupAnimators()
