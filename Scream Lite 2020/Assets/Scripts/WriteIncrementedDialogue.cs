@@ -55,10 +55,13 @@ public class WriteIncrementedDialogue : HandleInteractBase
 
     void WriteDialogue()
     {
-        // dialogueWrite.SetupDialougeWriter(dialogueSO[index]);
-        if(loader != null)
+        if(loader != null || dialogueSO[index] != null)
         {
             loader.SetDialogue(dialogueSO[index]);
+        }
+        else
+        {
+            Debug.Log("No loader found");
         }
     }
 

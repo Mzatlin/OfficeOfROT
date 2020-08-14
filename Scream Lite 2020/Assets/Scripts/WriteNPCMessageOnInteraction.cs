@@ -27,7 +27,15 @@ public class WriteNPCMessageOnInteraction : HandleInteractBase, INPCWrite
     protected override void HandleInteraction()
     {
         base.HandleInteraction();
-        loader.SetDialogue(dialogueSO);
+        if(loader != null || dialogueSO != null)
+        {
+            loader.SetDialogue(dialogueSO);
+        }
+        else
+        {
+            Debug.Log("No loader found");
+        }
+
     }
 
 }

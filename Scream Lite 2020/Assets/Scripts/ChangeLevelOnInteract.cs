@@ -6,14 +6,16 @@ using UnityEngine.SceneManagement;
 public class ChangeLevelOnInteract : HandleInteractBase
 {
     ILoadScene scene;
+    ILoadDialogue loader;
     public NPCCheckListSO checkList;
-    public DialogueLoader dialogueWrite;
     public DialogSO dialogueSO;
+
 
     protected override void Awake()
     {
         base.Awake();
         scene = GetComponent<ILoadScene>();
+        loader = GetComponent<ILoadDialogue>();
     }
     protected override void HandleInteraction()
     {
@@ -28,12 +30,18 @@ public class ChangeLevelOnInteract : HandleInteractBase
             }
         }
         scene.LoadScene();
-     
     }
 
     void WriteFailureMessage()
     {
-        dialogueWrite.SetupDialougeWriter(dialogueSO);
+        if (loader != null || dialogueSO != null)
+        {
+            loader.SetDialogue(dialogueSO);
+        }
+        else
+        {
+            Debug.Log("No loader found");
+        }
     }
 
     protected override void HandleEnd()
