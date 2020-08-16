@@ -59,7 +59,14 @@ public class SpawnObjectOnDialogueEnd : HandleInteractBase, IExitSpawn
 
     void WriteFailureMessage()
     {
-        loader.SetDialogue(dialogueSO);
+        if (loader != null)
+        {
+            loader.SetDialogue(dialogueSO);
+        }
+        else
+        {
+            Debug.Log("Loader not found.");
+        }
     }
 
     void WriteSuccessMessage()

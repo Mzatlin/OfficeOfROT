@@ -29,7 +29,7 @@ public class LoadDialogueProcessor : MonoBehaviour, ILoadDialogue
 
     void Update()
     {
-        if (interact.IsInteracting && isReady && move.MovePath != null && move.IsMoving)
+        if (interact.IsInteracting && isReady && move.MovePath != null)
         {
             raycast.CanCast = false;// StartCoroutine(Delay());
             if (Vector2.Distance(transform.position, player.transform.position) < 2.6)
