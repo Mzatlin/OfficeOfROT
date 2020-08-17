@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: b741be4e4a4e6cb4e9058416569e5b91
+guid: 37dfbdef8989bfa479ee1731adf4e712
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8348929976448271042
-    second: button (1)_0
+      213: -1112599299658429211
+    second: playerfront2_0
   - first:
-      213: -162064319714496511
-    second: button (1)_1
+      213: -6771668403486407332
+    second: playerfront2_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: button (1)_0
+      name: playerfront2_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 3
         y: 0
-        width: 296
-        height: 82
+        width: 26
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3db033cb64a22c80800000000000000
-      internalID: -8348929976448271042
+      spriteID: 5ecc28ee4d04f80f0800000000000000
+      internalID: -1112599299658429211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button (1)_1
+      name: playerfront2_1
       rect:
         serializedVersion: 2
-        x: 296
+        x: 35
         y: 0
-        width: 296
-        height: 82
+        width: 26
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 100f6a02c5b30cdf0800000000000000
-      internalID: -162064319714496511
+      spriteID: c55c47107733602a0800000000000000
+      internalID: -6771668403486407332
       vertices: []
       indices: 
       edges: []
