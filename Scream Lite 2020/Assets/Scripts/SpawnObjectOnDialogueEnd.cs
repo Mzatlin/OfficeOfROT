@@ -71,7 +71,14 @@ public class SpawnObjectOnDialogueEnd : HandleInteractBase, IExitSpawn
 
     void WriteSuccessMessage()
     {
-       loader.SetDialogue(endDialogue);
+        if (loader != null)
+        {
+            loader.SetDialogue(endDialogue);
+        }
+        else
+        {
+            Debug.Log("Loader not found.");
+        }
     }
 
     protected override void HandleEnd()

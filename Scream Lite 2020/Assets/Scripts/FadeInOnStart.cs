@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class FadeInOnStart : FadeInBase
 {
-
+    [SerializeField]
+    bool fadeSwapper = true;
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -14,8 +15,8 @@ public class FadeInOnStart : FadeInBase
 
     protected override void FadeIn()
     {
-        animate.SetBool("IsFadeIn", true);
-        animate.SetBool("IsFadeOut", false);
+        animate.SetBool("IsFadeIn", fadeSwapper);
+        animate.SetBool("IsFadeOut", !fadeSwapper);
     }
 
 }

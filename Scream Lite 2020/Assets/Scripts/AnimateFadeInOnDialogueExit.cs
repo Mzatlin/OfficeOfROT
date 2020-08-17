@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class AnimateFadeInOnDialogueExit : FadeInBase
 {
     public DialogueLoader load;
+    [SerializeField]
+    bool fadeSwapper = false;
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -29,7 +31,8 @@ public class AnimateFadeInOnDialogueExit : FadeInBase
 
     protected override void FadeIn()
     {
-        animate.SetBool("IsFadeIn", false);
-        animate.SetBool("IsFadeOut", true);
+
+        animate.SetBool("IsFadeIn", fadeSwapper);
+        animate.SetBool("IsFadeOut", !fadeSwapper);
     }
 }
