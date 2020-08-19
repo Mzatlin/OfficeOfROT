@@ -7,6 +7,7 @@ public class PlaySoundOnSpawn : MonoBehaviour
 {
     public AK.Wwise.Event MyEvent = null;
     IExitSpawn spawn;
+    bool isPlayed = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,11 @@ public class PlaySoundOnSpawn : MonoBehaviour
 
     private void HandleSpawn()
     {
-        MyEvent.Post(gameObject);
+        if (!isPlayed)
+        {
+            MyEvent.Post(gameObject);
+            isPlayed = true;
+        }
+
     }
 }

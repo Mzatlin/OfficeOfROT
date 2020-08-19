@@ -5,12 +5,13 @@ using UnityEngine;
 public class LoadDialogueProcessor : MonoBehaviour, ILoadDialogue
 {
     IInteractionWrite interact;
+    IMoveToInteraction moveInteract;
     public GameObject player;
     public DialogueLoader dialogueWrite;
     IMove move;
     ICameraRaycast raycast;
     Camera cam;
-    public DialogSO dialogueSO;
+    DialogSO dialogueSO;
     bool isLoaded = false;
     public bool IsLoaded { get => isLoaded; set => isLoaded = value; }
     bool isReady = false;
@@ -20,6 +21,7 @@ public class LoadDialogueProcessor : MonoBehaviour, ILoadDialogue
         cam = Camera.main;
         interact = GetComponent<IInteractionWrite>();
         raycast = cam.GetComponent<ICameraRaycast>();
+        moveInteract = GetComponent<IMoveToInteraction>();
 
         if(player != null)
         {
@@ -31,28 +33,24 @@ public class LoadDialogueProcessor : MonoBehaviour, ILoadDialogue
     {
         if (interact.IsInteracting && isReady && move.MovePath != null)
         {
-            raycast.CanCast = false;// StartCoroutine(Delay());
+        //    raycast.CanCast = false;
             if (Vector2.Distance(transform.position, player.transform.position) < 2.6)
             {
                 LoadDialogue();
             }
+            else
+            {
+                isLoaded = false;
+            }
 
         }
-        else
-        {
-            isLoaded = false;
-        }
-    }
-    
-    IEnumerator Delay()
-    {
-        yield return new WaitForSeconds(.2f);
-        raycast.CanCast = false;
+
     }
 
     public void SetDialogue(DialogSO _dialogue)
     {
         dialogueSO = _dialogue;
+      //  moveInteract.MoveToPoint();
         isReady = true;
     }
     public void LoadDialogue()
@@ -61,8 +59,8 @@ public class LoadDialogueProcessor : MonoBehaviour, ILoadDialogue
         {
             dialogueWrite.SetupDialougeWriter(dialogueSO);
             isLoaded = true;
-            raycast.CanCast = false;
             isReady = false;
+            raycast.CanCast = false;
         }
 
     }

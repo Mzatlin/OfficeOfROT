@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -282,7 +282,7 @@ PrefabInstance:
     - target: {fileID: 3487175087439943389, guid: 74dfc3a0f1f44214a8e7f2a8473d491f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3487175087520543912, guid: 74dfc3a0f1f44214a8e7f2a8473d491f,
         type: 3}
@@ -2199,7 +2199,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 7486792125094305481}
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
-  dialogueSO: {fileID: 0}
 --- !u!1 &804995875 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9099708855151687716, guid: 44a815d2ac193d841bd8aef57eb9aedd,
@@ -2220,7 +2219,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 7486792125094305481}
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
-  dialogueSO: {fileID: 11400000, guid: 5e628a04522af874a8aeeded9f493902, type: 2}
 --- !u!114 &804995877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2426,7 +2424,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 7486792125094305481}
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
-  dialogueSO: {fileID: 0}
 --- !u!1 &916336311 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9099708855684812299, guid: 44a815d2ac193d841bd8aef57eb9aedd,
@@ -2487,7 +2484,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 7486792125094305481}
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
-  dialogueSO: {fileID: 0}
 --- !u!114 &953982791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3065,7 +3061,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 7486792125094305481}
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
-  dialogueSO: {fileID: 0}
 --- !u!1 &1234830198
 GameObject:
   m_ObjectHideFlags: 0
@@ -3411,8 +3406,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 4032888180619885622, guid: f17554d5e1497b44f8bbea8a48abfb24,
-    type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3420,7 +3414,7 @@ SpriteRenderer:
   m_Size: {x: 0.26, y: 0.59417725}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &1350133074
@@ -3527,7 +3521,7 @@ PrefabInstance:
     - target: {fileID: 5347768308436103792, guid: 33e0a90f9f9447941b218aceb3bed654,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5347768308436103804, guid: 33e0a90f9f9447941b218aceb3bed654,
         type: 3}
@@ -4890,6 +4884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 1784581225}
+  fadeSwapper: 1
 --- !u!4 &1994985061
 Transform:
   m_ObjectHideFlags: 0
@@ -5300,7 +5295,7 @@ PrefabInstance:
     - target: {fileID: 1614280326585731463, guid: b15eaf3e96b7876488868300850dcc8e,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1614280326684754212, guid: b15eaf3e96b7876488868300850dcc8e,
         type: 3}
@@ -5523,7 +5518,7 @@ PrefabInstance:
     - target: {fileID: 7490282961546182084, guid: ae7012b43b818be40af65ae2993f7c68,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7490282961546182085, guid: ae7012b43b818be40af65ae2993f7c68,
         type: 3}
@@ -5735,7 +5730,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 7486792125094305481}
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
-  dialogueSO: {fileID: 0}
 --- !u!4 &2120707222 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9099708855837394613, guid: 44a815d2ac193d841bd8aef57eb9aedd,
@@ -5859,7 +5853,7 @@ PrefabInstance:
     - target: {fileID: 6847464705815660339, guid: 513d6e75edf5bec46b9d414a1f05f581,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 353381694, guid: 513d6e75edf5bec46b9d414a1f05f581, type: 3}

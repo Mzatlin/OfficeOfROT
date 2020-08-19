@@ -9,6 +9,8 @@ public class AnimateFadeInOnDialogueExit : FadeInBase
     public DialogueLoader load;
     [SerializeField]
     bool fadeSwapper = false;
+    [SerializeField]
+    float timeDelay = 0;
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -25,9 +27,16 @@ public class AnimateFadeInOnDialogueExit : FadeInBase
     {
         if (animate != null)
         {
-            FadeIn();
+            StartCoroutine(Fadedelay());
         }
     }
+
+    IEnumerator Fadedelay()
+    {
+        yield return new WaitForSeconds(timeDelay);
+        FadeIn();
+    }
+
 
     protected override void FadeIn()
     {

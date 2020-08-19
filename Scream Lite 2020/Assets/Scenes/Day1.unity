@@ -165,6 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 896273918}
+  fadeSwapper: 1
 --- !u!4 &13534572
 Transform:
   m_ObjectHideFlags: 0
@@ -736,6 +737,28 @@ MonoBehaviour:
   eventIdInternal: 0
   valueGuidInternal: 
   m_callbackDataInternal: {fileID: 0}
+--- !u!1 &599457065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9099708854313611621, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+    type: 3}
+  m_PrefabInstance: {fileID: 9099708855368109301}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &599457067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599457065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43dd380c36b16bf4383b1e8edb982704, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueWrite: {fileID: 0}
+  player: {fileID: 0}
+  dialogueSO: {fileID: 0}
+  distanceToObject: 2.6
 --- !u!1 &705562992 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9099708855317445857, guid: 44a815d2ac193d841bd8aef57eb9aedd,
@@ -755,6 +778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
+  dialogueWrite: {fileID: 0}
   dialogueSO: {fileID: 11400000, guid: 084dbe6cf8e57c04085ac388bb884b03, type: 2}
 --- !u!1001 &891776156
 PrefabInstance:
@@ -1847,7 +1871,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1927992203}
   dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
-  dialogueSO: {fileID: 11400000, guid: 084dbe6cf8e57c04085ac388bb884b03, type: 2}
 --- !u!114 &1398938632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1984,6 +2007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
+  dialogueWrite: {fileID: 11400000, guid: c7ce4c75f6477c14eaeacc471877a1bd, type: 2}
   dialogueSO: {fileID: 11400000, guid: 084dbe6cf8e57c04085ac388bb884b03, type: 2}
 --- !u!114 &1398938637
 MonoBehaviour:
@@ -2698,6 +2722,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099708854313611617, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9099708854313611620, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
