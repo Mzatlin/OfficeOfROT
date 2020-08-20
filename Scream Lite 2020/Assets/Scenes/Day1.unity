@@ -759,27 +759,6 @@ MonoBehaviour:
   player: {fileID: 0}
   dialogueSO: {fileID: 0}
   distanceToObject: 2.6
---- !u!1 &705562992 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9099708855317445857, guid: 44a815d2ac193d841bd8aef57eb9aedd,
-    type: 3}
-  m_PrefabInstance: {fileID: 9099708855368109301}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &705563003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 705562992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b8ea85314955ce43b04b6b29641e824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  checkList: {fileID: 11400000, guid: 0077edae549338a4dba9cf229bacf1c4, type: 2}
-  dialogueWrite: {fileID: 0}
-  dialogueSO: {fileID: 11400000, guid: 084dbe6cf8e57c04085ac388bb884b03, type: 2}
 --- !u!1001 &891776156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1163,7 +1142,7 @@ PrefabInstance:
     - target: {fileID: 1614280326585731463, guid: b15eaf3e96b7876488868300850dcc8e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1614280326684754212, guid: b15eaf3e96b7876488868300850dcc8e,
         type: 3}
@@ -1508,7 +1487,7 @@ PrefabInstance:
     - target: {fileID: 3487175087439943389, guid: 74dfc3a0f1f44214a8e7f2a8473d491f,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3487175087520543912, guid: 74dfc3a0f1f44214a8e7f2a8473d491f,
         type: 3}
@@ -2337,7 +2316,7 @@ PrefabInstance:
     - target: {fileID: 5347768308436103792, guid: 33e0a90f9f9447941b218aceb3bed654,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5347768308436103804, guid: 33e0a90f9f9447941b218aceb3bed654,
         type: 3}

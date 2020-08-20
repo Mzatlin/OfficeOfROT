@@ -19,16 +19,27 @@ public class ChangeLevelOnInteract : HandleInteractBase
     protected override void HandleInteraction()
     {
         base.HandleInteraction();
+        if (IsNPCChecklistFinished())
+        {
+            scene.LoadScene();
+        }
+        else
+        {
+            WriteFailureMessage();
+        }
 
+    }
+
+    bool IsNPCChecklistFinished()
+    {
         foreach (string npc in checkList.npcList.Keys)
         {
             if (!checkList.GetNPCCheck(npc))
             {
-                WriteFailureMessage();
-                return;
+                return false;
             }
         }
-        scene.LoadScene();
+        return true;
     }
 
     void WriteFailureMessage()
