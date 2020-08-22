@@ -31,6 +31,12 @@ public class StopRaycastOnLevelLoad : MonoBehaviour
 
     private void HandleLoad()
     {
-       raycast.CanCast = false;
+        StartCoroutine(CastDelay());
+    }
+
+    IEnumerator CastDelay()
+    {
+        yield return new WaitForSeconds(.1f);
+        raycast.CanCast = false;
     }
 }

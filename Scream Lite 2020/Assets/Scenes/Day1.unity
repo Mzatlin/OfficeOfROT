@@ -1815,10 +1815,10 @@ GameObject:
   - component: {fileID: 1398938633}
   - component: {fileID: 1398938632}
   - component: {fileID: 1398938631}
-  - component: {fileID: 1398938642}
   - component: {fileID: 1398938641}
   - component: {fileID: 1398938640}
   - component: {fileID: 1398938636}
+  - component: {fileID: 1398938642}
   m_Layer: 16
   m_Name: Exit
   m_TagString: Untagged
@@ -2450,7 +2450,7 @@ PrefabInstance:
     - target: {fileID: 5347768308436103807, guid: 33e0a90f9f9447941b218aceb3bed654,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5347768308436103807, guid: 33e0a90f9f9447941b218aceb3bed654,
         type: 3}
@@ -2536,7 +2536,7 @@ PrefabInstance:
     - target: {fileID: 7486792124840387217, guid: be3dfbb248804bf46b615bf80d5ca49c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7486792124840387217, guid: be3dfbb248804bf46b615bf80d5ca49c,
         type: 3}

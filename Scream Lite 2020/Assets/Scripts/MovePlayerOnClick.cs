@@ -62,18 +62,18 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
         {
             if ((1 << raycast.RayHit.collider.gameObject.layer & floorMask) != 0)
             {
-                MovePlayer();
+                mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
+                MovePlayer(mousePosition);
             }
         }
     }
 
-    public void MovePlayer()
+    public void MovePlayer(Vector2 position)
     {
         PlaySound();
-        mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
         UpdatePath();
         isMoving = true;
-        walkLocation.transform.position = mousePosition;
+        walkLocation.transform.position = position;
         walkLocation.SetActive(true);
     }
 
