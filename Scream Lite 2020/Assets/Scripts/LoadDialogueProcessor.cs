@@ -33,7 +33,6 @@ public class LoadDialogueProcessor : MonoBehaviour, ILoadDialogue
     {
         if (interact.IsInteracting && isReady && move.MovePath != null)
         {
-        //    raycast.CanCast = false;
             if (Vector2.Distance(transform.position, player.transform.position) < 2.6)
             {
                 LoadDialogue();
@@ -50,7 +49,13 @@ public class LoadDialogueProcessor : MonoBehaviour, ILoadDialogue
     public void SetDialogue(DialogSO _dialogue)
     {
         dialogueSO = _dialogue;
-      //  moveInteract.MoveToPoint();
+        StartCoroutine(LoadDelay());
+    }
+
+    IEnumerator LoadDelay()
+    {
+        yield return new WaitForSeconds(.3f);
+        //  moveInteract.MoveToPoint();
         isReady = true;
     }
     public void LoadDialogue()
