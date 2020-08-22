@@ -37,11 +37,10 @@ public class LoadDialogueProcessor : MonoBehaviour, ILoadDialogue
             {
                 LoadDialogue();
             }
-            else
-            {
-                isLoaded = false;
-            }
-
+        }
+        else
+        {
+            isLoaded = false;
         }
 
     }
