@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -242,6 +242,11 @@ PrefabInstance:
       propertyPath: typeSpeed
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 5347768308436103805, guid: 33e0a90f9f9447941b218aceb3bed654,
+        type: 3}
+      propertyPath: mainDialogueCanvas
+      value: 
+      objectReference: {fileID: 1569438246}
     - target: {fileID: 5347768308436103806, guid: 33e0a90f9f9447941b218aceb3bed654,
         type: 3}
       propertyPath: textDialog
@@ -2440,6 +2445,12 @@ PrefabInstance:
     - {fileID: 9099708855813160819, guid: 44a815d2ac193d841bd8aef57eb9aedd, type: 3}
     - {fileID: 9099708855813160818, guid: 44a815d2ac193d841bd8aef57eb9aedd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 44a815d2ac193d841bd8aef57eb9aedd, type: 3}
+--- !u!1 &1569438246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3487175087439943389, guid: 74dfc3a0f1f44214a8e7f2a8473d491f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1889080787}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1682862368
 PrefabInstance:
   m_ObjectHideFlags: 0

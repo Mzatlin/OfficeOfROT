@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Willy2Menu1B
   m_EditorClassIdentifier: 
-  name: Willy
+  name1: 
   name2: Willy
   sentences:
   - I love the enthusiasm! Thank you! Now do they like me or REALLY like me.
   options:
   - {fileID: 11400000, guid: 7db9dd3227e7a274bb7a9ef3bc955195, type: 2}
   - {fileID: 11400000, guid: 5ecc31aebed240a4ababb2630a5ec85d, type: 2}
-  - {fileID: 11400000, guid: 7db9dd3227e7a274bb7a9ef3bc955195, type: 2}

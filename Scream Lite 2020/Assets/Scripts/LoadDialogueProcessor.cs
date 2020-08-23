@@ -53,8 +53,7 @@ public class LoadDialogueProcessor : MonoBehaviour, ILoadDialogue
 
     IEnumerator LoadDelay()
     {
-        yield return new WaitForSeconds(.3f);
-        //  moveInteract.MoveToPoint();
+        yield return new WaitForSeconds(.2f);
         isReady = true;
     }
     public void LoadDialogue()

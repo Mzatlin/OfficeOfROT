@@ -2210,6 +2210,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7486792125094305480}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2001170413 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3487175087439943389, guid: 74dfc3a0f1f44214a8e7f2a8473d491f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1201747857}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2061286431
 GameObject:
   m_ObjectHideFlags: 0
@@ -2392,6 +2398,11 @@ PrefabInstance:
       propertyPath: typeSpeed
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 5347768308436103805, guid: 33e0a90f9f9447941b218aceb3bed654,
+        type: 3}
+      propertyPath: mainDialogueCanvas
+      value: 
+      objectReference: {fileID: 2001170413}
     - target: {fileID: 5347768308436103806, guid: 33e0a90f9f9447941b218aceb3bed654,
         type: 3}
       propertyPath: textDialog

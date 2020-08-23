@@ -9,6 +9,7 @@ public class DialogueOptionMenu : WriterBase
 {
   
     public List<Button> buttonOptions = new List<Button>();
+    public GameObject mainDialogueCanvas;
 
     // Start is called before the first frame update
     protected override void Awake()
@@ -16,6 +17,7 @@ public class DialogueOptionMenu : WriterBase
         base.Awake();
         dialogCanvas.enabled = false;
         dialogue.OnMenuWrite += HandleWrite;
+        HideButtons();
     }
 
     void HideButtons()
@@ -27,6 +29,8 @@ public class DialogueOptionMenu : WriterBase
                 if(button != null)
                 {
                     button.enabled = false;
+                    button.gameObject.SetActive(false);
+                    button.interactable = false;
                 }
             }
         }
@@ -41,6 +45,8 @@ public class DialogueOptionMenu : WriterBase
             {
                 button.GetComponentInChildren<TextMeshProUGUI>().text = dialogue.currentDialogue.options[i].description;
                 button.enabled = true;
+                button.gameObject.SetActive(true);
+                button.interactable = true;
             }
 
         }
@@ -48,6 +54,10 @@ public class DialogueOptionMenu : WriterBase
 
     private void HandleWrite()
     {
+        if(mainDialogueCanvas != null && mainDialogueCanvas.activeInHierarchy)
+        {
+            mainDialogueCanvas.SetActive(false);
+        }
         HideButtons();
         EnableOptions();
         textName.text = dialogue.currentDialogue.name1;
@@ -67,6 +77,10 @@ public class DialogueOptionMenu : WriterBase
 
     public void LoadButton(Button button)
     {
+        if (mainDialogueCanvas != null)
+        {
+            mainDialogueCanvas.SetActive(true);
+        }
         dialogue.SetupDialougeWriter(GetDialogSO(button.GetComponentInChildren<TextMeshProUGUI>().text));
         EndDialogue();
         
@@ -87,10 +101,13 @@ public class DialogueOptionMenu : WriterBase
 
     protected override void EndDialogue()
     {
+
         if (dialogue.currentDialogue.options.Capacity <= 1)
         {
             dialogCanvas.enabled = false;
         }
+
+
 
       //  base.EndDialogue();
     }
