@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Willy2Menu1C
   m_EditorClassIdentifier: 
-  name1: 
+  name1: Willy
   name2: Willy
   sentences:
   - "Oh\u2026 Um\u2026 you\u2019re just, being sarcastic right?"

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: Day3BeginningDialogue
   m_EditorClassIdentifier: 
-  name: 
+  name1: 
   name2: 
   sentences:
   - "The heat must be getting to me\u2026 and the flickering lights. There\u2019s

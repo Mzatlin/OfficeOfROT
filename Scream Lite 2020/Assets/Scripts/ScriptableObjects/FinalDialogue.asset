@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0314e6ea43f06243938bb18e64a47f0, type: 3}
   m_Name: FinalDialogue
   m_EditorClassIdentifier: 
-  name: You
-  name2: You
+  name1: 
+  name2: 
   sentences:
   - "Now\u2026 I can\u2019t leave. I can\u2019t leave them like this. Can\u2019t
     leave Billy like this. I have to stay. I need the money, too. It\u2019ll be fine.
     I\u2019ve done this job hundreds of days, thousands. It\u2019ll be fine. ."
   - "It\u2019ll be fine\u2026 even if I\u2019m not. I feel sick. I\u2019m so tired.
-    I have so much work to do\u2026 So much work. So much work"
+    I have so much work to do\u2026 So much work. So much work..."
   options: []

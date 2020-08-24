@@ -23,7 +23,6 @@ public class playbuttonsound : HandleInteractBase
 
     protected override void HandleInteraction()
     {
-        myEvent.Post(gameObject);
         base.HandleInteraction();
         if (raycastCamera != null && raycastCamera.CanCast)
         {
