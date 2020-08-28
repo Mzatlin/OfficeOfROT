@@ -8,6 +8,7 @@ public class playbuttonsound : HandleInteractBase
     private AK.Wwise.Event myEvent = null;
     ICameraRaycast raycastCamera;
     Camera cam;
+    bool isPlaying = false;
 
     protected override void Awake()
     {
@@ -24,10 +25,21 @@ public class playbuttonsound : HandleInteractBase
     protected override void HandleInteraction()
     {
         base.HandleInteraction();
-        if (raycastCamera != null && raycastCamera.CanCast)
+        if (raycastCamera != null && raycastCamera.CanCast && !isPlaying)
         {
-            myEvent.Post(gameObject);
+            StartCoroutine(PlaySoundDelay());
         }
+    }
+    public void PlayButton()
+    {
+        myEvent.Post(gameObject);
+    }
+    IEnumerator PlaySoundDelay()
+    {
+        isPlaying = true;
+        PlayButton();
+        yield return new WaitForSeconds(.1f);
+        isPlaying = false;
     }
 
 
