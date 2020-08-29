@@ -9,6 +9,7 @@ public class playbuttonsound : HandleInteractBase
     ICameraRaycast raycastCamera;
     Camera cam;
     bool isPlaying = false;
+    public float delay = 1f;
 
     protected override void Awake()
     {
@@ -38,7 +39,7 @@ public class playbuttonsound : HandleInteractBase
     {
         isPlaying = true;
         PlayButton();
-        yield return new WaitForSeconds(.1f);
+        yield return new WaitForSeconds(delay);
         isPlaying = false;
     }
 

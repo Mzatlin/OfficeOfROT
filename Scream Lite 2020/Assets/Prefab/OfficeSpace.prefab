@@ -7845,6 +7845,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a76f3a4b4ee73cb4aa86ced19dd0c57b,
       type: 2}
+  delay: 1
 --- !u!114 &9099708854820679362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9832,6 +9833,8 @@ GameObject:
   - component: {fileID: 9099708855048775275}
   - component: {fileID: 9099708855048775252}
   - component: {fileID: 9099708855048775253}
+  - component: {fileID: 768512141171059274}
+  - component: {fileID: 464983908315298760}
   m_Layer: 14
   m_Name: Vending Machine
   m_TagString: Untagged
@@ -9981,6 +9984,36 @@ MonoBehaviour:
   eventIdInternal: 0
   valueGuidInternal: 
   m_callbackDataInternal: {fileID: 0}
+--- !u!114 &768512141171059274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9099708855048775273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231673910186a914e928c2e1b6dd582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &464983908315298760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9099708855048775273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 963806cd004a0c84c8d2d9f78e8cf168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0dff710eabf546648b6659f1ba9de7ca,
+      type: 2}
+  delay: 1
 --- !u!1 &9099708855050860491
 GameObject:
   m_ObjectHideFlags: 0
@@ -11331,6 +11364,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 89c6cb333a1beb74c870aca1b91c7ef6,
       type: 2}
+  delay: 1
 --- !u!114 &9099708855151687724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11489,6 +11523,8 @@ GameObject:
   - component: {fileID: 9099708855163586600}
   - component: {fileID: 9099708855163586601}
   - component: {fileID: 9099708855163586606}
+  - component: {fileID: 5144130658077872631}
+  - component: {fileID: 7637991653623811837}
   m_Layer: 14
   m_Name: Fridge
   m_TagString: Untagged
@@ -11638,6 +11674,36 @@ MonoBehaviour:
   eventIdInternal: 0
   valueGuidInternal: 
   m_callbackDataInternal: {fileID: 0}
+--- !u!114 &5144130658077872631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9099708855163586604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 963806cd004a0c84c8d2d9f78e8cf168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d75d7e9eba3a1ec49806b4fbf1a63d43,
+      type: 2}
+  delay: 3
+--- !u!114 &7637991653623811837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9099708855163586604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231673910186a914e928c2e1b6dd582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9099708855183400264
 GameObject:
   m_ObjectHideFlags: 0
@@ -12665,6 +12731,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 89c6cb333a1beb74c870aca1b91c7ef6,
       type: 2}
+  delay: 1
 --- !u!114 &9099708855317445865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15809,6 +15876,7 @@ GameObject:
   - component: {fileID: 9099708855771325982}
   - component: {fileID: 9099708855771325983}
   - component: {fileID: 9099708855771325976}
+  - component: {fileID: 560538291444365546}
   m_Layer: 14
   m_Name: CoffeeTable
   m_TagString: Untagged
@@ -15923,6 +15991,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: d75d7e9eba3a1ec49806b4fbf1a63d43,
       type: 2}
+  delay: 1
 --- !u!114 &9099708855771325982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16029,6 +16098,18 @@ MonoBehaviour:
   eventIdInternal: 0
   valueGuidInternal: 
   m_callbackDataInternal: {fileID: 0}
+--- !u!114 &560538291444365546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9099708855771325971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231673910186a914e928c2e1b6dd582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9099708855780371086
 GameObject:
   m_ObjectHideFlags: 0
@@ -16766,6 +16847,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 121e255f78f08ac4ca439a6a8ea091e8,
       type: 2}
+  delay: 1
 --- !u!114 &9099708855813160829
 MonoBehaviour:
   m_ObjectHideFlags: 0

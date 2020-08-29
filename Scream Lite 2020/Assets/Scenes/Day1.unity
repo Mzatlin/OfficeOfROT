@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2011,24 +2011,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: DayMessageScene
   timeDelay: 2
---- !u!1 &1400024583 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9099708855771325971, guid: 44a815d2ac193d841bd8aef57eb9aedd,
-    type: 3}
-  m_PrefabInstance: {fileID: 9099708855368109301}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1400024585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1400024583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 231673910186a914e928c2e1b6dd582f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1688229216
 GameObject:
   m_ObjectHideFlags: 0
@@ -2569,6 +2551,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 464983908315298760, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: delay
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 495301177654375744, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
       propertyPath: player
@@ -2776,6 +2763,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: d75d7e9eba3a1ec49806b4fbf1a63d43,
         type: 2}
+    - target: {fileID: 9099708855771325977, guid: 44a815d2ac193d841bd8aef57eb9aedd,
+        type: 3}
+      propertyPath: delay
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9099708855771325982, guid: 44a815d2ac193d841bd8aef57eb9aedd,
         type: 3}
       propertyPath: m_Enabled
@@ -2799,6 +2791,10 @@ PrefabInstance:
     - {fileID: 9099708855317445870, guid: 44a815d2ac193d841bd8aef57eb9aedd, type: 3}
     - {fileID: 9099708855317445865, guid: 44a815d2ac193d841bd8aef57eb9aedd, type: 3}
     - {fileID: 9099708855317445864, guid: 44a815d2ac193d841bd8aef57eb9aedd, type: 3}
+    - {fileID: 9099708855048775253, guid: 44a815d2ac193d841bd8aef57eb9aedd, type: 3}
+    - {fileID: 9099708855048775252, guid: 44a815d2ac193d841bd8aef57eb9aedd, type: 3}
+    - {fileID: 9099708855163586606, guid: 44a815d2ac193d841bd8aef57eb9aedd, type: 3}
+    - {fileID: 9099708855163586601, guid: 44a815d2ac193d841bd8aef57eb9aedd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 44a815d2ac193d841bd8aef57eb9aedd, type: 3}
 --- !u!1 &9099708855368109302 stripped
 GameObject:
