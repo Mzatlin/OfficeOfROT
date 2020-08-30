@@ -10,6 +10,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
     public LayerMask floorMask;
     ICameraRaycast raycast;
     Vector2 mousePosition;
+    [SerializeField]
     bool isMoving = false;
     Camera cam;
 
@@ -96,7 +97,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
 
     void CheckPosition()
     {
-        if (Vector3.Distance(transform.position, mousePosition) <= 2.5f)
+        if (Vector3.Distance(transform.position, mousePosition) <= 2.65f)
         {
             isMoving = false;
         }
