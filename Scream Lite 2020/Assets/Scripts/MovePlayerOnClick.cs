@@ -7,6 +7,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
 {
     public GameObject walkLocation;
     public float moveSpeed = 4;
+    float stopDistance = 2.65f;
     public LayerMask floorMask;
     ICameraRaycast raycast;
     Vector2 mousePosition;
@@ -19,7 +20,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
     public bool IsMoving { get => isMoving; set => isMoving = value; }
     public Path MovePath => path;
 
-    // Start is called before the first frame update
+   
     protected override void Start()
     {
         base.Start();
@@ -35,7 +36,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
     }
 
 
-    // Update is called once per frame
+    
     void Update()
     {
         if (raycast.CanCast)
@@ -59,6 +60,7 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
 
     void ReadInput()
     {
+        //Only when a click is registered and the raycast is able to process the floor layer can the player move to position 
         if (Input.GetMouseButtonDown(0) && raycast.RayHit)
         {
             if ((1 << raycast.RayHit.collider.gameObject.layer & floorMask) != 0)
@@ -97,7 +99,8 @@ public class MovePlayerOnClick : GameObjectPathingBase, IMove
 
     void CheckPosition()
     {
-        if (Vector3.Distance(transform.position, mousePosition) <= 2.65f)
+        //The only thing that stops the player is a distance check between the player's position and the position of the mouse click 
+        if (Vector3.Distance(transform.position, mousePosition) <= stopDistance)
         {
             isMoving = false;
         }
