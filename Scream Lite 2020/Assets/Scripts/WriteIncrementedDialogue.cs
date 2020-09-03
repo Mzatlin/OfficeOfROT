@@ -26,6 +26,8 @@ public class WriteIncrementedDialogue : HandleInteractBase
         }
 
     }
+
+    //Interaction of this object cycles through a list of dialogue objects 
     protected override void HandleInteraction()
     {
         base.HandleInteraction();
@@ -37,6 +39,7 @@ public class WriteIncrementedDialogue : HandleInteractBase
         else
         {
 
+         //If CanRepeat is true, then the player can talk through the looping dialogue endlessly 
             if (canRepeat)
             {
                 index = 0;

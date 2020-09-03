@@ -9,7 +9,7 @@ public class StopRaycastOnLevelLoad : MonoBehaviour
     ICameraRaycast raycast;
     Camera cam;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         scene = GetComponent<ILoadScene>();
@@ -36,6 +36,7 @@ public class StopRaycastOnLevelLoad : MonoBehaviour
 
     IEnumerator CastDelay()
     {
+        //We must delay this raycast restriction to ensure the player's click is registered first
         yield return new WaitForSeconds(.1f);
         raycast.CanCast = false;
     }
